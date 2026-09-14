@@ -41,7 +41,7 @@ export default function About() {
 
         <div className="about__content">
           <SectionHeader
-            eyebrow="Why Choose DR. Dhananjayas Clinic"
+            eyebrow="Why Choose Dr. Dhananjayas Hospitals"
             segments={[
               { t: 'Gentle Ayurvedic care that restores ' },
               { t: 'complete comfort, dignity & freedom.', em: true },
@@ -49,8 +49,9 @@ export default function About() {
           />
           <p className="about__lead" data-reveal>
             Care for Piles, Fistula and Fissure should be dignified, gentle and personalized.
-            DR. Dhananjayas Clinic brings over 25 years of Ayurvedic proctology experience, using herbal care,
-            lifestyle guidance and authentic Kshara Sutra without major open operations.
+            Dr. Dhananjayas Hospitals carries a family tradition of Ayurvedic proctology now in its ninth generation,
+            with over 25 years of experience at Porur — herbal care, lifestyle guidance and authentic Kshara Sutra
+            without major open operations.
           </p>
 
           <ul className="about__list">

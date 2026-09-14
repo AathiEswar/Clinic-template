@@ -5,7 +5,7 @@
  */
 import { CLINIC, SITE_URL } from '@/config';
 
-export const SITE_NAME = CLINIC.shortName; // "Dr. Dhananjayas Clinic"
+export const SITE_NAME = CLINIC.shortName; // "Dr. Dhananjayas Hospitals, Porur"
 
 /* Stable @id anchors so every JSON-LD block on the site points at the same entities */
 export const CLINIC_ID = `${SITE_URL}/#clinic`;
@@ -14,7 +14,7 @@ export const WEBSITE_ID = `${SITE_URL}/#website`;
 /* Home page copy — keyword-first title, ≤160-character description */
 export const HOME_TITLE = 'Ayurvedic Piles, Fistula & Fissure Hospital in Porur, Chennai | Dr. Dhananjayas';
 export const HOME_DESCRIPTION =
-  'Ayurvedic care for piles, fistula and fissure with Dr. Venkhatesan at Dr. Dhananjayas Hospitals, Porur, Chennai. Authentic Kshara Sutra, no major operations.';
+  'Nine generations of Ayurvedic care for piles, fistula and fissure at Dr. Dhananjayas Hospitals, Porur, Chennai. Authentic Kshara Sutra, no major operations.';
 
 /** Indexable-page robots directives (large image previews help Discover / image results). */
 export const ROBOTS_INDEX = {
@@ -88,7 +88,7 @@ export function breadcrumbJsonLd(items) {
  * Build the Next.js `metadata` object for one page.
  *
  * @param {object} o
- * @param {string} [o.title]          Page title; root layout appends " | Dr. Dhananjayas Clinic".
+ * @param {string} [o.title]          Page title; root layout appends " | Dr. Dhananjayas Hospitals, Porur".
  * @param {string} [o.absoluteTitle]  Use instead of `title` to bypass the template (home page).
  * @param {string}  o.description     ≤160 chars, unique per page.
  * @param {string}  o.path            Route path, e.g. "/about-us".

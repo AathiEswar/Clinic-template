@@ -65,6 +65,7 @@
   border: 1px solid rgba(109, 40, 217, 0.25);
   white-space: nowrap;
 }
+.hero__sub-highlight--gold { color: var(--gold-dark); background: var(--gold-soft); }
 .hero__ctas { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 34px; }
 .hero__proof {
   display: flex; flex-wrap: wrap; align-items: center; gap: 14px;
@@ -1194,7 +1195,7 @@
 
 /* ─────────────────────────────────────────────────────────────
    MULTI-PAGE LAYOUTS & COMPONENT STYLES
-   Dr. Dhananjayas Hospitals & Clinic
+   Dr. Dhananjayas Hospitals
    ───────────────────────────────────────────────────────────── */
 
 /* Shared Page Header Banner */

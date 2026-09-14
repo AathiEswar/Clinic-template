@@ -20,7 +20,7 @@ const jsonLd = {
       '@type': 'ContactPage',
       '@id': `${absoluteUrl('/contact')}#webpage`,
       url: absoluteUrl('/contact'),
-      name: `${TITLE} — Dr. Dhananjayas Clinic`,
+      name: `${TITLE} — Dr. Dhananjayas Hospitals`,
       isPartOf: { '@id': WEBSITE_ID },
       about: { '@id': CLINIC_ID },
     },

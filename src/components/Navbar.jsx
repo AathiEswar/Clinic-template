@@ -98,7 +98,8 @@ export default function Navbar() {
               </svg>
             </span>
             <span className="nav__brand-txt">
-              <strong><span style={{ color: 'var(--ink)' }}>DR.</span> <span style={{ color: 'var(--teal)' }}>DHANANJAYA</span></strong>
+              <strong><span style={{ color: 'var(--ink)' }}>DR.</span> <span style={{ color: 'var(--teal)' }}>DHANANJAYAS</span></strong>
+              <small className="nav__brand-sub">Hospitals · Porur</small>
             </span>
           </Link>
 

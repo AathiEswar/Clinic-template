@@ -22,7 +22,7 @@ export default function AboutView() {
             25 Years of Focused <em>Ayurvedic Proctology in Porur.</em>
           </h1>
           <p className="page-header__sub">
-            Gentle Ayurvedic care exclusively for Piles, Fistula and Fissure, led by {doctor.name} at Astalakshmi Nagar, Porur, Chennai—without major open operations.
+            Nine generations of Ayurvedic proctology in one family. Gentle care exclusively for Piles, Fistula and Fissure, led by {doctor.name} at Astalakshmi Nagar, Porur, Chennai—without major open operations.
           </p>
         </div>
       </section>

@@ -4,7 +4,7 @@
 
 :root {
   /* ════════════════════════════════════════════════════════════
-     DR. DHANANJAYAS CLINIC — PROCTOLOGY & KSHARA SUTRA THEME
+     DR. DHANANJAYAS HOSPITALS — PROCTOLOGY & KSHARA SUTRA THEME
      - Royal Surgical Teal: Clinical Authority & Precision (#086375 / #053B47)
      - Healing Mint & Emerald: Tissue Recovery & Regeneration (#10B981 / #ECFDF5)
      - Warm Coral & Amber: Empathetic Comfort (#E07A5F / #FDF4F0)
@@ -387,6 +387,7 @@ html.is-scroll-locked body { overflow: hidden; }
 .nav__brand-txt { display: flex; flex-direction: column; line-height: 1.1; min-width: 0; }
 .nav__brand-txt strong { font: 700 clamp(14px, 1.8vw, 17px)/1.1 var(--font-serif); letter-spacing: -0.01em; color: var(--ink); white-space: nowrap; }
 .nav__brand-txt em { display: none !important; }
+.nav__brand-sub { font: 700 9.5px/1 var(--font-sans); letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-2); margin-top: 3px; white-space: nowrap; }
 
 .nav__links { display: flex; align-items: center; gap: 2px; flex-shrink: 1; min-width: 0; }
 .nav__link {
@@ -570,7 +571,8 @@ html.is-scroll-locked body { overflow: hidden; }
   .nav__inner { width: calc(100% - 16px); gap: 6px; }
   .nav__brand { gap: 6px; }
   .nav__mark svg { width: 28px; height: 28px; }
-  .nav__brand-txt strong { font-size: 12px; }
+  .nav__brand-txt strong { font-size: 11px; letter-spacing: -0.02em; }
+  .nav__brand-sub { font-size: 8px; letter-spacing: 0.08em; }
   .nav__actions { gap: 5px; }
   .nav__phone, .nav__wa, .nav__cta { width: 32px; height: 32px; }
   .nav__cta .btn__ic svg { width: 16px; height: 16px; }

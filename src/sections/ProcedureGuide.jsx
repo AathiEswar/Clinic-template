@@ -85,7 +85,7 @@ export default function ProcedureGuide() {
           side={
             <>
               <p>
-                Dr. Dhananjayas Clinic provides focused Ayurvedic care only for Piles, Fistula and Fissure, including
+                Dr. Dhananjayas Hospitals provides focused Ayurvedic care only for Piles, Fistula and Fissure, including
                 authentic Kshara Sutra and gentle treatment plans selected after clinical assessment.
               </p>
               <button className="link-arrow" onClick={() => openBooking()} data-cursor="hover">

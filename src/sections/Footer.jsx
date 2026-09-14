@@ -14,7 +14,7 @@ export default function Footer() {
       <div className="container">
         <div className="footer__top">
           <p className="footer__tag" data-reveal>
-            Ayurvedic Piles, Fistula &amp; Fissure Care · No Major Operations
+            Nine Generations of Ayurvedic Piles, Fistula &amp; Fissure Care · No Major Operations
           </p>
           <h2 className="footer__wordmark" aria-label={CLINIC.name}>
             <span className="footer__wordmark-line">

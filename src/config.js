@@ -23,7 +23,7 @@ export const CLINIC = {
   altName: 'Dr. Dhananjayas Piles & Fistula Hospital, Porur',
   tagline: 'Ayurvedic Piles, Fistula (Kshara Sutra) & Fissure Care · Porur, Chennai',
   slogan: 'Gentle Ayurvedic Care for Piles, Fistula & Fissure Without Major Operations.',
-  motto: '25 Years of Focused Ayurvedic Proctology & Authentic Kshara Sutra Care.',
+  motto: 'Nine Generations of Ayurvedic Proctology · 25 Years of Focused Kshara Sutra Care.',
   tamilTagline: 'மூலம், பௌத்திரம் மற்றும் ஆசனவாய் வெடிப்புக்கான நவீன மற்றும் க்ஷாரசூத்ரா அறுவை சிகிச்சையற்ற தீர்வு',
   city: 'Porur, Chennai',
   locality: 'Astalakshmi Nagar, Porur',

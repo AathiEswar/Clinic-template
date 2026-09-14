@@ -12,7 +12,7 @@ export const metadata = pageMetadata({
   image: ogCard('home', 'Patient consulting a doctor about piles treatment at Dr. Dhananjayas Hospitals, Porur'),
   ogTitle: 'Dr. Dhananjayas Hospitals, Porur — Ayurvedic Piles, Fistula & Fissure Specialist',
   ogDescription:
-    '25 years of focused Ayurvedic care for Piles, Fistula and Fissure with Dr. Venkhatesan in Porur, Chennai—without major operations.',
+    'Nine generations of Ayurvedic proctology and 25 years of focused care for Piles, Fistula and Fissure with Dr. Venkhatesan in Porur, Chennai—without major operations.',
 });
 
 /* FAQ rich-result markup, generated from the same FAQS the page renders. */

@@ -1,7 +1,8 @@
-/* Site content — services, doctors, procedures, testimonials, gallery, medical articles, FAQs, and navigation for Dr. Dhananjayas Hospitals & Clinic. */
+/* Site content — services, doctors, procedures, testimonials, gallery, medical articles, FAQs, and navigation for Dr. Dhananjayas Hospitals, Porur. */
 
 export const SPECIALTIES_TICKER = [
   'Ayurvedic Piles Care (Hemorrhoids)',
+  'Nine Generations of Ayurvedic Proctology',
   'Ayurvedic Kshara Sutra Care for Fistula',
   'Ayurvedic Anal Fissure Relief',
   'No Major Operation',
@@ -217,7 +218,7 @@ export const DOCTORS = [
     hue: 160,
     image: '/clinic-assets/doctor-photo-40.jpg',
     imageAlt: 'Dr. Venkhatesan, Consultant Ayurvedic Proctologist, in his clinical chamber at Dr. Dhananjayas Hospitals, Porur',
-    bio: 'Dr. Venkhatesan leads the Porur branch of Dr. Dhananjayas Hospitals. For 25 years he has treated piles, anal fistula and fissure with gentle Ayurvedic care — authentic Kshara Sutra thread therapy, herbal medicines, local care and bowel-habit guidance — so patients avoid major open surgery and walk home the same day.',
+    bio: 'Dr. Venkhatesan leads the Porur branch of Dr. Dhananjayas Hospitals, carrying forward a family tradition of Ayurvedic proctology now in its ninth generation. For 25 years he has treated piles, anal fistula and fissure with gentle Ayurvedic care — authentic Kshara Sutra thread therapy, herbal medicines, local care and bowel-habit guidance — so patients avoid major open surgery and walk home the same day.',
     facts: [
       { value: '25', suffix: ' yrs', label: 'Focused anorectal practice' },
       { value: '30', suffix: ' min', label: 'Day-care Kshara Sutra sitting' },
@@ -241,7 +242,7 @@ export const STATS = [
 ];
 
 export const WHY_US = [
-  'Focused Ayurvedic treatment for Piles, Fistula, and Fissure only',
+  'Nine generations of family expertise, focused only on Piles, Fistula and Fissure',
   'Gentle treatment plans without major open operations',
   'Authentic Kshara Sutra care selected after careful clinical assessment',
   'Herbal support, local care, diet, and bowel-habit guidance',

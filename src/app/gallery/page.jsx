@@ -21,7 +21,7 @@ const jsonLd = {
       '@type': 'ImageGallery',
       '@id': `${absoluteUrl('/gallery')}#gallery`,
       url: absoluteUrl('/gallery'),
-      name: `${TITLE} — Dr. Dhananjayas Clinic`,
+      name: `${TITLE} — Dr. Dhananjayas Hospitals`,
       isPartOf: { '@id': WEBSITE_ID },
       image: GALLERY_IMAGES.map((g) => ({
         '@type': 'ImageObject',

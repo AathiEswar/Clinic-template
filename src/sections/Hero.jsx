@@ -45,7 +45,7 @@ export default function Hero() {
           </h1>
 
           <p className="hero__sub">
-            25 years of focused Ayurvedic care for Piles, Fistula &amp; Fissure with Dr. Venkhatesan in <strong className="hero__sub-highlight">Porur</strong>, Chennai. Gentle treatment, authentic Kshara Sutra, and no major operations.
+            <strong className="hero__sub-highlight hero__sub-highlight--gold">Nine generations</strong> of Ayurvedic proctology in one family, and 25 years of focused care for Piles, Fistula &amp; Fissure with Dr. Venkhatesan in <strong className="hero__sub-highlight">Porur</strong>, Chennai. Gentle treatment, authentic Kshara Sutra, and no major operations.
           </p>
 
           <div className="hero__ctas">
