@@ -1,0 +1,26 @@
+{
+  "name": "dhananjayas-clinic-next",
+  "private": true,
+  "version": "2.0.0",
+  "description": "Dr. Dhananjayas Clinic — statically pre-rendered Next.js site (Ayurvedic Piles, Fistula & Fissure care, Tambaram / Porur, Chennai)",
+  "scripts": {
+    "dev": "next dev",
+    "images": "node scripts/optimize-images.mjs",
+    "prebuild": "node scripts/optimize-images.mjs",
+    "build": "next build",
+    "preview": "serve out"
+  },
+  "dependencies": {
+    "gsap": "^3.15.0",
+    "next": "^16.3.5",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "serve": "^14.2.6",
+    "sharp": "^0.35.4"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  }
+}
