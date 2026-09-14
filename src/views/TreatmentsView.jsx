@@ -121,7 +121,7 @@ export default function TreatmentsView() {
             <span className="eyebrow"><span className="eyebrow__dot" /> Clinical Guidance</span>
             <h2 className="h2">Understanding Your Symptoms: Clinical Guides</h2>
             <p style={{ maxWidth: '640px', margin: '12px auto 0', color: 'var(--ink-2)' }}>
-              Detailed explanations from Dr. Dhananjaya on how to distinguish between common anorectal diseases.
+              Detailed explanations from Dr. Venkhatesan on how to distinguish between common anorectal diseases.
             </p>
           </div>
 

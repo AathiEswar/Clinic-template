@@ -50,7 +50,7 @@ export default function GalleryView() {
             Authentic Ayurvedic Clinic <em>Photo Gallery.</em>
           </h1>
           <p className="page-header__sub">
-            Take a visual tour of our sterile day-care minor OT setups, private consultation rooms, diagnostic assessment suites, and comfortable patient recovery lounges.
+            Take a visual tour of our sterile day-care treatment rooms, Dr. Venkhatesan’s private consultation chamber, and comfortable patient recovery lounges at our Porur hospital.
           </p>
         </div>
       </section>
@@ -130,13 +130,18 @@ export default function GalleryView() {
 
       {/* CTA Footer */}
       <section className="section ctab" style={{ padding: '60px 0' }}>
-        <div className="container text-center">
-          <h2 className="h3" style={{ color: '#fff', marginBottom: '14px' }}>
-            Ready to experience world-class, painless anorectal care?
-          </h2>
-          <Button variant="light" icon="calendar" onClick={() => openBooking()}>
-            Schedule your appointment today
-          </Button>
+        <div className="container">
+          <div className="ctab__panel text-center">
+            <h2 className="h3" style={{ color: '#fff', marginBottom: '14px' }}>
+              Ready to experience world-class, painless anorectal care?
+            </h2>
+            <p style={{ color: 'rgba(255,255,255,0.9)', maxWidth: '580px', margin: '0 auto 24px' }}>
+              Consult Dr. Venkhatesan at our Porur hospital — open every day, 10:00 AM to 7:30 PM.
+            </p>
+            <Button variant="light" icon="calendar" onClick={() => openBooking()}>
+              Schedule your appointment today
+            </Button>
+          </div>
         </div>
       </section>
     </div>

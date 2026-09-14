@@ -139,7 +139,7 @@ export default function ProcedureGuide() {
                   <p>{c.causes}</p>
                 </div>
                 <div className="proc-tab-card__col proc-tab-card__col--solution">
-                  <h4><Icon name="sparkle" size={16} /> Dr. Dhananjaya Solution</h4>
+                  <h4><Icon name="sparkle" size={16} /> Dr. Venkhatesan’s Solution</h4>
                   <p>{c.solution}</p>
                 </div>
               </div>

@@ -2,7 +2,6 @@ import Hero from '@/sections/Hero';
 import TrustStats from '@/sections/TrustStats';
 import Services from '@/sections/Services';
 import ProcedureGuide from '@/sections/ProcedureGuide';
-import Brochures from '@/sections/Brochures';
 import Doctors from '@/sections/Doctors';
 import Process from '@/sections/Process';
 import Testimonials from '@/sections/Testimonials';
@@ -17,7 +16,6 @@ export default function HomeView() {
       <TrustStats />
       <Services />
       <ProcedureGuide />
-      <Brochures />
       <Doctors />
       <Process />
       <Testimonials />

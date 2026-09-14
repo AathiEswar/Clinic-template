@@ -2,20 +2,20 @@ import ContactView from '@/views/ContactView';
 import JsonLdScript from '@/components/JsonLdScript';
 import { pageMetadata, ogCard, breadcrumbJsonLd, absoluteUrl, WEBSITE_ID, CLINIC_ID } from '@/lib/seo';
 
-const TITLE = 'Branches, Timings & Appointment Booking';
+const TITLE = 'Location, Timings & Appointment Booking – Porur';
 
 export const metadata = pageMetadata({
   title: TITLE,
   description:
-    'Visit Dr. Dhananjayas Clinic at G.R. Complex, NGO Nagar Main Road, New Perungalathur (Tambaram) or our Porur branch. Call +91 73583 61723 or book online.',
+    'Visit Dr. Dhananjayas Hospitals at 6, Pillayar Koil St, Astalakshmi Nagar, Porur, Chennai. Open daily 10 AM–7:30 PM. Call or WhatsApp +91 97907 47350 or book online.',
   path: '/contact',
-  image: ogCard('contact', 'Dr. Dhananjayas Clinic, New Perungalathur, Tambaram'),
+  image: ogCard('contact', 'Dr. Dhananjayas Hospitals, Astalakshmi Nagar, Porur'),
 });
 
 const jsonLd = {
   '@context': 'https://schema.org',
   '@graph': [
-    breadcrumbJsonLd([{ name: 'Home', path: '/' }, { name: 'Branches & Visit', path: '/contact' }]),
+    breadcrumbJsonLd([{ name: 'Home', path: '/' }, { name: 'Visit Porur', path: '/contact' }]),
     {
       '@type': 'ContactPage',
       '@id': `${absoluteUrl('/contact')}#webpage`,

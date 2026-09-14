@@ -26,7 +26,7 @@ export default function TestimonialsView() {
             10,000+ Lives Restored With <em>Dignity &amp; Complete Comfort.</em>
           </h1>
           <p className="page-header__sub">
-            Real stories from patients across Chennai and Tamil Nadu who overcame chronic piles, complex fistulas, and painful fissures through Dr. Dhananjaya&apos;s pioneering Kshara Sutra and day-care proctology care.
+            Real stories from patients across Porur and Chennai who overcame chronic piles, complex fistulas, and painful fissures through Dr. Venkhatesan&apos;s authentic Kshara Sutra and day-care proctology care.
           </p>
         </div>
       </section>
@@ -117,7 +117,7 @@ export default function TestimonialsView() {
               </p>
               <div style={{ display: 'flex', gap: '14px', flexWrap: 'wrap' }}>
                 <a
-                  href="https://www.youtube.com/results?search_query=Dr+Dhananjaya+fistula+piles"
+                  href="https://www.youtube.com/results?search_query=Dr+Dhananjayas+Hospitals+Porur+fistula+piles"
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn--primary"
@@ -135,14 +135,14 @@ export default function TestimonialsView() {
               <div className="video-thumb-frame">
                 <img
                   {...img('/piles-treatment-banner.png', { sizes: SIZES.half })}
-                  alt="Clinical explanation of piles, fistula and fissure treatment by Dr. Dhananjaya"
+                  alt="Clinical explanation of piles, fistula and fissure treatment at Dr. Dhananjayas Hospitals, Porur"
                   className="video-thumb-img"
                 />
                 <div className="video-play-btn-circle">
                   <Icon name="play" size={28} />
                 </div>
                 <div className="video-thumb-tag">
-                  25+ Years Experience Documentary
+                  Kshara Sutra explained by our team
                 </div>
               </div>
             </div>
@@ -152,20 +152,22 @@ export default function TestimonialsView() {
 
       {/* CTA Bar */}
       <section className="section ctab" style={{ padding: '60px 0' }}>
-        <div className="container text-center">
-          <h2 className="h3" style={{ color: '#fff', marginBottom: '14px' }}>
-            Don&apos;t live with silent pain or fear of conventional surgery.
-          </h2>
-          <p style={{ color: 'rgba(255,255,255,0.9)', maxWidth: '580px', margin: '0 auto 24px' }}>
-            Book your confidential OPD consultation today at New Perungalathur (Tambaram) or Porur.
-          </p>
-          <div style={{ display: 'flex', gap: '14px', justifyContent: 'center', flexWrap: 'wrap' }}>
-            <Button variant="light" icon="calendar" onClick={() => openBooking()}>
-              Book confidential consultation
-            </Button>
-            <a className="btn btn--wa" href={WA_DEFAULT} target="_blank" rel="noreferrer">
-              <Icon name="whatsapp" size={17} /> Chat with Proctologist
-            </a>
+        <div className="container">
+          <div className="ctab__panel text-center">
+            <h2 className="h3" style={{ color: '#fff', marginBottom: '14px' }}>
+              Don&apos;t live with silent pain or fear of conventional surgery.
+            </h2>
+            <p style={{ color: 'rgba(255,255,255,0.9)', maxWidth: '580px', margin: '0 auto 24px' }}>
+              Book your confidential OPD consultation with Dr. Venkhatesan at our Porur hospital today.
+            </p>
+            <div style={{ display: 'flex', gap: '14px', justifyContent: 'center', flexWrap: 'wrap' }}>
+              <Button variant="light" icon="calendar" onClick={() => openBooking()}>
+                Book confidential consultation
+              </Button>
+              <a className="btn btn--wa" href={WA_DEFAULT} target="_blank" rel="noreferrer">
+                <Icon name="whatsapp" size={17} /> Chat with Dr. Venkhatesan’s team
+              </a>
+            </div>
           </div>
         </div>
       </section>

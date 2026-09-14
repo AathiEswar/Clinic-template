@@ -1,4 +1,4 @@
-import { NAV_LINKS, SERVICES, DOCTORS, GALLERY_IMAGES, BROCHURE_IMAGES } from '@/data';
+import { NAV_LINKS, SERVICES, DOCTORS, GALLERY_IMAGES } from '@/data';
 import { absoluteUrl, assetUrl } from '@/lib/seo';
 import { HERO_IMAGE } from '@/lib/images';
 
@@ -6,8 +6,8 @@ export const dynamic = 'force-static';
 
 /** Images worth indexing per route (Google Image sitemap extension). */
 const IMAGES = {
-  '/': ['/og/home.jpg', HERO_IMAGE, ...SERVICES.map((s) => s.image), ...BROCHURE_IMAGES.map((b) => b.src)],
-  '/about-us': ['/og/about-us.jpg', '/dr-dhananjaya-portrait.jpg', ...DOCTORS.map((d) => d.image)],
+  '/': ['/og/home.jpg', HERO_IMAGE, ...SERVICES.map((s) => s.image)],
+  '/about-us': ['/og/about-us.jpg', ...DOCTORS.map((d) => d.image)],
   '/treatments': ['/og/treatments.jpg', ...SERVICES.map((s) => s.image)],
   '/gallery': ['/og/gallery.jpg', ...GALLERY_IMAGES.map((g) => g.src)],
   '/testimonials': ['/og/testimonials.jpg', '/piles-treatment-banner.png'],

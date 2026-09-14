@@ -27,7 +27,7 @@ export default function About() {
                 <path id="circlePath" d="M60,60 m-44,0 a44,44 0 1,1 88,0 a44,44 0 1,1 -88,0" />
               </defs>
               <text>
-                <textPath href="#circlePath">DR. DHANANJAYA CLINIC · TAMBARAM · 4.9 RATED ·&nbsp;</textPath>
+                <textPath href="#circlePath">DR. DHANANJAYAS HOSPITALS · PORUR · 4.9 RATED ·&nbsp;</textPath>
               </text>
             </svg>
             <span className="about__badge-core"><Icon name="sparkle" size={20} /></span>
@@ -64,7 +64,7 @@ export default function About() {
 
           <blockquote className="about__sign" data-reveal>
             “Our commitment is complete cure with utmost patient dignity, 100% sphincter muscle safety, and immediate return to normal life without hospital stays.”
-            <cite>— Dr. Dhananjaya &amp; Dr. Venkhatesan, DR. Dhananjayas Clinic</cite>
+            <cite>— Dr. Venkhatesan, Dr. Dhananjayas Hospitals, Porur</cite>
           </blockquote>
 
           <button className="link-arrow" onClick={() => scrollTo('#doctors')} data-cursor="hover" data-reveal>

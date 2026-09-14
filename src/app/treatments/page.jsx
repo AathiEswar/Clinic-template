@@ -5,7 +5,7 @@ import { pageMetadata, ogCard, breadcrumbJsonLd, absoluteUrl, WEBSITE_ID, CLINIC
 
 const TITLE = 'Piles, Fistula & Fissure Treatments';
 const DESCRIPTION =
-  'Ayurvedic treatment for piles, anal fistula (authentic Kshara Sutra) and anal fissure. Gentle 30-minute day-care, no major surgery, in Tambaram and Porur.';
+  'Ayurvedic treatment for piles, anal fistula (authentic Kshara Sutra) and anal fissure. Gentle 30-minute day-care with Dr. Venkhatesan, no major surgery, in Porur, Chennai.';
 
 export const metadata = pageMetadata({
   title: TITLE,

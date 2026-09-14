@@ -110,9 +110,10 @@ export default function Navbar() {
                 onClick={handleNavClick(l.path)}
                 className={`nav__link ${isActive(l.path) ? 'is-active' : ''}`}
                 aria-current={isActive(l.path) ? 'page' : undefined}
+                title={l.short && l.short !== l.label ? l.label : undefined}
                 data-cursor="hover"
               >
-                {l.label}
+                {l.short || l.label}
               </Link>
             ))}
           </nav>
@@ -164,7 +165,7 @@ export default function Navbar() {
             <span className="btn__ic"><Icon name="calendar" size={16} strokeWidth={2} /></span>
           </button>
           <div className="menu__row">
-            <a className="btn btn--ghost btn--half" href={CLINIC.phoneHref}>
+            <a className="btn btn--call btn--half" href={CLINIC.phoneHref}>
               <span className="btn__solo">Call</span>
               <span className="btn__ic"><Icon name="phone" size={15} strokeWidth={2} /></span>
             </a>
@@ -173,7 +174,7 @@ export default function Navbar() {
               <span className="btn__ic"><Icon name="whatsapp" size={15} strokeWidth={2} /></span>
             </a>
           </div>
-          <p className="menu__hours">Mon – Sat: 9:00 AM – 8:30 PM · Sunday by Appointment</p>
+          <p className="menu__hours">Open daily: 10:00 AM – 7:30 PM · Porur, Chennai</p>
         </div>
       </div>
     </>

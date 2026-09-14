@@ -29,7 +29,7 @@ export default function Process() {
         <p className="process__cta" data-reveal>
           Not sure which procedure is appropriate for your condition?{' '}
           <button className="link-arrow" onClick={() => openBooking('Piles & Fistula Consultation')} data-cursor="hover">
-            Book a confidential evaluation with Dr. Dhananjaya <Icon name="arrowR" size={15} strokeWidth={2.2} />
+            Book a confidential evaluation with Dr. Venkhatesan <Icon name="arrowR" size={15} strokeWidth={2.2} />
           </button>
         </p>
       </div>

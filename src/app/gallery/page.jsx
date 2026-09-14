@@ -8,9 +8,9 @@ const TITLE = 'Clinic Photo Gallery';
 export const metadata = pageMetadata({
   title: TITLE,
   description:
-    'Photo tour of Dr. Dhananjayas Clinic: private consultation chambers, sterile day-care treatment rooms and diagnostics in New Perungalathur (Tambaram) and Porur.',
+    'Photo tour of Dr. Dhananjayas Hospitals, Porur: Dr. Venkhatesan’s consultation chamber, sterile day-care treatment rooms, diagnostics and recovery lounge.',
   path: '/gallery',
-  image: ogCard('gallery', 'Reception and welcome desk at Dr. Dhananjayas Clinic'),
+  image: ogCard('gallery', 'Reception and welcome desk at Dr. Dhananjayas Hospitals, Porur'),
 });
 
 const jsonLd = {

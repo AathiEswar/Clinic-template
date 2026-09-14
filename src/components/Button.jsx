@@ -5,7 +5,7 @@ import { Magnetic } from '@/lib/anim';
 
 /**
  * Rolling-label CTA button. Renders <a> when href is given, <button> otherwise.
- * variants: primary | ghost | light | dark
+ * variants: primary | call | ghost | light | outline-light | wa
  */
 export default function Button({
   children,

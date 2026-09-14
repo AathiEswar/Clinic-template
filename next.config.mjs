@@ -1,3 +1,10 @@
+if (!process.env.NEXT_PUBLIC_SITE_URL) {
+  console.warn(
+    '\n[site] NEXT_PUBLIC_SITE_URL is not set — canonical links, Open Graph URLs, sitemap.xml and robots.txt ' +
+      'will point at http://localhost:3000. Copy .env.example to .env and set the real domain before deploying.\n'
+  );
+}
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   // Pre-render every route to plain HTML in ./out at build time, so the site can

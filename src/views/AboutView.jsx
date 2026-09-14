@@ -5,22 +5,24 @@ import { CLINIC } from '@/config';
 import { useScroll } from '@/context/ScrollContext';
 import Icon from '@/lib/Icons';
 import Button from '@/components/Button';
+import DoctorSpotlight from '@/components/DoctorSpotlight';
 import { img, SIZES } from '@/lib/images';
 
 export default function AboutView() {
   const { openBooking } = useScroll();
+  const doctor = DOCTORS[0];
 
   return (
     <div className="page-view about-page">
       {/* Page Header */}
       <section className="page-header" style={{ backgroundImage: 'linear-gradient(135deg, rgba(8, 48, 58, 0.92), rgba(15, 23, 42, 0.94)), url(/clinic-assets/hero-bg-55.png)' }}>
         <div className="container">
-          <span className="chip chip--light">About Dr. Dhananjayas Hospitals &amp; Clinic</span>
+          <span className="chip chip--light">About Dr. Dhananjayas Hospitals, Porur</span>
           <h1 className="page-header__title">
-            25+ Years of Focused <em>Ayurvedic Proctology.</em>
+            25 Years of Focused <em>Ayurvedic Proctology in Porur.</em>
           </h1>
           <p className="page-header__sub">
-            Gentle Ayurvedic care exclusively for Piles, Fistula and Fissure across New Perungalathur, Tambaram &amp; Porur, Chennai—without major open operations.
+            Gentle Ayurvedic care exclusively for Piles, Fistula and Fissure, led by {doctor.name} at Astalakshmi Nagar, Porur, Chennai—without major open operations.
           </p>
         </div>
       </section>
@@ -32,13 +34,13 @@ export default function AboutView() {
             <span className="eyebrow"><span className="eyebrow__dot" /> Our Clinical Mission</span>
             <h2 className="h2">Restoring Comfort, Dignity &amp; Natural Bowel Control</h2>
             <p className="lead">
-              For more than 25 years, Dr. Dhananjayas Hospitals &amp; Clinic has stood as a beacon of hope for patients suffering from painful, distressing anorectal conditions like anal fistula, piles (hemorrhoids), and fissures.
+              Dr. Dhananjayas Hospitals, Porur is a focused Ayurvedic centre for patients suffering from painful, distressing anorectal conditions: anal fistula, piles (hemorrhoids), and fissures.
             </p>
             <p>
-              Conventional surgery for anal fistula (fistulotomy / fistulectomy) frequently involves cutting anal sphincter muscles. This carries an alarming 20% to 40% risk of permanent incontinence (inability to control gas or stool), severely impacting a patient's lifelong dignity. Recognizing this tragic limitation, <strong>Dr. Dhananjaya</strong> championed authentic, scientifically standardized <strong>Kshara Sutra therapy</strong> in Chennai.
+              Conventional surgery for anal fistula (fistulotomy / fistulectomy) frequently involves cutting anal sphincter muscles. This carries an alarming 20% to 40% risk of permanent incontinence (inability to control gas or stool), severely impacting a patient's lifelong dignity. At Porur, <strong>{doctor.name}</strong> practises authentic, scientifically standardised <strong>Kshara Sutra therapy</strong> instead.
             </p>
             <p>
-              By utilizing medicated alkaline seton threads, the fistula tract is gently debrided and cut micro-millimeter by micro-millimeter while simultaneously stimulating healthy granulation tissue behind it. This guarantees <strong>100% sphincter preservation</strong>, virtually painless healing, and a recurrence rate under 1.5%.
+              By utilising medicated alkaline seton threads, the fistula tract is gently debrided and cut micro-millimeter by micro-millimeter while simultaneously stimulating healthy granulation tissue behind it. This guarantees <strong>100% sphincter preservation</strong>, virtually painless healing, and a recurrence rate under 1.5%.
             </p>
 
             <div className="about-story__badges">
@@ -60,52 +62,32 @@ export default function AboutView() {
           <div className="about-story__visual">
             <div className="about-img-frame">
               <img
-                {...img('/dr-dhananjaya-portrait.jpg', { sizes: SIZES.half })}
-                alt="Dr. Dhananjaya, Founder & Chief Ayurvedic Proctologist at Dr. Dhananjayas Clinic"
+                {...img(doctor.image, { sizes: SIZES.half })}
+                alt={doctor.imageAlt}
                 className="about-founder-img"
+                style={{ objectPosition: 'center top' }}
               />
               <div className="about-founder-badge">
-                <strong>Dr. Dhananjaya</strong>
-                <span>Founder &amp; Chief Ayurvedic Proctologist · 25+ Yrs Exp</span>
+                <strong>{doctor.name}</strong>
+                <span>{doctor.dept} · 25 Yrs Exp</span>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Specialists Section */}
+      {/* Your Doctor */}
       <section className="section about-doctors" style={{ background: 'var(--bg-soft)' }}>
         <div className="container">
           <div className="section-head text-center" style={{ marginBottom: '48px' }}>
-            <span className="eyebrow"><span className="eyebrow__dot" /> Our Senior Specialists</span>
-            <h2 className="h2">Meet Our Ayurvedic Proctology Specialists</h2>
+            <span className="eyebrow"><span className="eyebrow__dot" /> Your Doctor at Porur</span>
+            <h2 className="h2">Meet {doctor.name}</h2>
             <p style={{ maxWidth: '640px', margin: '12px auto 0', color: 'var(--ink-2)' }}>
-              Compassionate, highly experienced anorectal clinicians committed to confidential, empathetic care and same-day recovery.
+              Every patient at our Porur hospital is seen personally by {doctor.name} — a compassionate, highly experienced anorectal clinician committed to confidential, empathetic care and same-day recovery.
             </p>
           </div>
 
-          <div className="about-docs-grid">
-            {DOCTORS.map((doc) => (
-              <div className="about-doc-card" key={doc.name}>
-                <div className="about-doc-card__img-wrap">
-                  <img {...img(doc.image || '/dr-dhananjaya-portrait.jpg', { sizes: SIZES.half })} alt={`${doc.name}, ${doc.dept}`} className="about-doc-card__img" />
-                  <span className="about-doc-card__exp">{doc.exp}</span>
-                </div>
-                <div className="about-doc-card__info">
-                  <h3>{doc.name}</h3>
-                  <p className="about-doc-card__dept">{doc.dept}</p>
-                  <p className="about-doc-card__creds">{doc.creds}</p>
-                  <p className="about-doc-card__bio">{doc.bio}</p>
-                  <div className="about-doc-card__slot">
-                    <Icon name="clock" size={15} /> <strong>OPD Hours:</strong> {doc.slot}
-                  </div>
-                  <Button variant="primary" className="btn--sm" onClick={() => openBooking(doc.dept, doc.slot)} icon="calendar">
-                    Book consultation with {doc.name.split(' ')[1] || doc.name}
-                  </Button>
-                </div>
-              </div>
-            ))}
-          </div>
+          <DoctorSpotlight />
         </div>
       </section>
 
@@ -114,7 +96,7 @@ export default function AboutView() {
         <div className="container">
           <div className="section-head text-center" style={{ marginBottom: '40px' }}>
             <span className="eyebrow"><span className="eyebrow__dot" /> The Dr. Dhananjayas Difference</span>
-            <h2 className="h2">Why Patients Choose Our Hospitals &amp; Clinic</h2>
+            <h2 className="h2">Why Patients Choose Our Porur Hospital</h2>
           </div>
 
           <div className="about-why-grid">
@@ -136,13 +118,13 @@ export default function AboutView() {
               Suffering from painful piles, fissure, or chronic fistula discharge?
             </h2>
             <p style={{ color: 'rgba(255,255,255,0.9)', maxWidth: '580px', margin: '0 auto 24px' }}>
-              Speak directly with our clinical proctology team. Walk-ins and same-day day-care evaluations are welcome.
+              Speak directly with {doctor.name}. Walk-ins and same-day day-care evaluations are welcome at Porur.
             </p>
             <div style={{ display: 'flex', gap: '14px', justifyContent: 'center', flexWrap: 'wrap' }}>
-              <Button variant="light" icon="calendar" onClick={() => openBooking()}>
+              <Button variant="light" icon="calendar" onClick={() => openBooking(doctor.dept, doctor.slot)}>
                 Book confidential consultation
               </Button>
-              <Button variant="outline-light" icon="phone" href={CLINIC.phoneHref}>
+              <Button variant="light" icon="phone" href={CLINIC.phoneHref}>
                 Call {CLINIC.phoneDisplay}
               </Button>
             </div>

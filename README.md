@@ -1,7 +1,9 @@
-# Dr. Dhananjayas Clinic — Next.js site
+# Dr. Dhananjayas Hospitals, Porur — Next.js site
 
-Ayurvedic Piles, Fistula (Kshara Sutra) & Fissure clinic website for
-New Perungalathur (Tambaram), Porur and Koyambedu, Chennai.
+Ayurvedic Piles, Fistula (Kshara Sutra) & Fissure hospital website for the
+**Porur branch only** (6, Pillayar Koil St, Astalakshmi Nagar, Porur, Chennai),
+led by Dr. Venkhatesan. Other branches and the group's other websites are
+deliberately not mentioned or linked.
 
 This is the **Next.js (App Router) port** of the original Vite + React single-page
 app in `../Dhananjayas-Clinic`. Same design, same content, same GSAP animations —
@@ -39,8 +41,8 @@ npm run preview              # serves ./out on http://localhost:3000
 ```
 
 > **Set `NEXT_PUBLIC_SITE_URL` before building.** It is baked into the canonical
-> links, Open Graph URLs, `sitemap.xml`, `robots.txt` and JSON-LD. The default in
-> `src/config.js` is `https://www.fistulapileshospitalchennai.com`.
+> links, Open Graph URLs, `sitemap.xml`, `robots.txt` and JSON-LD. Without it the
+> build falls back to `http://localhost:3000` and prints a warning.
 > Optional: `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` / `NEXT_PUBLIC_BING_SITE_VERIFICATION`
 > add the Search Console / Bing ownership `<meta>` tags.
 
@@ -143,6 +145,14 @@ is marked `'use client'` — it is still pre-rendered to HTML, it just also hydr
   `tablist` / `tab` / `tabpanel` ARIA wiring was added at the same time.
 - Preloader heading is a `<p>` instead of a second `<h1>` per page.
 - Tamil text carries `lang="ta"`; doctor photos have descriptive alt text.
+- Content is scoped to the Porur branch: one address, one doctor (Dr. Venkhatesan, with a
+  `DoctorSpotlight` component replacing the multi-doctor rail), one phone/WhatsApp number
+  (+91 97907 47350) and no links to other branches or websites.
+- Closing CTA panels on the gallery and reviews pages now sit inside the dark `.ctab__panel`
+  (their white text was invisible on the page background).
+- Desktop navbar (≥1141px) uses short labels from `NAV_LINKS[].short` (About, Gallery, Reviews, Contact),
+  40px icon buttons for phone and WhatsApp, and a non-shrinking link row — the old build let the last
+  link overflow under the phone number on 1280–1536px laptops. Footer and mobile menu keep the full labels.
 - Booking form resolves "today" on the client (a build-time date would go stale).
 - Fixed three headlines that displayed a literal `&amp;`, and added the missing
   `search`, `play` and `map-pin` icons that previously rendered as empty SVGs.

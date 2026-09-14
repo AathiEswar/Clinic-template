@@ -1,6 +1,6 @@
 import { CLINIC } from '@/config';
-import { SERVICES } from '@/data';
-import { CLINIC_ID, PORUR_ID, WEBSITE_ID, SITE_NAME, absoluteUrl, assetUrl } from '@/lib/seo';
+import { SERVICES, DOCTORS } from '@/data';
+import { CLINIC_ID, WEBSITE_ID, SITE_NAME, absoluteUrl, assetUrl } from '@/lib/seo';
 import JsonLdScript from './JsonLdScript';
 
 const hoursSpec = (spec) =>
@@ -15,15 +15,12 @@ const SPECIALTIES = ['Proctology', 'Ayurveda'];
 
 /**
  * Site-wide structured data, rendered once in the root layout as a single
- * schema.org @graph: the WebSite, the main clinic and the Porur branch (each a
- * MedicalClinic with its own address and hours, linked to each other), and the
- * three treatments as `availableService`. Every value comes from config/data so
- * the markup can never drift from what visitors see.
+ * schema.org @graph: the WebSite and the Porur hospital (MedicalClinic with
+ * address, hours, consultant and the three treatments as availableService).
+ * Every value comes from config/data so the markup can never drift.
  */
 export default function JsonLd() {
-  const main = CLINIC.branches[0];
-  const porur = CLINIC.branches[1];
-
+  const doctor = DOCTORS[0];
   const graph = [
     {
       '@type': 'WebSite',
@@ -38,26 +35,23 @@ export default function JsonLd() {
       '@id': CLINIC_ID,
       name: SITE_NAME,
       legalName: CLINIC.name,
-      alternateName: ['Dr. Dhananjayas Fistula and Piles Clinic', CLINIC.altName, CLINIC.name],
+      alternateName: [CLINIC.altName, 'Dr. Dhananjayas Hospitals Porur', 'Dr. Venkhatesan Piles & Fistula Clinic, Porur'],
       description:
-        'Focused Ayurvedic Piles, Kshara Sutra Anal Fistula, and Fissure Clinic in New Perungalathur, Tambaram, Chennai.',
+        'Focused Ayurvedic Piles, Kshara Sutra Anal Fistula, and Fissure hospital in Astalakshmi Nagar, Porur, Chennai, led by Dr. Venkhatesan.',
       slogan: CLINIC.slogan,
       url: absoluteUrl('/'),
       logo: assetUrl('/dhananjaya-logo.png'),
-      image: [
-        assetUrl('/og/home.jpg'),
-        assetUrl('/images/piles-discomfort-hero.jpg'),
-        assetUrl('/dr-dhananjaya-portrait.jpg'),
-      ],
-      telephone: main.telephoneE164,
+      image: [assetUrl('/og/home.jpg'), assetUrl('/images/piles-discomfort-hero.jpg'), assetUrl(doctor.image)],
+      telephone: CLINIC.telephoneE164,
       email: CLINIC.email,
-      address: { '@type': 'PostalAddress', ...main.postalAddress },
-      hasMap: main.mapsUrl,
-      openingHoursSpecification: hoursSpec(main.openingHoursSpec),
+      address: { '@type': 'PostalAddress', ...CLINIC.postalAddress },
+      hasMap: CLINIC.mapsUrl,
+      openingHoursSpecification: hoursSpec(CLINIC.openingHoursSpec),
       medicalSpecialty: SPECIALTIES,
       isAcceptingNewPatients: true,
       areaServed: CLINIC.areaServed.map((name) => ({ '@type': 'Place', name })),
       knowsAbout: CLINIC.knowsAbout,
+      employee: { '@id': `${absoluteUrl('/about-us')}#dr-venkhatesan` },
       availableService: SERVICES.map((s) => ({
         '@type': 'MedicalTherapy',
         name: s.title,
@@ -66,21 +60,7 @@ export default function JsonLd() {
         medicineSystem: 'https://schema.org/Ayurvedic',
         url: absoluteUrl('/treatments'),
       })),
-      subOrganization: [{ '@id': PORUR_ID }],
       sameAs: CLINIC.sameAs,
-    },
-    {
-      '@type': 'MedicalClinic',
-      '@id': PORUR_ID,
-      name: porur.name,
-      parentOrganization: { '@id': CLINIC_ID },
-      url: absoluteUrl('/contact'),
-      telephone: porur.telephoneE164,
-      address: { '@type': 'PostalAddress', ...porur.postalAddress },
-      hasMap: porur.mapsUrl,
-      openingHoursSpecification: hoursSpec(porur.openingHoursSpec),
-      medicalSpecialty: SPECIALTIES,
-      isAcceptingNewPatients: true,
     },
   ];
 

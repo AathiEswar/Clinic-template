@@ -8,8 +8,8 @@ export default function Contact() {
     <section className="contact section" data-scroll-section id="visit">
       <div className="container">
         <SectionHeader
-          eyebrow="Visit DR. Dhananjayas Clinic"
-          segments={[{ t: 'Conveniently located at G.R. Complex, ' }, { t: 'NGO Nagar, New Perungalathur (Tambaram).', em: true }]}
+          eyebrow="Visit Dr. Dhananjayas Hospitals, Porur"
+          segments={[{ t: 'Conveniently located at Pillayar Koil St, ' }, { t: 'Astalakshmi Nagar, Porur.', em: true }]}
         />
 
         <div className="contact__grid">
@@ -19,7 +19,7 @@ export default function Contact() {
               href={CLINIC.mapsUrl}
               target="_blank"
               rel="noreferrer"
-              aria-label="Open DR. Dhananjayas Clinic location in Google Maps"
+              aria-label="Open Dr. Dhananjayas Hospitals Porur in Google Maps"
               data-cursor="hover"
               data-reveal
             >
@@ -61,19 +61,13 @@ export default function Contact() {
             </div>
 
             <div className="contact__channels" data-reveal>
-              <a className="btn btn--ghost" href={CLINIC.phoneHref} data-cursor="hover">
+              <a className="btn btn--call" href={CLINIC.phoneHref} data-cursor="hover">
                 <span className="btn__solo">{CLINIC.phoneDisplay}</span>
                 <span className="btn__ic"><Icon name="phone" size={15} strokeWidth={2} /></span>
               </a>
               <a className="btn btn--wa" href={WA_DEFAULT} target="_blank" rel="noreferrer" data-cursor="hover">
                 <span className="btn__solo">Chat on WhatsApp</span>
                 <span className="btn__ic"><Icon name="whatsapp" size={15} strokeWidth={2} /></span>
-              </a>
-              <a className="btn btn--ghost" href={CLINIC.website} target="_blank" rel="noreferrer" data-cursor="hover" title="Visit Official Website">
-                <span className="btn__solo">Official Website</span>
-                <span className="btn__ic" style={{ color: 'var(--teal)' }}>
-                  <Icon name="arrow" size={14} strokeWidth={2.2} />
-                </span>
               </a>
               <a className="contact__mail" href={`mailto:${CLINIC.email}`} data-cursor="hover">
                 <Icon name="mail" size={15} /> {CLINIC.email}

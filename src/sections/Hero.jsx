@@ -45,14 +45,14 @@ export default function Hero() {
           </h1>
 
           <p className="hero__sub">
-            25+ years of focused Ayurvedic care for Piles, Fistula &amp; Fissure in <strong className="hero__sub-highlight">New Perungalathur</strong>, Tambaram. Gentle treatment, authentic Kshara Sutra, and no major operations.
+            25 years of focused Ayurvedic care for Piles, Fistula &amp; Fissure with Dr. Venkhatesan in <strong className="hero__sub-highlight">Porur</strong>, Chennai. Gentle treatment, authentic Kshara Sutra, and no major operations.
           </p>
 
           <div className="hero__ctas">
             <Button magnetic icon="calendar" onClick={() => openBooking()} aria-label="Book a consultation">
               Book consultation
             </Button>
-            <Button variant="ghost" icon="phone" href={CLINIC.phoneHref}>
+            <Button variant="call" icon="phone" href={CLINIC.phoneHref}>
               Call {CLINIC.phoneDisplay}
             </Button>
           </div>
@@ -111,7 +111,7 @@ export default function Hero() {
               </div>
               <div className="hero__img-caption">
                 <p className="hero__img-quote">“30-Minute Day-Care Relief. Same-Day Discharge Without Painful Cuts.”</p>
-                <span className="hero__img-sub">G.R. Complex, NGO Nagar Main Road, New Perungalathur (Tambaram)</span>
+                <span className="hero__img-sub">Pillayar Koil St, Astalakshmi Nagar, Porur · Dr. Venkhatesan</span>
               </div>
             </div>
             <span className="hero__floating-heart" title="Gentle Ayurvedic care without major operations">
@@ -140,7 +140,7 @@ export default function Hero() {
           </div>
 
           <div className="hero__chip" data-scroll data-scroll-speed="0.9">
-            <Icon name="pin" size={15} /> NGO Nagar, New Perungalathur (Tambaram)
+            <Icon name="pin" size={15} /> Astalakshmi Nagar, Porur, Chennai
           </div>
         </div>
       </div>

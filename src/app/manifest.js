@@ -8,7 +8,7 @@ export default function manifest() {
     name: CLINIC.name,
     short_name: 'Dr. Dhananjayas',
     description:
-      'Ayurvedic Piles, Fistula (Kshara Sutra) & Fissure care in New Perungalathur (Tambaram) and Porur, Chennai.',
+      'Ayurvedic Piles, Fistula (Kshara Sutra) & Fissure care with Dr. Venkhatesan in Porur, Chennai.',
     start_url: '/',
     display: 'minimal-ui',
     background_color: '#F8FAFC',

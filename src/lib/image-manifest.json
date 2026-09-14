@@ -45,24 +45,6 @@
       }
     ]
   },
-  "/clinic-assets/gallery-14.jpg": {
-    "width": 960,
-    "height": 1280,
-    "variants": [
-      {
-        "w": 480,
-        "src": "/optimized/clinic-assets/gallery-14-480.webp"
-      },
-      {
-        "w": 768,
-        "src": "/optimized/clinic-assets/gallery-14-768.webp"
-      },
-      {
-        "w": 960,
-        "src": "/optimized/clinic-assets/gallery-14-960.webp"
-      }
-    ]
-  },
   "/clinic-assets/gallery-20.jpg": {
     "width": 1884,
     "height": 3033,
@@ -332,28 +314,6 @@
       {
         "w": 700,
         "src": "/optimized/dhananjaya-logo-700.webp"
-      }
-    ]
-  },
-  "/dr-dhananjaya-portrait.jpg": {
-    "width": 1351,
-    "height": 1801,
-    "variants": [
-      {
-        "w": 480,
-        "src": "/optimized/dr-dhananjaya-portrait-480.webp"
-      },
-      {
-        "w": 768,
-        "src": "/optimized/dr-dhananjaya-portrait-768.webp"
-      },
-      {
-        "w": 1080,
-        "src": "/optimized/dr-dhananjaya-portrait-1080.webp"
-      },
-      {
-        "w": 1351,
-        "src": "/optimized/dr-dhananjaya-portrait-1351.webp"
       }
     ]
   },

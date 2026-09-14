@@ -5,9 +5,9 @@ import { pageMetadata, ogCard, breadcrumbJsonLd } from '@/lib/seo';
 export const metadata = pageMetadata({
   title: 'Patient Reviews & Success Stories',
   description:
-    'Verified patient reviews of Dr. Dhananjayas Clinic: 4.9★ on Google, 10,000+ patients relieved of piles, fistula and fissure with Ayurvedic Kshara Sutra care.',
+    'Verified patient reviews of Dr. Dhananjayas Hospitals, Porur: 4.9★ on Google, 10,000+ patients relieved of piles, fistula and fissure by Dr. Venkhatesan.',
   path: '/testimonials',
-  image: ogCard('testimonials', 'Piles, fistula and fissure treatment at Dr. Dhananjayas Clinic'),
+  image: ogCard('testimonials', 'Piles, fistula and fissure treatment at Dr. Dhananjayas Hospitals, Porur'),
 });
 
 /* No Review/AggregateRating markup on purpose: Google treats a business marking

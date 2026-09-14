@@ -59,8 +59,10 @@ export const viewport = {
 };
 
 export default function RootLayout({ children }) {
+  // suppressHydrationWarning: browser extensions (Ember Inspector, Grammarly, dark-mode tools…)
+  // add attributes to <html> before React hydrates; only this one element is exempted.
   return (
-    <html lang="en" className={`${fraunces.variable} ${manrope.variable}`}>
+    <html lang="en" className={`${fraunces.variable} ${manrope.variable}`} suppressHydrationWarning>
       <head>
         {/* Page content is fully pre-rendered; without JS just hide the JS-driven overlays. */}
         <noscript>

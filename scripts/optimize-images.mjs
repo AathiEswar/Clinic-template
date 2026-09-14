@@ -36,7 +36,7 @@ const OG_SIZE = { width: 1200, height: 630 };
 /** page slug → source photo, centre-cropped towards the most "interesting" region */
 const OG_CARDS = {
   home: '/images/piles-discomfort-hero.jpg',
-  'about-us': '/dr-dhananjaya-portrait.jpg',
+  'about-us': '/clinic-assets/doctor-photo-40.jpg',
   treatments: '/images/treatments/fistula.jpg',
   gallery: '/clinic-assets/gallery-6.jpg',
   testimonials: '/piles-treatment-banner.png',

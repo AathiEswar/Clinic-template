@@ -34,7 +34,7 @@ export default function CtaBanner() {
             <Button variant="light" icon="calendar" magnetic onClick={() => openBooking()}>
               Book an appointment
             </Button>
-            <Button variant="outline-light" icon="phone" href={CLINIC.phoneHref}>
+            <Button variant="light" icon="phone" href={CLINIC.phoneHref}>
               {CLINIC.phoneDisplay}
             </Button>
           </div>

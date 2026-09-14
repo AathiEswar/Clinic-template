@@ -14,7 +14,7 @@ export default function TrustStats() {
           ))}
         </div>
         <p className="stats__caption" data-reveal>
-          Trusted by over 10,000+ patients across New Perungalathur, Tambaram, Chromepet, Guduvanchery &amp; Chennai for permanent piles, fistula, and fissure relief.
+          Trusted by over 10,000+ patients across Porur, Ramapuram, Maduravoyal, Valasaravakkam &amp; Chennai for permanent piles, fistula, and fissure relief.
         </p>
       </div>
     </section>

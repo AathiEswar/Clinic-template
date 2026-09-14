@@ -9,13 +9,12 @@ export const SITE_NAME = CLINIC.shortName; // "Dr. Dhananjayas Clinic"
 
 /* Stable @id anchors so every JSON-LD block on the site points at the same entities */
 export const CLINIC_ID = `${SITE_URL}/#clinic`;
-export const PORUR_ID = `${SITE_URL}/#porur-branch`;
 export const WEBSITE_ID = `${SITE_URL}/#website`;
 
 /* Home page copy — keyword-first title, ≤160-character description */
-export const HOME_TITLE = 'Ayurvedic Piles, Fistula & Fissure Clinic in Tambaram | Dr. Dhananjayas Clinic';
+export const HOME_TITLE = 'Ayurvedic Piles, Fistula & Fissure Hospital in Porur, Chennai | Dr. Dhananjayas';
 export const HOME_DESCRIPTION =
-  'Ayurvedic care for piles, fistula and fissure at Dr. Dhananjayas Clinic, New Perungalathur near Tambaram, Chennai. Authentic Kshara Sutra, no major operations.';
+  'Ayurvedic care for piles, fistula and fissure with Dr. Venkhatesan at Dr. Dhananjayas Hospitals, Porur, Chennai. Authentic Kshara Sutra, no major operations.';
 
 /** Indexable-page robots directives (large image previews help Discover / image results). */
 export const ROBOTS_INDEX = {
@@ -63,7 +62,7 @@ export function ogCard(slug, alt) {
 
 export const DEFAULT_OG_IMAGE = ogCard(
   'home',
-  'Patient consulting a doctor about piles treatment at Dr. Dhananjayas Clinic'
+  'Patient consulting a doctor about piles treatment at Dr. Dhananjayas Hospitals, Porur'
 );
 
 /** Serialise JSON-LD safely for a <script> tag (never lets "</script>" through). */

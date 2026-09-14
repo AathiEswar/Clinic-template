@@ -39,7 +39,7 @@ export default function Faq() {
           <div className="faq__nudge" data-reveal>
             <p>Still unsure about something? A human answers within minutes.</p>
             <div className="faq__nudge-row">
-              <a className="btn btn--ghost btn--sm" href={CLINIC.phoneHref} data-cursor="hover">
+              <a className="btn btn--call btn--sm" href={CLINIC.phoneHref} data-cursor="hover">
                 <span className="btn__solo">Call us</span>
                 <span className="btn__ic"><Icon name="phone" size={14} strokeWidth={2} /></span>
               </a>

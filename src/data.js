@@ -7,16 +7,17 @@ export const SPECIALTIES_TICKER = [
   'No Major Operation',
   'Gentle Day-Care Treatment',
   'Sphincter-Preserving Care',
-  'New Perungalathur · Tambaram · Porur · Koyambedu',
+  'Astalakshmi Nagar · Porur · Chennai',
 ];
 
+/* `label` is used in the footer and the mobile menu; `short` in the desktop navbar. */
 export const NAV_LINKS = [
-  { label: 'Home', path: '/' },
-  { label: 'About & Doctors', path: '/about-us' },
-  { label: 'Treatments', path: '/treatments' },
-  { label: 'Photo Gallery', path: '/gallery' },
-  { label: 'Patient Reviews', path: '/testimonials' },
-  { label: 'Branches & Visit', path: '/contact' },
+  { label: 'Home', short: 'Home', path: '/' },
+  { label: 'About & Doctors', short: 'About', path: '/about-us' },
+  { label: 'Treatments', short: 'Treatments', path: '/treatments' },
+  { label: 'Photo Gallery', short: 'Gallery', path: '/gallery' },
+  { label: 'Patient Reviews', short: 'Reviews', path: '/testimonials' },
+  { label: 'Visit Porur', short: 'Contact', path: '/contact' },
 ];
 
 export const SERVICES = [
@@ -150,90 +151,41 @@ export const GALLERY_IMAGES = [
     src: '/clinic-assets/gallery-12.jpg',
     title: 'Porur Hospital Consultation Area',
     category: 'Facilities',
-    desc: 'Consultation facility at 6, Pillayar Koil St, Astalakshmi Nagar, Porur, Chennai.',
+    desc: 'Consultation area at 6, Pillayar Koil St, Astalakshmi Nagar, Porur, Chennai – 600116.',
   },
   {
     id: 'gal-10',
-    src: '/clinic-assets/gallery-14.jpg',
-    title: 'G.R. Complex Main Center Exterior',
-    category: 'Facilities',
-    desc: 'First Floor, No. 3, G.R. Complex, NGO Nagar Main Road, SSM Nagar, New Perungalathur.',
-  },
-  {
-    id: 'gal-11',
     src: '/clinic-assets/doctor-photo-40.jpg',
     title: 'Dr. Venkhatesan In Clinical Chamber',
     category: 'Chambers',
-    desc: 'Consultant proctologist with 25 years of specialized experience in fistula and piles management.',
-  },
-  {
-    id: 'gal-12',
-    src: '/dr-dhananjaya-portrait.jpg',
-    title: 'Dr. Dhananjaya Consultation Desk',
-    category: 'Chambers',
-    desc: 'Founder and chief Ayurvedic proctologist with 25+ years of focused Kshara Sutra practice in Chennai.',
-  },
-];
-
-export const BROCHURE_IMAGES = [
-  {
-    id: 'piles-grading-care',
-    title: 'Piles Care & Anorectal Grading Diagnostic Suite',
-    desc: 'Comprehensive clinical evaluation determining the exact grade of internal or external hemorrhoids to recommend targeted, non-surgical or minimally invasive treatment.',
-    src: '/piles-treatment-banner.png',
-    tag: 'Clinical Diagnosis',
-  },
-  {
-    id: 'consultation-chamber',
-    title: 'Dr. Dhananjaya Consultation Chambers',
-    desc: 'Private, confidential consultation room ensuring utmost patient dignity, empathetic counseling, and clear explanation of treatment options.',
-    src: '/dr-dhananjaya-portrait.jpg',
-    tag: 'Doctor Chamber',
-  },
-  {
-    id: 'procedure-recovery',
-    title: 'Ayurvedic Day-Care & Patient Rest Lounge',
-    desc: 'Clean, hygienic space for gentle Kshara Sutra and Ayurvedic care with comfortable same-day return home.',
-    src: '/clinic-assets/gallery-20.jpg',
-    tag: 'Day-Care Procedure Unit',
-  },
-];
-
-export const ADDITIONAL_PROGRAMS = [
-  {
-    title: 'Comprehensive Anorectal Digital Evaluation',
-    tamilTitle: 'முழுமையான ஆசனவாய் மருத்துவ பரிசோதனை',
-    desc: 'Precise grading of hemorrhoids and high-resolution fistula tract assessment in a completely private, dignified clinical setting.',
-  },
-  {
-    title: 'Permanent Recurrence-Free Follow-Up Protocol',
-    tamilTitle: 'மீண்டும் வராமல் தடுக்கும் தொடர் கண்காணிப்பு',
-    desc: 'Structured post-procedure wound inspection, healing confirmation, and lifestyle adjustments to guarantee permanent comfort.',
+    desc: 'Consultant Ayurvedic proctologist with 25 years of specialised experience in fistula, piles and fissure care at our Porur hospital.',
   },
 ];
 
 export const DOCTORS = [
   {
-    name: 'Dr. Dhananjaya',
-    dept: 'Chief Ayurvedic Proctologist & Kshara Sutra Specialist',
-    creds: 'BAMS / MS (Ayu-Surgery) · Senior Anorectal Specialist',
-    exp: '25+ Years Experience · 10,000+ Treated',
-    slot: 'Mon – Sat, 9:00 AM – 8:30 PM',
-    initials: 'DD',
-    hue: 195,
-    image: '/dr-dhananjaya-portrait.jpg',
-    bio: 'Senior Ayurvedic proctology specialist with over 25 years of focused experience in gentle care for piles, fistula, and fissure, including authentic Kshara Sutra therapy without major open surgery.',
-  },
-  {
     name: 'Dr. Venkhatesan',
     dept: 'Consultant Ayurvedic Proctology Specialist',
-    creds: 'DNYAS · 25 Years Specialized Experience',
-    exp: 'Senior Specialist · Fistula & Piles Doctor',
+    creds: 'DNYAS · 25 Years Specialised Experience',
+    exp: '25 Years Experience · Piles, Fistula & Fissure',
     slot: 'Daily, 10:00 AM – 7:30 PM',
     initials: 'DV',
     hue: 160,
     image: '/clinic-assets/doctor-photo-40.jpg',
-    bio: 'Senior specialist focused on Ayurvedic piles care, Kshara Sutra therapy for fistula, and gentle fissure management across New Perungalathur and Porur.',
+    imageAlt: 'Dr. Venkhatesan, Consultant Ayurvedic Proctologist, in his clinical chamber at Dr. Dhananjayas Hospitals, Porur',
+    bio: 'Dr. Venkhatesan leads the Porur branch of Dr. Dhananjayas Hospitals. For 25 years he has treated piles, anal fistula and fissure with gentle Ayurvedic care — authentic Kshara Sutra thread therapy, herbal medicines, local care and bowel-habit guidance — so patients avoid major open surgery and walk home the same day.',
+    facts: [
+      { value: '25', suffix: ' yrs', label: 'Focused anorectal practice' },
+      { value: '30', suffix: ' min', label: 'Day-care Kshara Sutra sitting' },
+      { value: '100', suffix: '%', label: 'Sphincter & continence preserved' },
+    ],
+    focus: [
+      'Authentic Kshara Sutra for simple and complex anal fistula',
+      'Bleeding and prolapsed piles managed without major operation',
+      'Fissure pain and spasm relieved with Ayurvedic medicines and local care',
+      'Private, unhurried consultation in Tamil and English',
+    ],
+    quote: 'My aim is simple: complete relief, full bowel control preserved, and you back to normal life within a day or two.',
   },
 ];
 
@@ -250,7 +202,7 @@ export const WHY_US = [
   'Authentic Kshara Sutra care selected after careful clinical assessment',
   'Herbal support, local care, diet, and bowel-habit guidance',
   'Empathetic, confidential, and dignified care for sensitive anorectal conditions',
-  'Multiple accessible centers: New Perungalathur (Tambaram) and Porur (Astalakshmi Nagar)',
+  'Conveniently located at Astalakshmi Nagar, Porur — open every day 10 AM to 7:30 PM',
 ];
 
 export const PROCESS = [
@@ -278,7 +230,7 @@ export const TESTIMONIALS = [
     context: 'Chennai · 20-Year Chronic Piles Relieved',
   },
   {
-    quote: 'My name is Basha. I was suffering from piles complaint for a long time. I came to Dr. Dhananjaya’s hospital Porur clinic. Now I am much better, doctor is very kind and I have complete satisfaction. Thank you doctor!',
+    quote: 'My name is Basha. I was suffering from piles complaint for a long time. I came to Dr. Dhananjayas Hospitals, Porur. Now I am much better, doctor is very kind and I have complete satisfaction. Thank you doctor!',
     name: 'Magbool Basha',
     context: 'Porur Branch, Chennai · Piles Treatment',
   },
@@ -288,7 +240,7 @@ export const TESTIMONIALS = [
     context: 'Maduravoyal, Chennai · Fissure Care',
   },
   {
-    quote: 'I was suffering for months and dreading cutting surgery, but Dr. Dhananjaya and Dr. Venkhatesan made the entire process comfortable and completely stress-free. The Kshara Sutra procedure worked wonders, and I am finally pain-free with no loss of control.',
+    quote: 'I was suffering for months and dreading cutting surgery, but Dr. Venkhatesan and his team made the entire process comfortable and completely stress-free. The Kshara Sutra procedure worked wonders, and I am finally pain-free with no loss of control.',
     name: 'Venkatesh S.',
     context: 'Central Chennai · Complex Fistula Recovery',
   },
@@ -300,13 +252,13 @@ export const TESTIMONIALS = [
   {
     quote: 'Kshara Sutra treatment here cured my recurrent fistula that two previous surgeries failed to resolve. No incontinence, no hospital stay, and zero recurrence after 2 years.',
     name: 'Jayaprakash Kasinathan',
-    context: 'Tambaram, Chennai · Recurrent Fistula Cure',
+    context: 'Valasaravakkam, Chennai · Recurrent Fistula Cure',
   },
 ];
 
 export const FAQS = [
   {
-    q: 'Are the procedures at Dr. Dhananjayas Clinic painful?',
+    q: 'Are the procedures at Dr. Dhananjayas Hospitals, Porur painful?',
     a: 'Most of our modern, minimally invasive procedures involve minimal discomfort and are performed under gentle local anesthesia. Our clinical focus is on ensuring your experience is virtually painless with a smooth, rapid recovery.',
   },
   {
@@ -326,12 +278,12 @@ export const FAQS = [
     a: 'Because our procedures are minimally invasive with no large surgical incisions, most patients resume routine office, desk work, and daily activities within 24 to 48 hours.',
   },
   {
-    q: 'Where are your clinics located in Chennai?',
-    a: 'We operate multiple accessible centers: (1) Main Center: First Floor, No. 3, G.R. Complex, NGO Nagar Main Road, SSM Nagar, New Perungalathur (near Tambaram); (2) Porur Hospital: 6, Pillayar Koil St, Astalakshmi Nagar, Porur; and (3) Koyambedu OPD Consultation Desk.',
+    q: 'Where is the hospital located in Porur?',
+    a: 'We are at 6, Pillayar Koil St, Astalakshmi Nagar, Lakshmi Nagar, Porur, Chennai – 600116, near Pillayar Koil. The hospital is open every day from 10:00 AM to 7:30 PM.',
   },
   {
     q: 'How do I schedule an appointment?',
-    a: 'You can book your appointment instantly by calling +91 73583 61723 or +91 97907 47350, chatting with us on WhatsApp, or submitting the online booking form on this website.',
+    a: 'Call or WhatsApp +91 97907 47350, or submit the online booking form on this website. We confirm your slot with Dr. Venkhatesan within 15 minutes during working hours.',
   },
 ];
 
