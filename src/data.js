@@ -154,13 +154,57 @@ export const GALLERY_IMAGES = [
     desc: 'Consultation area at 6, Pillayar Koil St, Astalakshmi Nagar, Porur, Chennai – 600116.',
   },
   {
-    id: 'gal-10',
-    src: '/clinic-assets/doctor-photo-40.jpg',
-    title: 'Dr. Venkhatesan In Clinical Chamber',
-    category: 'Chambers',
-    desc: 'Consultant Ayurvedic proctologist with 25 years of specialised experience in fistula, piles and fissure care at our Porur hospital.',
+    id: 'gal-heritage-1',
+    src: '/clinic-assets/heritage-dr-s-dhananjayan-1986.jpg',
+    title: 'Late Dr. S. Dhananjayan — Piles & Fistula Specialist (1986)',
+    category: 'Heritage',
+    desc: 'Framed portrait of the late Dr. S. Dhananjayan, specialist in piles and fistula (pauthiram) diseases, dated 5-8-1986 — the name our hospital carries today.',
+  },
+  {
+    id: 'gal-heritage-2',
+    src: '/clinic-assets/heritage-family-portrait.jpg',
+    title: 'Archival Portrait from the Family Practice',
+    category: 'Heritage',
+    desc: 'A vintage studio portrait from the family archive of Ayurvedic proctologists who have treated piles, fistula and fissure for nine generations.',
+  },
+  {
+    id: 'gal-heritage-3',
+    src: '/images/press/pauthiram-article-2016.jpg',
+    pos: 'top center',
+    title: 'Tamil Weekly Feature on Pauthiram (Fistula), 2016',
+    category: 'Heritage',
+    desc: 'Newspaper column by our hospital in the Tamil weekly (13-11-2016) explaining what pauthiram (fistula) is and the complications it causes.',
   },
 ];
+
+/* ── press feature (home page) ───────────────────────────────
+   Column published by the hospital in a Tamil weekly, 13 Nov 2016, p. 25.
+   English translation of the original Tamil text.                       */
+export const PRESS_ARTICLE = {
+  image: '/images/press/pauthiram-article-2016.jpg',
+  imageAlt: 'Tamil newspaper clipping, 13 November 2016: “What is Pauthiram (Fistula) disease and what complications does it cause?” by Dr. Dhananjayas Hospitals',
+  imageWidth: 850,
+  imageHeight: 1280,
+  publication: 'Tamil weekly',
+  date: '13 November 2016',
+  dateISO: '2016-11-13',
+  page: 'Page 25',
+  tamilTitle: 'பவுந்திர (கட்டி) வியாதி என்றால் என்ன? அதன் உபத்திரம் எப்படிப்பட்டது',
+  title: 'What is Pauthiram (Fistula) disease?',
+  subtitle: 'And what kind of complications does it cause?',
+  paragraphs: [
+    'This condition occurs as a small swelling near the anus, which can also be described as a lump. This lump may develop inside the anus or around the anus. When this condition occurs, it causes a sharp, throbbing pain. There may also be a recurring, pricking type of pain. The body may become weak, and some people may develop fever. After the lump bursts, pus mixed with blood continues to come out in the form of a sticky fluid. After the lump bursts, the pain may decrease.',
+    'Some people live with this condition for years without receiving proper treatment. Some undergo surgery for this condition. The people who have undergone such surgery know the difficulties involved and the extent to which it provides a cure.',
+    'For some people, a small lump develops near the anus, followed by an opening as small as the tip of a needle, through which pus continues to come out. It is not possible to say when the pus will appear or when it will stop. Some people have two or three lumps and openings at different places around the anus, while others may have even more. Pus may come out through all of these openings. Later, the sticky discharge may stop.',
+    'When the discharge stops, people may think that the disease has been cured. However, only the outer opening through which the pus was coming may close, while the disease continues to extend inside.',
+    'It is not possible to predict when this disease will cause greater discomfort. When body heat increases, consuming foods considered to be “heat-producing” may cause these problems to occur frequently.',
+    'In some people, Pauthiram (Fistula) can progress further and extend into the rectal area. Once the pus reaches and affects the intestinal area, treating this type of fistula is not an easy matter. It can continue to affect and damage the tissue inside.',
+    'People affected by this condition try various foods in an attempt to control or cure it. Foods such as snail meat and pork, however, cannot cure this type of disease.',
+    'Readers who are reading this do not need to be afraid. If treated at the early stage itself, it can be cured. For nine generations, we have been providing treatment specifically for this disease and have cured many thousands of people.',
+  ],
+  pullQuote: 'If treated at the early stage itself, it can be cured. For nine generations, we have been providing treatment specifically for this disease.',
+  signoff: 'HO: Dr. Dhananjayas Hospitals, Lakshmi Nagar, Pillayar Koil Street, Porur, Chennai – 116.',
+};
 
 export const DOCTORS = [
   {

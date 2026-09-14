@@ -8,7 +8,7 @@ import Icon from '@/lib/Icons';
 import Button from '@/components/Button';
 import { img as imgProps, SIZES } from '@/lib/images';
 
-const CATEGORIES = ['All', 'Chambers', 'Day-Care OT', 'Diagnostics', 'Facilities'];
+const CATEGORIES = ['All', 'Chambers', 'Day-Care OT', 'Diagnostics', 'Facilities', 'Heritage'];
 
 export default function GalleryView() {
   const [selectedCat, setSelectedCat] = useState('All');
@@ -80,7 +80,7 @@ export default function GalleryView() {
             {filteredImages.map((img) => (
               <div className="gallery-card" key={img.id} onClick={() => openModal(img)} data-cursor="hover">
                 <div className="gallery-card__img-wrap">
-                  <img {...imgProps(img.src, { sizes: SIZES.third })} alt={img.title} className="gallery-card__img" />
+                  <img {...imgProps(img.src, { sizes: SIZES.third })} alt={img.title} className="gallery-card__img" style={img.pos ? { objectPosition: img.pos } : undefined} />
                   <span className="gallery-card__category">{img.category}</span>
                   <div className="gallery-card__overlay">
                     <span className="gallery-card__zoom">

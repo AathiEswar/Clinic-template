@@ -121,13 +121,11 @@ export default function Navbar() {
           <div className="nav__actions">
             <a className="nav__phone" href={CLINIC.phoneHref} data-cursor="hover" aria-label={`Call ${CLINIC.phoneDisplay}`} title={`Call ${CLINIC.phoneDisplay}`}>
               <Icon name="phone" size={18} strokeWidth={2} />
-              <span>{CLINIC.phoneDisplay}</span>
             </a>
             <a className="nav__wa" href={WA_DEFAULT} target="_blank" rel="noreferrer" data-cursor="hover" aria-label={`WhatsApp ${CLINIC.name}`} title="Chat on WhatsApp">
               <Icon name="whatsapp" size={18} />
-              <span>WhatsApp</span>
             </a>
-            <Button variant="primary" className="btn--sm nav__cta" onClick={() => openBooking()} icon="calendar">
+            <Button variant="primary" className="btn--sm nav__cta" onClick={() => openBooking()} icon="calendar" title="Book appointment">
               Book appointment
             </Button>
             <button

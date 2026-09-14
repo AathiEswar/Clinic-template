@@ -211,6 +211,42 @@
       }
     ]
   },
+  "/clinic-assets/heritage-dr-s-dhananjayan-1986.jpg": {
+    "width": 1038,
+    "height": 1280,
+    "variants": [
+      {
+        "w": 480,
+        "src": "/optimized/clinic-assets/heritage-dr-s-dhananjayan-1986-480.webp"
+      },
+      {
+        "w": 768,
+        "src": "/optimized/clinic-assets/heritage-dr-s-dhananjayan-1986-768.webp"
+      },
+      {
+        "w": 1038,
+        "src": "/optimized/clinic-assets/heritage-dr-s-dhananjayan-1986-1038.webp"
+      }
+    ]
+  },
+  "/clinic-assets/heritage-family-portrait.jpg": {
+    "width": 1052,
+    "height": 1280,
+    "variants": [
+      {
+        "w": 480,
+        "src": "/optimized/clinic-assets/heritage-family-portrait-480.webp"
+      },
+      {
+        "w": 768,
+        "src": "/optimized/clinic-assets/heritage-family-portrait-768.webp"
+      },
+      {
+        "w": 1052,
+        "src": "/optimized/clinic-assets/heritage-family-portrait-1052.webp"
+      }
+    ]
+  },
   "/clinic-assets/hero-bg-52.png": {
     "width": 1682,
     "height": 737,
@@ -332,6 +368,24 @@
       {
         "w": 864,
         "src": "/optimized/images/piles-discomfort-hero-864.webp"
+      }
+    ]
+  },
+  "/images/press/pauthiram-article-2016.jpg": {
+    "width": 850,
+    "height": 1280,
+    "variants": [
+      {
+        "w": 480,
+        "src": "/optimized/images/press/pauthiram-article-2016-480.webp"
+      },
+      {
+        "w": 768,
+        "src": "/optimized/images/press/pauthiram-article-2016-768.webp"
+      },
+      {
+        "w": 850,
+        "src": "/optimized/images/press/pauthiram-article-2016-850.webp"
       }
     ]
   },
