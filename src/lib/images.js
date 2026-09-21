@@ -13,7 +13,7 @@
  */
 import manifest from './image-manifest.json';
 
-export const HERO_IMAGE = '/images/piles-discomfort-hero.jpg';
+export const HERO_IMAGE = '/clinic-assets/dharshini-lab-reception.jpg';
 export const HERO_SIZES = '(max-width: 900px) 100vw, 45vw';
 
 /** Common `sizes` presets matching the site's grids. */

@@ -35,12 +35,12 @@ const WEBP = { quality: 78, effort: 4 };
 const OG_SIZE = { width: 1200, height: 630 };
 /** page slug → source photo, centre-cropped towards the most "interesting" region */
 const OG_CARDS = {
-  home: '/images/piles-discomfort-hero.jpg',
-  'about-us': '/clinic-assets/doctor-photo-40.jpg',
-  treatments: '/images/treatments/fistula.jpg',
-  gallery: '/clinic-assets/gallery-6.jpg',
-  testimonials: '/piles-treatment-banner.png',
-  contact: '/clinic-assets/hero-bg-55.png',
+  home: '/clinic-assets/dharshini-lab-reception.jpg',
+  'about-us': '/clinic-assets/dharshini-lab-reception.jpg',
+  treatments: '/clinic-assets/dharshini-lab-exterior.jpg',
+  gallery: '/clinic-assets/dharshini-lab-reception.jpg',
+  testimonials: '/clinic-assets/dharshini-lab-reception.jpg',
+  contact: '/clinic-assets/dharshini-lab-exterior.jpg',
 };
 
 const THEME = '#086375';

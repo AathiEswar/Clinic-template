@@ -9,10 +9,10 @@ export const metadata = pageMetadata({
   absoluteTitle: HOME_TITLE,
   description: HOME_DESCRIPTION,
   path: '/',
-  image: ogCard('home', 'Patient consulting a doctor about piles treatment at Dr. Dhananjayas Hospitals, Porur'),
-  ogTitle: 'Dr. Dhananjayas Hospitals, Porur — Ayurvedic Piles, Fistula & Fissure Specialist',
+  image: ogCard('home', 'Dharshini Laboratory diagnostic center and pathology lab in Kayarambedu, Guduvancheri'),
+  ogTitle: 'Dharshini Laboratory — Diagnostic Center & Pathology Lab in Guduvancheri',
   ogDescription:
-    'Nine generations of Ayurvedic proctology and 25 years of focused care for Piles, Fistula and Fissure with Dr. Venkhatesan in Porur, Chennai—without major operations.',
+    'Established in 2010. Accurate clinical pathology, blood tests, diabetes & lipid profiles, and doorstep home sample collection in Guduvancheri, Kayarambedu.',
 });
 
 /* FAQ rich-result markup, generated from the same FAQS the page renders. */

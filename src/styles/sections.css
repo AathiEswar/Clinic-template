@@ -1195,7 +1195,7 @@
 
 /* ─────────────────────────────────────────────────────────────
    MULTI-PAGE LAYOUTS & COMPONENT STYLES
-   Dr. Dhananjayas Hospitals
+   Dharshini Laboratory
    ───────────────────────────────────────────────────────────── */
 
 /* Shared Page Header Banner */
@@ -2218,7 +2218,7 @@
 }
 
 
-/* ── doctor spotlight (single consultant, Porur) ───────────────────────────── */
+/* ── laboratory spotlight ────────────────────────────────────────────────── */
 .doctor-spotlight {
   display: grid;
   grid-template-columns: minmax(260px, 0.78fr) 1.22fr;

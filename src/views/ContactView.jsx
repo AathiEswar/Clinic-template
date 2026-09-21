@@ -10,33 +10,47 @@ export default function ContactView() {
         className="page-header"
         style={{
           backgroundImage:
-            'linear-gradient(135deg, rgba(8, 48, 58, 0.94), rgba(15, 23, 42, 0.95)), url(/clinic-assets/hero-bg-55.png)',
+            'linear-gradient(135deg, rgba(8, 48, 58, 0.94), rgba(15, 23, 42, 0.95))',
         }}
       >
         <div className="container">
-          <span className="chip chip--light">Astalakshmi Nagar, Porur, Chennai</span>
+          <span className="chip chip--light">SP MAHAL, Nellikuppam Rd, Guduvancheri</span>
           <h1 className="page-header__title">
-            Visit Dr. Dhananjayas Hospitals <em>in Porur.</em>
+            Visit Dharshini Laboratory <em>in Guduvancheri.</em>
           </h1>
           <p className="page-header__sub">
-            Day-care minor OT, a private consultation chamber with {CLINIC.doctorName}, and a dedicated post-procedure observation room — open every day, 10:00 AM to 7:30 PM.
+            Serving Kayarambedu, Moolakazhani, Guduvancheri, and Urapakkam with certified clinical pathology, routine blood testing, and doorstep home sample collection — open daily 6:30 AM to 9:00 PM.
           </p>
         </div>
       </section>
 
-      {/* Location Card */}
+      {/* Location Card & Map */}
       <section className="section branch-locations-section">
         <div className="container">
           <div className="section-head text-center" style={{ marginBottom: '40px' }}>
-            <span className="eyebrow"><span className="eyebrow__dot" /> Hospital Location</span>
+            <span className="eyebrow"><span className="eyebrow__dot" /> Laboratory Location</span>
             <h2 className="h2">How to Reach Us</h2>
           </div>
 
-          <div className="branches-grid" style={{ maxWidth: '720px', margin: '0 auto' }}>
+          <div className="branches-grid" style={{ maxWidth: '800px', margin: '0 auto' }}>
             <div className="branch-card">
               <div className="branch-card__header">
-                <span className="chip chip--tint">Ayurvedic Piles, Fistula &amp; Fissure Hospital</span>
+                <span className="chip chip--tint">Diagnostic Center &amp; Pathology Lab</span>
                 <h3>{CLINIC.name}</h3>
+              </div>
+
+              {/* Embedded Google Map */}
+              <div style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border)', margin: '16px 0' }}>
+                <iframe
+                  title="Dharshini Laboratory Google Maps Location"
+                  src={CLINIC.mapsEmbedUrl}
+                  width="100%"
+                  height="260"
+                  style={{ border: 0, display: 'block' }}
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
               </div>
 
               <div className="branch-card__body">
@@ -51,8 +65,8 @@ export default function ContactView() {
                 <div className="branch-info-row">
                   <span className="branch-info-icon"><Icon name="pin" size={18} /></span>
                   <div>
-                    <strong>Landmark:</strong>
-                    <p>{CLINIC.landmark}</p>
+                    <strong>Landmark &amp; Plus Code:</strong>
+                    <p>{CLINIC.landmark} (Plus Code: {CLINIC.plusCode})</p>
                   </div>
                 </div>
 
@@ -68,7 +82,7 @@ export default function ContactView() {
                   <span className="branch-info-icon"><Icon name="clock" size={18} /></span>
                   <div>
                     <strong>Timings:</strong>
-                    <p>{CLINIC.timings}</p>
+                    <p>{CLINIC.timings} (Open 7 Days a Week)</p>
                   </div>
                 </div>
               </div>
@@ -99,58 +113,42 @@ export default function ContactView() {
             {/* Form Column */}
             <div className="contact-page__form-box">
               <div className="section-head" style={{ marginBottom: '24px' }}>
-                <span className="chip chip--purple">Online Appointment</span>
-                <h2 className="h2" style={{ marginTop: '8px' }}>Request A Confidential Slot</h2>
-                <p style={{ color: 'var(--ink-2)' }}>
-                  Same-day and priority consultation appointments with {CLINIC.doctorName}. All enquiries are handled with strict medical confidentiality.
+                <span className="eyebrow"><span className="eyebrow__dot" /> Diagnostic Request</span>
+                <h3 className="h3">Book a Test or Home Collection</h3>
+                <p style={{ color: 'var(--ink-2)', fontSize: '0.92rem', marginTop: '6px' }}>
+                  Schedule your diagnostic test or request a doorstep morning blood sample draw.
                 </p>
               </div>
               <BookingForm />
             </div>
 
-            {/* Helpline & Quick Assistance Column */}
-            <div className="contact-page__helpline-box">
+            {/* Direct Helpline Column */}
+            <div className="contact-page__info-box">
               <div className="helpline-card">
-                <h3>Direct Proctologist Hotline</h3>
-                <p>Have urgent symptoms, severe anorectal pain, or bleeding? One number for calls and WhatsApp.</p>
-                <div className="helpline-number">
-                  <a href={CLINIC.phoneHref} className="helpline-link">
-                    <Icon name="phone" size={24} /> {CLINIC.phoneDisplay}
-                  </a>
-                </div>
-                <div className="helpline-wa">
-                  <a
-                    href={WA_DEFAULT}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="btn btn--wa btn--full"
-                    data-cursor="hover"
-                  >
-                    <Icon name="whatsapp" size={18} /> Chat Privately on WhatsApp
-                  </a>
-                </div>
-              </div>
+                <span className="helpline-badge">Direct Laboratory Contact</span>
+                <h3>Immediate Assistance</h3>
+                <p>
+                  Have a question about test fasting rules, report timings, or sample collection? Call or message our team directly.
+                </p>
 
-              <div className="helpline-info-box">
-                <h4>What to Expect on Your First Visit</h4>
-                <ul className="visit-tips-list">
-                  <li>
-                    <Icon name="check" size={14} strokeWidth={3} />
-                    <span><strong>Empathetic Consultation:</strong> Thorough discussion of your history and symptoms with {CLINIC.doctorName} in a private chamber.</span>
-                  </li>
-                  <li>
-                    <Icon name="check" size={14} strokeWidth={3} />
-                    <span><strong>Gentle Examination:</strong> Respectful, painless digital evaluation to assess the exact grade.</span>
-                  </li>
-                  <li>
-                    <Icon name="check" size={14} strokeWidth={3} />
-                    <span><strong>Focused Ayurvedic Advice:</strong> Clear guidance for Piles, Fistula or Fissure using medicines, local care, diet support, or Kshara Sutra when appropriate.</span>
-                  </li>
-                  <li>
-                    <Icon name="check" size={14} strokeWidth={3} />
-                    <span><strong>No Major Operations:</strong> Our hospital focuses on gentle Ayurvedic treatment and day-care care.</span>
-                  </li>
-                </ul>
+                <div className="helpline-phone-box">
+                  <span className="helpline-sub">Primary Contact Number</span>
+                  <a href={CLINIC.phoneHref} className="helpline-number">
+                    {CLINIC.phoneDisplay}
+                  </a>
+                  <span className="helpline-avail">Available Daily: 6:30 AM – 9:00 PM</span>
+                </div>
+
+                <div className="helpline-actions">
+                  <a href={CLINIC.phoneHref} className="btn btn--call btn--block" data-cursor="hover">
+                    <span className="btn__solo">Call Now</span>
+                    <span className="btn__ic"><Icon name="phone" size={16} strokeWidth={2} /></span>
+                  </a>
+                  <a href={WA_DEFAULT} target="_blank" rel="noreferrer" className="btn btn--wa btn--block" data-cursor="hover">
+                    <span className="btn__solo">Message on WhatsApp</span>
+                    <span className="btn__ic"><Icon name="whatsapp" size={16} strokeWidth={2} /></span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>

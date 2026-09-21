@@ -5,16 +5,16 @@
  */
 import { CLINIC, SITE_URL } from '@/config';
 
-export const SITE_NAME = CLINIC.shortName; // "Dr. Dhananjayas Hospitals, Porur"
+export const SITE_NAME = CLINIC.shortName; // "Dharshini Laboratory"
 
 /* Stable @id anchors so every JSON-LD block on the site points at the same entities */
 export const CLINIC_ID = `${SITE_URL}/#clinic`;
 export const WEBSITE_ID = `${SITE_URL}/#website`;
 
 /* Home page copy — keyword-first title, ≤160-character description */
-export const HOME_TITLE = 'Ayurvedic Piles, Fistula & Fissure Hospital in Porur, Chennai | Dr. Dhananjayas';
+export const HOME_TITLE = 'Dharshini Laboratory | Diagnostic Center & Pathology Lab in Guduvancheri';
 export const HOME_DESCRIPTION =
-  'Nine generations of Ayurvedic care for piles, fistula and fissure at Dr. Dhananjayas Hospitals, Porur, Chennai. Authentic Kshara Sutra, no major operations.';
+  'Dharshini Laboratory offers clinical pathology, blood tests, diabetic profiles, and doorstep home sample collection in Guduvancheri & Kayarambedu. Open daily 6:30 AM–9 PM.';
 
 /** Indexable-page robots directives (large image previews help Discover / image results). */
 export const ROBOTS_INDEX = {
@@ -62,7 +62,7 @@ export function ogCard(slug, alt) {
 
 export const DEFAULT_OG_IMAGE = ogCard(
   'home',
-  'Patient consulting a doctor about piles treatment at Dr. Dhananjayas Hospitals, Porur'
+  'Dharshini Laboratory diagnostic center and pathology lab in Kayarambedu, Guduvancheri'
 );
 
 /** Serialise JSON-LD safely for a <script> tag (never lets "</script>" through). */
@@ -88,7 +88,7 @@ export function breadcrumbJsonLd(items) {
  * Build the Next.js `metadata` object for one page.
  *
  * @param {object} o
- * @param {string} [o.title]          Page title; root layout appends " | Dr. Dhananjayas Hospitals, Porur".
+ * @param {string} [o.title]          Page title; root layout appends " | Dharshini Laboratory".
  * @param {string} [o.absoluteTitle]  Use instead of `title` to bypass the template (home page).
  * @param {string}  o.description     ≤160 chars, unique per page.
  * @param {string}  o.path            Route path, e.g. "/about-us".

@@ -4,10 +4,10 @@
 
 :root {
   /* ════════════════════════════════════════════════════════════
-     DR. DHANANJAYAS HOSPITALS — PROCTOLOGY & KSHARA SUTRA THEME
+     DHARSHINI LABORATORY — DIAGNOSTIC & PATHOLOGY THEME
      - Royal Surgical Teal: Clinical Authority & Precision (#086375 / #053B47)
-     - Healing Mint & Emerald: Tissue Recovery & Regeneration (#10B981 / #ECFDF5)
-     - Warm Coral & Amber: Empathetic Comfort (#E07A5F / #FDF4F0)
+     - Healing Mint & Emerald: Diagnostic Clarity & Health (#10B981 / #ECFDF5)
+     - Warm Coral & Amber: Patient Care & Comfort (#E07A5F / #FDF4F0)
      - Clean Hospital Porcelain: Reassuring Hygiene (#F8FAFC / #F1F5F9)
      ════════════════════════════════════════════════════════════ */
 
@@ -1033,7 +1033,7 @@ html.is-scroll-locked .dock {
 .proc-table th.col--conventional {
   color: var(--ink-2);
 }
-.proc-table th.col--dhananjaya {
+.proc-table th.col--lab {
   color: var(--teal);
   background: rgba(8, 99, 117, 0.08);
 }
@@ -1055,7 +1055,7 @@ html.is-scroll-locked .dock {
   width: 38%;
   color: var(--ink-2);
 }
-.cell--dhananjaya {
+.cell--lab {
   width: 38%;
   background: rgba(8, 99, 117, 0.03);
   color: var(--ink);

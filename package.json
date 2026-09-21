@@ -1,8 +1,8 @@
 {
-  "name": "dhananjayas-clinic-next",
+  "name": "dharshini-laboratory-next",
   "private": true,
   "version": "2.0.0",
-  "description": "Dr. Dhananjayas Clinic — statically pre-rendered Next.js site (Ayurvedic Piles, Fistula & Fissure care, Tambaram / Porur, Chennai)",
+  "description": "Dharshini Laboratory — Diagnostic Center & Pathology Lab (SP MAHAL, Nellikuppam Road, Guduvancheri / Kayarambedu)",
   "scripts": {
     "dev": "next dev",
     "images": "node scripts/optimize-images.mjs",

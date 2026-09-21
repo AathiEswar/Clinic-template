@@ -3,7 +3,7 @@
 import { useRef } from 'react';
 import { useScroll, useAnim, skipReveal } from '@/context/ScrollContext';
 import { CLINIC } from '@/config';
-import { SPECIALTIES_TICKER, DOCTORS } from '@/data';
+import { SPECIALTIES_TICKER } from '@/data';
 import Button from '@/components/Button';
 import Marquee from '@/components/Marquee';
 import Icon from '@/lib/Icons';
@@ -18,9 +18,8 @@ const Stars = ({ n = 5 }) => (
 export default function Hero() {
   const { openBooking } = useScroll();
   const scope = useRef(null);
-  const nextDoc = DOCTORS[0];
 
-  /* gentle perpetual float on the cards (instant start, zero delay) */
+  /* gentle perpetual float on the cards */
   useAnim(scope, (gsap) => {
     if (skipReveal()) return;
     gsap.to('.hero__card--slot', { y: -10, duration: 3.2, yoyo: true, repeat: -1, ease: 'sine.inOut' });
@@ -37,20 +36,19 @@ export default function Hero() {
       <div className="hero__inner container">
         <div className="hero__copy">
           <h1 className="hero__title">
-            Advanced{' '}
+            Accurate Diagnostic{' '}
             <span className="hero__condition-highlight">
-              <span>Piles</span><i>,</i> <span>Fistula</span> <i>&amp;</i> <span>Fissure</span>
+              <span>Pathology</span><i> &amp; </i> <span>Blood Testing</span>
             </span>{' '}
-            Care. <em>Minimally invasive &amp; virtually painless.</em>
           </h1>
 
           <p className="hero__sub">
-            <strong className="hero__sub-highlight hero__sub-highlight--gold">Nine generations</strong> of Ayurvedic proctology in one family, and 25 years of focused care for Piles, Fistula &amp; Fissure with Dr. Venkhatesan in <strong className="hero__sub-highlight">Porur</strong>, Chennai. Gentle treatment, authentic Kshara Sutra, and no major operations.
+            <strong className="hero__sub-highlight hero__sub-highlight--gold">Established in 2010</strong>, Dharshini Laboratory provides comprehensive pathology testing, blood profiles, and doorstep sample collection across <strong className="hero__sub-highlight">Guduvancheri</strong>, Kayarambedu, Urapakkam, and Chengalpattu. Open 7 days a week from 6:30 AM to 9:00 PM.
           </p>
 
           <div className="hero__ctas">
-            <Button magnetic icon="calendar" onClick={() => openBooking()} aria-label="Book a consultation">
-              Book consultation
+            <Button magnetic icon="calendar" onClick={() => openBooking()} aria-label="Book a diagnostic test or home sample collection">
+              Book Test / Collection
             </Button>
             <Button variant="call" icon="phone" href={CLINIC.phoneHref}>
               Call {CLINIC.phoneDisplay}
@@ -59,7 +57,7 @@ export default function Hero() {
 
           <a
             className="hero__yt-badge"
-            href="#procedure-guide"
+            href="#visit"
             data-cursor="hover"
             style={{
               display: 'inline-flex',
@@ -80,67 +78,67 @@ export default function Hero() {
             }}
           >
             <span className="pulse-dot" aria-hidden="true" />
-            <span>30-Min Day-Care · Same-Day Walk-Home Discharge</span>
+            <span>Open Early: 6:30 AM Daily · Fasting Tests &amp; Home Collection</span>
             <Icon name="arrowR" size={13} strokeWidth={2.2} />
           </a>
 
           <div className="hero__proof">
             <span className="hero__proof-item">
               <Stars />
-              <strong>{CLINIC.rating}</strong> · {CLINIC.reviewCount} reviews
+              <strong>{CLINIC.rating}</strong> · {CLINIC.reviewCount}
             </span>
             <span className="hero__proof-sep" aria-hidden="true" />
-            <span className="hero__proof-item"><strong>10,000+</strong> Relieved</span>
+            <span className="hero__proof-item"><strong>Est. 2010</strong> · 15+ Yrs</span>
             <span className="hero__proof-sep" aria-hidden="true" />
-            <span className="hero__proof-item"><strong>100%</strong> Continence Preserved</span>
+            <span className="hero__proof-item"><strong>100%</strong> Sterile Protocol</span>
           </div>
         </div>
 
         <div className="hero__visual" aria-hidden="false">
-          {/* Main Hero Visual: discreet patient discomfort in a caring clinic */}
+          {/* Main Hero Visual: Genuine Google Maps photo of Dharshini Laboratory reception */}
           <div className="hero__main-card" data-scroll data-scroll-speed="-0.3">
             <div className="hero__img-frame">
               <img
                 {...img(HERO_IMAGE, { sizes: HERO_SIZES, priority: true })}
-                alt="Patient experiencing discreet discomfort while consulting a doctor about piles treatment"
+                alt="Dharshini Laboratory reception desk, waiting area and consultation counter in Kayarambedu, Guduvancheri"
                 className="hero__main-img"
               />
               <div className="hero__img-badge">
                 <span className="hero__img-badge-dot" />
-                <span>Ayurvedic Piles, Fistula &amp; Fissure Clinic</span>
+                <span>Diagnostic Center &amp; Pathology Lab</span>
               </div>
               <div className="hero__img-caption">
-                <p className="hero__img-quote">“30-Minute Day-Care Relief. Same-Day Discharge Without Painful Cuts.”</p>
-                <span className="hero__img-sub">Pillayar Koil St, Astalakshmi Nagar, Porur · Dr. Venkhatesan</span>
+                <p className="hero__img-quote">“Prompt Diagnostics &amp; Doorstep Blood Collection Across Guduvancheri.”</p>
+                <span className="hero__img-sub">SP MAHAL, Nellikuppam Rd, Kayarambedu · Est. 2010</span>
               </div>
             </div>
-            <span className="hero__floating-heart" title="Gentle Ayurvedic care without major operations">
+            <span className="hero__floating-heart" title="Accurate diagnostic care and clinical pathology">
               ✦
             </span>
           </div>
 
           <div className="hero__card hero__card--slot" data-scroll data-scroll-speed="0.6">
-            <p className="hero__card-eyebrow"><span className="pulse-dot" aria-hidden="true" /> Next Consultation Slot</p>
-            <p className="hero__card-doc">{nextDoc.name}</p>
-            <p className="hero__card-dept">{nextDoc.dept}</p>
-            <p className="hero__card-time"><Icon name="clock" size={14} /> {nextDoc.slot}</p>
+            <p className="hero__card-eyebrow"><span className="pulse-dot" aria-hidden="true" /> Fasting &amp; Routine Tests</p>
+            <p className="hero__card-doc">Home Sample Collection</p>
+            <p className="hero__card-dept">Doorstep phlebotomy service available</p>
+            <p className="hero__card-time"><Icon name="clock" size={14} /> Daily: 6:30 AM – 9:00 PM</p>
             <button
               className="hero__card-btn"
-              onClick={() => openBooking(nextDoc.dept, nextDoc.slot)}
+              onClick={() => openBooking('Home Blood Sample Collection')}
               data-cursor="hover"
             >
-              Book consultation <Icon name="arrowR" size={14} strokeWidth={2.2} />
+              Book Home Collection <Icon name="arrowR" size={14} strokeWidth={2.2} />
             </button>
           </div>
 
           <div className="hero__card hero__card--rating" data-scroll data-scroll-speed="1.1">
             <Stars />
-            <p><strong>{CLINIC.rating}</strong> Google Verified</p>
-            <span>{CLINIC.reviewCount} verified patient reviews</span>
+            <p><strong>Google Maps Verified</strong></p>
+            <span>Diagnostic Center · Guduvancheri</span>
           </div>
 
           <div className="hero__chip" data-scroll data-scroll-speed="0.9">
-            <Icon name="pin" size={15} /> Astalakshmi Nagar, Porur, Chennai
+            <Icon name="pin" size={15} /> SP MAHAL, Nellikuppam Rd, Guduvancheri
           </div>
         </div>
       </div>

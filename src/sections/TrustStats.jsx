@@ -14,7 +14,7 @@ export default function TrustStats() {
           ))}
         </div>
         <p className="stats__caption" data-reveal>
-          Trusted by over 10,000+ patients across Porur, Ramapuram, Maduravoyal, Valasaravakkam &amp; Chennai for permanent piles, fistula, and fissure relief — a family practice now in its ninth generation.
+          Serving patients and families across Guduvancheri, Kayarambedu, Moolakazhani, Urapakkam, Potheri, and Chengalpattu with dependable pathology testing, early morning sample collection, and prompt digital reports since 2010.
         </p>
       </div>
     </section>

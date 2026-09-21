@@ -77,11 +77,11 @@ export default function BookingModal() {
             <p className="bmodal__eyebrow">
               <span className="pulse-dot" aria-hidden="true" /> Usually confirmed in 15 min
             </p>
-            <h2 id="bmodal-title" className="bmodal__title">Book your visit</h2>
+            <h2 id="bmodal-title" className="bmodal__title">Book Diagnostic Test</h2>
             {booking.slot ? (
-              <p className="bmodal__hint">Grabbing the <strong>{booking.slot}</strong> slot — nice choice.</p>
+              <p className="bmodal__hint">Selected slot: <strong>{booking.slot}</strong> · Early morning collection available.</p>
             ) : (
-              <p className="bmodal__hint">Same-day slots usually fill by noon.</p>
+              <p className="bmodal__hint">Early morning slots starting from 6:30 AM for fasting tests.</p>
             )}
           </div>
           <button className="bmodal__close" onClick={closeBooking} aria-label="Close" data-cursor="hover">

@@ -6,9 +6,9 @@ export const dynamic = 'force-static';
 export default function manifest() {
   return {
     name: CLINIC.name,
-    short_name: 'Dr. Dhananjayas',
+    short_name: 'Dharshini Lab',
     description:
-      'Ayurvedic Piles, Fistula (Kshara Sutra) & Fissure care with Dr. Venkhatesan in Porur, Chennai.',
+      'Diagnostic Center & Clinical Pathology Laboratory with doorstep home blood collection in Guduvancheri & Kayarambedu.',
     start_url: '/',
     display: 'minimal-ui',
     background_color: '#F8FAFC',

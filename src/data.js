@@ -1,338 +1,187 @@
-/* Site content — services, doctors, procedures, testimonials, gallery, medical articles, FAQs, and navigation for Dr. Dhananjayas Hospitals, Porur. */
+/* Site content — diagnostic services, laboratory workflow, facilities, FAQs, and navigation for Dharshini Laboratory, Guduvancheri / Kayarambedu. */
 
 export const SPECIALTIES_TICKER = [
-  'Ayurvedic Piles Care (Hemorrhoids)',
-  'Nine Generations of Ayurvedic Proctology',
-  'Ayurvedic Kshara Sutra Care for Fistula',
-  'Ayurvedic Anal Fissure Relief',
-  'No Major Operation',
-  'Gentle Day-Care Treatment',
-  'Sphincter-Preserving Care',
-  'Astalakshmi Nagar · Porur · Chennai',
+  'Clinical Pathology & Laboratory Diagnostics',
+  'Established in 2010 · 15+ Years Service',
+  'Complete Blood Count (CBC) & Routine Profiles',
+  'Fasting Blood Sugar & HbA1c Diabetes Screening',
+  'Thyroid Profile (TSH, T3, T4)',
+  'Lipid, Liver & Kidney Function Tests',
+  'Doorstep Home Blood Sample Collection',
+  'Open Daily 6:30 AM – 9:00 PM',
+  'SP MAHAL · Nellikuppam Rd · Guduvancheri',
 ];
 
 /* `label` is used in the footer and the mobile menu; `short` in the desktop navbar. */
 export const NAV_LINKS = [
   { label: 'Home', short: 'Home', path: '/' },
-  { label: 'About & Doctors', short: 'About', path: '/about-us' },
-  { label: 'Treatments', short: 'Treatments', path: '/treatments' },
-  { label: 'Photo Gallery', short: 'Gallery', path: '/gallery' },
-  { label: 'Patient Reviews', short: 'Reviews', path: '/testimonials' },
-  { label: 'Visit Porur', short: 'Contact', path: '/contact' },
+  { label: 'About Laboratory', short: 'About', path: '/about-us' },
+  { label: 'Diagnostic Services', short: 'Services', path: '/treatments' },
+  { label: 'Laboratory Gallery', short: 'Gallery', path: '/gallery' },
+  { label: 'Contact & Location', short: 'Contact', path: '/contact' },
 ];
 
 export const SERVICES = [
   {
-    id: 'piles-care',
-    featured: false,
+    id: 'clinical-pathology',
+    featured: true,
     icon: 'pulse',
-    image: '/images/treatments/piles.jpg',
-    imageAlt: 'Medical cutaway showing swollen internal and external hemorrhoidal veins',
-    title: 'Ayurvedic Piles Care (Hemorrhoids)',
-    tamilTitle: 'மூல நோய் ஆயுர்வேத சிகிச்சை (பெரிய அறுவை சிகிச்சையின்றி)',
-    desc: 'Focused Ayurvedic care for internal and external piles, bleeding, discomfort, and prolapse. Treatment may include herbal medicines, diet and bowel-habit correction, and gentle Kshara Karma when clinically appropriate—without a major operation.',
-    chips: ['Ayurvedic Care', 'Bleeding Piles Relief', 'No Major Operation', 'Diet Guidance'],
-    meta: '25+ Years in Ayurvedic Proctology',
-    longDesc: 'Piles are swollen veins in the lower rectum and anal canal, often linked to constipation, straining, prolonged sitting, or lifestyle factors. After a private clinical assessment, we recommend an individualized Ayurvedic plan focused on symptom relief, healthy bowel habits, and gentle treatment with minimal disruption to daily life.',
+    image: '/clinic-assets/dharshini-lab-reception.jpg',
+    imageAlt: 'Dharshini Laboratory reception and diagnostic testing center in Kayarambedu, Guduvancheri',
+    title: 'Clinical Pathology & Blood Testing',
+    tamilTitle: 'பொது இரத்தப் பரிசோதனைகள் (CBC, ESR, இரத்த வகை)',
+    desc: 'Comprehensive blood analyses including Complete Blood Count (CBC), Hemoglobin, Platelet count, ESR, and Blood Grouping for accurate clinical diagnosis of infections, anemia, and general health.',
+    chips: ['Complete Blood Count (CBC)', 'Hemoglobin & Platelets', 'ESR & Blood Grouping', 'Infection Markers'],
+    meta: 'Accurate Blood Diagnostics',
+    longDesc: 'Routine hematology and clinical pathology provide critical insight into everyday health issues like fatigue, fever, and inflammation. At Dharshini Laboratory, all blood draws are performed using sterile single-use vacuum tubes (vacutainers) to preserve sample integrity and ensure rapid, dependable results.',
   },
   {
-    id: 'kshara-sutra',
+    id: 'diabetes-lipid',
+    featured: true,
+    icon: 'heart',
+    image: '/clinic-assets/dharshini-lab-exterior.jpg',
+    imageAlt: 'Dharshini Laboratory facility on Nellikuppam Road opposite Guduvancheri',
+    title: 'Diabetes & Lipid Profile Screening',
+    tamilTitle: 'சர்க்கரை & கொழுப்பு பரிசோதனைகள் (FBS, PPBS, HbA1c)',
+    desc: 'Precision metabolic testing including Fasting Blood Sugar (FBS), Postprandial Blood Sugar (PPBS), 3-month Glycated Hemoglobin (HbA1c), and Complete Lipid Profile for cardiovascular health.',
+    chips: ['Fasting Blood Sugar (FBS)', 'Postprandial (PPBS)', 'HbA1c 3-Month Average', 'Complete Lipid Panel'],
+    meta: 'Cardiometabolic Health',
+    longDesc: 'Continuous tracking of glucose and cholesterol is vital for preventing and managing diabetes and heart disease. Our early morning 6:30 AM opening ensures you can complete fasting blood sugar and lipid panels comfortably before your workday starts.',
+  },
+  {
+    id: 'thyroid-hormonal',
     featured: false,
     icon: 'sparkle',
-    image: '/images/treatments/fistula.jpg',
-    imageAlt: 'Medical cutaway showing an infected anal fistula tract and external opening',
-    title: 'Ayurvedic Kshara Sutra Care (Anal Fistula)',
-    tamilTitle: 'க்ஷாரசூத்ரா ஆயுர்வேத சிகிச்சை (பௌத்திரம்)',
-    desc: 'Authentic Ayurvedic Kshara Sutra care for anal fistula using a medicated herbal thread to support gradual tract healing while protecting the sphincter muscles. It is a focused day-care approach without major open surgery.',
-    chips: ['Authentic Kshara Sutra', 'No Major Operation', 'Sphincter Preserving', 'Day-Care Approach'],
-    meta: 'Specialized Ayurvedic Fistula Care',
-    longDesc: 'Unlike major open surgery, Kshara Sutra uses a medicated herbal thread to work gradually along the fistula tract. The treatment plan is selected only after clinical assessment, with emphasis on continence preservation, regular follow-up, and minimal interruption to normal routines.',
+    image: '/clinic-assets/dharshini-lab-reception.jpg',
+    imageAlt: 'Dharshini Laboratory consultation counter and testing services',
+    title: 'Thyroid Profile & Hormonal Testing',
+    tamilTitle: 'தைராய்டு பரிசோதனைகள் (TSH, T3, T4)',
+    desc: 'Diagnostic evaluation of Thyroid Stimulating Hormone (TSH), Total T3, and Total T4 to assess thyroid function, metabolic balance, and unexplained weight or energy changes.',
+    chips: ['TSH Marker', 'Total T3 & T4', 'Metabolic Hormone Panel', 'Accurate Reporting'],
+    meta: 'Endocrine Diagnostics',
+    longDesc: 'Thyroid hormone imbalances can trigger lethargy, weight changes, mood shifts, and hair thinning. Our sensitive hormonal screening aids physicians in prompt diagnosis and precise dosage adjustment.',
   },
   {
-    id: 'anal-fissure',
+    id: 'urine-stool',
     featured: false,
-    icon: 'heart',
-    image: '/images/treatments/fissure.jpg',
-    imageAlt: 'Medical cutaway showing a painful tear in the anal canal lining',
-    title: 'Ayurvedic Fissure Care (Parikartika)',
-    tamilTitle: 'ஆசனவாய் வெடிப்பு & கடுமையான வலி நிவாரணம்',
-    desc: 'Gentle Ayurvedic care for burning pain, spasm, and bleeding caused by an anal fissure. The plan focuses on herbal support, local care, diet, hydration, and bowel-habit correction without major surgery.',
-    chips: ['Ayurvedic Care', 'Spasm Relief', 'No Major Operation', 'Bowel-Habit Support'],
-    meta: 'Gentle Ayurvedic Fissure Care',
-    longDesc: 'An anal fissure is a tear in the sensitive lining of the anal canal, commonly aggravated by hard stools and muscle spasm. Our individualized Ayurvedic approach aims to ease discomfort, support natural healing, and address constipation and straining.',
+    icon: 'activity',
+    image: '/clinic-assets/dharshini-lab-reception.jpg',
+    imageAlt: 'Hygienic laboratory specimen handling at Dharshini Laboratory',
+    title: 'Urine & Stool Routine Examination',
+    tamilTitle: 'சிறுநீர் மற்றும் மலம் வழக்கமான பரிசோதனைகள்',
+    desc: 'Microscopic and biochemical evaluation of urine and stool samples to detect urinary tract infections (UTI), kidney indicators, metabolic excretion, and gastrointestinal health.',
+    chips: ['Complete Urine Analysis', 'Microscopic Sediment Exam', 'Pus Cells & Albumin Check', 'Stool Routine Exam'],
+    meta: 'Microscopic & Chemical Analysis',
+    longDesc: 'Urine analysis offers quick, non-invasive indicators of kidney performance, hydration, and urinary tract infections. Specimens are processed under rigorous hygienic standards in sterile containers.',
+  },
+  {
+    id: 'home-collection',
+    featured: true,
+    icon: 'shield',
+    image: '/clinic-assets/dharshini-lab-reception.jpg',
+    imageAlt: 'Dharshini Laboratory home sample collection service across Guduvancheri',
+    title: 'Doorstep Home Blood Sample Collection',
+    tamilTitle: 'வீட்டுக்கே வந்து இரத்த மாதிரி சேகரிக்கும் சேவை',
+    desc: 'Safe, punctual doorstep blood collection visits across Kayarambedu, Guduvancheri, Urapakkam, and Moolakazhani. Dedicated service for senior citizens, children, and busy individuals.',
+    chips: ['Doorstep Convenience', 'Trained Phlebotomists', 'Sterile Vacuum Vacutainers', 'Quick WhatsApp Booking'],
+    meta: 'Patient Convenience Service',
+    longDesc: 'Skip travel and morning waiting queues. Our trained phlebotomists visit your home equipped with sterile single-use collection tubes, antiseptics, and temperature-controlled sample carriers to safely draw blood at your preferred morning slot.',
   },
 ];
 
-export const MEDICAL_ARTICLES = [
+export const PROCESS = [
   {
-    id: 'fistula-kshar-sutra-advantages',
-    title: 'Kshara Sutra Advantages Over Conventional Surgery',
-    subtitle: 'Why medicos and clinical trials endorse Kshara Sutra as the safest cure for anal fistula',
-    summary: 'Conventional surgery for fistula involves cutting anal tissues, which poses a severe 20%–40% risk of anal sphincter damage, leading to lifelong gas or stool leakage (fecal incontinence). In contrast, authentic Kshara Sutra uses a medicated seton thread coated with alkaline medicinal herbs (Snuhi, Apamarga Kshara, and Haridra) that cuts the tunnel micro-millimeter by micro-millimeter while simultaneously promoting healthy granulation tissue behind it. This guarantees 100% sphincter muscle preservation, negligible recurrence (<1.5%), zero hospital stay, and immediate walk-home recovery.',
-    points: [
-      'No cut to sphincter muscles — complete preservation of bowel continence',
-      'Minimal pain performed under gentle local anesthesia',
-      'Zero general anesthesia risks and no 3–5 day hospital confinement',
-      'Clinical trial proven recurrence rate of less than 1.5% vs 20%–40% in surgery',
-      'Resume desk work and normal routines within 24 to 48 hours',
-    ],
+    step: '01',
+    title: 'Book Online or Walk In Early',
+    desc: 'Visit our center directly from 6:30 AM onwards for fasting tests, or book a doorstep home collection visit with a quick phone call or WhatsApp message.',
   },
   {
-    id: 'fistula-vs-piles-vs-fissure',
-    title: 'Fistula vs Piles vs Fissure: How to Identify Your Symptoms',
-    subtitle: 'A clinical diagnostic guide to understand your symptoms before consultation',
-    summary: 'Many patients confuse these three conditions, delaying the right care. Piles (Hemorrhoids) are swollen vascular cushions that typically cause painless, bright red bleeding or lump protrusion. An Anal Fissure is a fresh tear in the mucosa characterized by sharp, razor-blade burning pain during and after defecation. Anal Fistula is an infected tunnel between the rectum and skin causing persistent pus discharge, stained undergarments, and recurring painful boils. Knowing the difference ensures timely, targeted intervention.',
-    comparison: [
-      { condition: 'Piles (Hemorrhoids)', symptoms: 'Painless bright red bleeding, painless swelling/lump prolapse, fullness in rectum' },
-      { condition: 'Anal Fissure', symptoms: 'Severe sharp burning pain during stool, streaks of blood on paper, tight anal spasm' },
-      { condition: 'Anal Fistula', symptoms: 'Foul-smelling pus/blood discharge, small opening near anus, recurrent painful boil' },
-    ],
+    step: '02',
+    title: 'Sterile & Gentle Sample Collection',
+    desc: 'Samples are drawn by trained phlebotomists using 100% sterile, single-use vacuum tubes (vacutainers) to ensure gentle, hygienic, and contamination-free collection.',
+  },
+  {
+    step: '03',
+    title: 'Prompt & Accurate Report Delivery',
+    desc: 'Specimens are processed on calibrated diagnostic equipment. Collect your printed report from the laboratory or receive crisp digital reports directly on WhatsApp.',
+  },
+];
+
+export const STATS = [
+  { value: 2010, suffix: '', label: 'Established Year (15+ Years Service)' },
+  { value: 7, suffix: ' Days', label: 'Open Daily (6:30 AM – 9:00 PM)' },
+  { value: 100, suffix: '%', label: 'Sterile Single-Use Vacutainer Protocol' },
+  { value: 1, suffix: ' Stop', label: 'Pathology, Blood, Urine & Health Screening' },
+];
+
+export const WHY_US = [
+  'Established in 2010 with over 15 years of dedicated pathology service in Guduvancheri',
+  'Early morning opening at 6:30 AM every day — ideal for timely fasting blood tests',
+  'Doorstep home sample collection across Kayarambedu, Guduvancheri, and nearby areas',
+  '100% adherence to single-use sterile needles and vacutainer collection tubes',
+  'Fast report turnaround with convenient digital report delivery via WhatsApp',
+  'Centrally located at SP MAHAL, Nellikuppam Road, opposite Guduvancheri',
+];
+
+export const FAQS = [
+  {
+    q: 'Do I need to fast before my blood test at Dharshini Laboratory?',
+    a: 'Fasting (typically 8 to 12 hours) is required for tests such as Fasting Blood Sugar (FBS) and Lipid Profile. You may drink plain water. Other routine tests like Complete Blood Count (CBC) or HbA1c do not require fasting. Feel free to call us at +91 99628 99950 if you need specific guidance for your prescribed test.',
+  },
+  {
+    q: 'What are Dharshini Laboratory’s operating hours?',
+    a: 'We are open 7 days a week, Monday through Sunday, from 6:30 AM to 9:00 PM. Our early morning opening ensures you can complete fasting tests early before your daily work schedule.',
+  },
+  {
+    q: 'How do I schedule a doorstep home blood collection?',
+    a: 'You can book home collection by calling or messaging our official contact number at +91 99628 99950, or by submitting the booking form on this website. Our technician will visit your address with sterile collection equipment at your preferred morning time.',
+  },
+  {
+    q: 'Where is Dharshini Laboratory located?',
+    a: 'We are located at SP MAHAL, Anna street, Nellikuppam Rd, opposite Guduvancheri, Kameshwary Nagar, Moolakazhani, Kayarambedu, Tamil Nadu 603202. Click our Google Maps directions button for direct GPS navigation.',
+  },
+  {
+    q: 'When and how will I receive my diagnostic test reports?',
+    a: 'Most routine blood and urine test reports are completed on the same day. You can collect physical printed copies from our center or receive digital PDF copies directly on WhatsApp.',
+  },
+  {
+    q: 'Do you provide testing services on Sundays?',
+    a: 'Yes, Dharshini Laboratory is open on Sundays from 6:30 AM to 9:00 PM, providing uninterrupted diagnostic testing and sample collection every day of the week.',
   },
 ];
 
 export const GALLERY_IMAGES = [
   {
     id: 'gal-1',
-    src: '/clinic-assets/gallery-20.jpg',
-    title: 'Ayurvedic Day-Care Treatment Room',
-    category: 'Treatment Room',
-    desc: 'Clean, private treatment room prepared for gentle Ayurvedic piles, fistula, and fissure care.',
+    src: '/clinic-assets/dharshini-lab-reception.jpg',
+    title: 'Dharshini Laboratory Reception & Waiting Lounge',
+    category: 'Reception',
+    desc: 'Clean, welcoming reception desk and patient waiting area at Dharshini Laboratory in Kayarambedu, Guduvancheri.',
   },
   {
     id: 'gal-2',
-    src: '/clinic-assets/gallery-22.jpg',
-    title: 'Sterilization & Ayurvedic Treatment Unit',
-    category: 'Treatment Room',
-    desc: 'Hospital-grade autoclaving and aseptic preparation area ensuring zero infection risk.',
+    src: '/clinic-assets/dharshini-lab-exterior.jpg',
+    title: 'Laboratory Location on Nellikuppam Road',
+    category: 'Location',
+    desc: 'Accessible facility located near SP MAHAL on Nellikuppam Road, opposite Guduvancheri, serving Moolakazhani and Kayarambedu.',
   },
   {
     id: 'gal-3',
-    src: '/clinic-assets/gallery-24.jpg',
-    title: 'Specialist Consultation Chamber',
-    category: 'Chambers',
-    desc: 'Private, dignified consultation chamber providing compassionate, confidential patient evaluation.',
+    src: '/clinic-assets/dharshini-lab-reception.jpg',
+    title: 'Diagnostic Registration & Report Counter',
+    category: 'Facilities',
+    desc: 'Dedicated workstation for specimen logging, patient registration, and computerized report generation.',
   },
   {
     id: 'gal-4',
-    src: '/clinic-assets/gallery-26.jpg',
-    title: 'Diagnostic Examination Chamber',
-    category: 'Diagnostics',
-    desc: 'Comprehensive anorectal grading and digital assessment suite ensuring precision diagnosis.',
-  },
-  {
-    id: 'gal-5',
-    src: '/clinic-assets/gallery-28.jpg',
-    title: 'Day-Care Patient Recovery Lounge',
+    src: '/clinic-assets/dharshini-lab-reception.jpg',
+    title: 'Patient Waiting & Consultation Area',
     category: 'Facilities',
-    desc: 'Comfortable post-procedure recovery room where patients rest comfortably before walking home the same day.',
-  },
-  {
-    id: 'gal-6',
-    src: '/clinic-assets/gallery-6.jpg',
-    title: 'Clinic Reception & Welcome Desk',
-    category: 'Facilities',
-    desc: 'Welcoming reception desk facilitating swift check-in, priority scheduling, and minimal waiting times.',
-  },
-  {
-    id: 'gal-7',
-    src: '/clinic-assets/gallery-8.jpg',
-    title: 'Confidential Patient Counseling Room',
-    category: 'Chambers',
-    desc: 'Dedicated space for empathetic doctor-patient counseling, dietary planning, and procedure walkthroughs.',
-  },
-  {
-    id: 'gal-8',
-    src: '/clinic-assets/gallery-10.jpg',
-    title: 'Clinical Observation Suite',
-    category: 'Facilities',
-    desc: 'Hygienic observation suite for immediate post-procedure monitoring under dedicated nursing care.',
-  },
-  {
-    id: 'gal-9',
-    src: '/clinic-assets/gallery-12.jpg',
-    title: 'Porur Hospital Consultation Area',
-    category: 'Facilities',
-    desc: 'Consultation area at 6, Pillayar Koil St, Astalakshmi Nagar, Porur, Chennai – 600116.',
-  },
-  {
-    id: 'gal-heritage-1',
-    src: '/clinic-assets/heritage-dr-s-dhananjayan-1986.jpg',
-    title: 'Late Dr. S. Dhananjayan — Piles & Fistula Specialist (1986)',
-    category: 'Heritage',
-    desc: 'Framed portrait of the late Dr. S. Dhananjayan, specialist in piles and fistula (pauthiram) diseases, dated 5-8-1986 — the name our hospital carries today.',
-  },
-  {
-    id: 'gal-heritage-2',
-    src: '/clinic-assets/heritage-family-portrait.jpg',
-    title: 'Archival Portrait from the Family Practice',
-    category: 'Heritage',
-    desc: 'A vintage studio portrait from the family archive of Ayurvedic proctologists who have treated piles, fistula and fissure for nine generations.',
-  },
-  {
-    id: 'gal-heritage-3',
-    src: '/images/press/pauthiram-article-2016.jpg',
-    pos: 'top center',
-    title: 'Tamil Weekly Feature on Pauthiram (Fistula), 2016',
-    category: 'Heritage',
-    desc: 'Newspaper column by our hospital in the Tamil weekly (13-11-2016) explaining what pauthiram (fistula) is and the complications it causes.',
-  },
-];
-
-/* ── press feature (home page) ───────────────────────────────
-   Column published by the hospital in a Tamil weekly, 13 Nov 2016, p. 25.
-   English translation of the original Tamil text.                       */
-export const PRESS_ARTICLE = {
-  image: '/images/press/pauthiram-article-2016.jpg',
-  imageAlt: 'Tamil newspaper clipping, 13 November 2016: “What is Pauthiram (Fistula) disease and what complications does it cause?” by Dr. Dhananjayas Hospitals',
-  imageWidth: 850,
-  imageHeight: 1280,
-  publication: 'Tamil weekly',
-  date: '13 November 2016',
-  dateISO: '2016-11-13',
-  page: 'Page 25',
-  tamilTitle: 'பவுந்திர (கட்டி) வியாதி என்றால் என்ன? அதன் உபத்திரம் எப்படிப்பட்டது',
-  title: 'What is Pauthiram (Fistula) disease?',
-  subtitle: 'And what kind of complications does it cause?',
-  paragraphs: [
-    'This condition occurs as a small swelling near the anus, which can also be described as a lump. This lump may develop inside the anus or around the anus. When this condition occurs, it causes a sharp, throbbing pain. There may also be a recurring, pricking type of pain. The body may become weak, and some people may develop fever. After the lump bursts, pus mixed with blood continues to come out in the form of a sticky fluid. After the lump bursts, the pain may decrease.',
-    'Some people live with this condition for years without receiving proper treatment. Some undergo surgery for this condition. The people who have undergone such surgery know the difficulties involved and the extent to which it provides a cure.',
-    'For some people, a small lump develops near the anus, followed by an opening as small as the tip of a needle, through which pus continues to come out. It is not possible to say when the pus will appear or when it will stop. Some people have two or three lumps and openings at different places around the anus, while others may have even more. Pus may come out through all of these openings. Later, the sticky discharge may stop.',
-    'When the discharge stops, people may think that the disease has been cured. However, only the outer opening through which the pus was coming may close, while the disease continues to extend inside.',
-    'It is not possible to predict when this disease will cause greater discomfort. When body heat increases, consuming foods considered to be “heat-producing” may cause these problems to occur frequently.',
-    'In some people, Pauthiram (Fistula) can progress further and extend into the rectal area. Once the pus reaches and affects the intestinal area, treating this type of fistula is not an easy matter. It can continue to affect and damage the tissue inside.',
-    'People affected by this condition try various foods in an attempt to control or cure it. Foods such as snail meat and pork, however, cannot cure this type of disease.',
-    'Readers who are reading this do not need to be afraid. If treated at the early stage itself, it can be cured. For nine generations, we have been providing treatment specifically for this disease and have cured many thousands of people.',
-  ],
-  pullQuote: 'If treated at the early stage itself, it can be cured. For nine generations, we have been providing treatment specifically for this disease.',
-  signoff: 'HO: Dr. Dhananjayas Hospitals, Lakshmi Nagar, Pillayar Koil Street, Porur, Chennai – 116.',
-};
-
-export const DOCTORS = [
-  {
-    name: 'Dr. Venkhatesan',
-    dept: 'Consultant Ayurvedic Proctology Specialist',
-    creds: 'DNYAS · 25 Years Specialised Experience',
-    exp: '25 Years Experience · Piles, Fistula & Fissure',
-    slot: 'Daily, 10:00 AM – 7:30 PM',
-    initials: 'DV',
-    hue: 160,
-    image: '/clinic-assets/doctor-photo-40.jpg',
-    imageAlt: 'Dr. Venkhatesan, Consultant Ayurvedic Proctologist, in his clinical chamber at Dr. Dhananjayas Hospitals, Porur',
-    bio: 'Dr. Venkhatesan leads the Porur branch of Dr. Dhananjayas Hospitals, carrying forward a family tradition of Ayurvedic proctology now in its ninth generation. For 25 years he has treated piles, anal fistula and fissure with gentle Ayurvedic care — authentic Kshara Sutra thread therapy, herbal medicines, local care and bowel-habit guidance — so patients avoid major open surgery and walk home the same day.',
-    facts: [
-      { value: '25', suffix: ' yrs', label: 'Focused anorectal practice' },
-      { value: '30', suffix: ' min', label: 'Day-care Kshara Sutra sitting' },
-      { value: '100', suffix: '%', label: 'Sphincter & continence preserved' },
-    ],
-    focus: [
-      'Authentic Kshara Sutra for simple and complex anal fistula',
-      'Bleeding and prolapsed piles managed without major operation',
-      'Fissure pain and spasm relieved with Ayurvedic medicines and local care',
-      'Private, unhurried consultation in Tamil and English',
-    ],
-    quote: 'My aim is simple: complete relief, full bowel control preserved, and you back to normal life within a day or two.',
-  },
-];
-
-export const STATS = [
-  { value: 25, suffix: '+', label: 'Years of Ayurvedic proctology care' },
-  { value: 10000, suffix: '+', label: 'Happy patients cured permanently' },
-  { value: 100, suffix: '%', label: 'Sphincter muscle & continence preserved' },
-  { value: 4.9, suffix: '★', label: 'Patient satisfaction rating (34+ reviews)', decimals: 1 },
-];
-
-export const WHY_US = [
-  'Nine generations of family expertise, focused only on Piles, Fistula and Fissure',
-  'Gentle treatment plans without major open operations',
-  'Authentic Kshara Sutra care selected after careful clinical assessment',
-  'Herbal support, local care, diet, and bowel-habit guidance',
-  'Empathetic, confidential, and dignified care for sensitive anorectal conditions',
-  'Conveniently located at Astalakshmi Nagar, Porur — open every day 10 AM to 7:30 PM',
-];
-
-export const PROCESS = [
-  {
-    step: '01',
-    title: 'Confidential Consultation & Accurate Grading',
-    desc: 'Private, empathetic clinical examination to accurately determine the condition grade (Piles Grade 1–4, Fistula tract type, or Fissure depth).',
-  },
-  {
-    step: '02',
-    title: 'Personalized Ayurvedic Treatment',
-    desc: 'A gentle plan using Ayurvedic medicines, local care, diet guidance, or Kshara Sutra when clinically appropriate—without a major operation.',
-  },
-  {
-    step: '03',
-    title: 'Same-Day Discharge & Permanent Relief',
-    desc: 'Walk home comfortably the same day, resume routine desk activities in 24–48 hours, and enjoy permanent, recurrence-free healing.',
-  },
-];
-
-export const TESTIMONIALS = [
-  {
-    quote: 'I got piles for the past 20 years. Already we done surgery elsewhere but it did not cure. Finally I know about Dr. Dhananjayas clinic through my friend and came here. Within a week of treatment I got cured! Now I feel best. Doctor is very kind and compassionate.',
-    name: 'Pushpa Nagaraj',
-    context: 'Chennai · 20-Year Chronic Piles Relieved',
-  },
-  {
-    quote: 'My name is Basha. I was suffering from piles complaint for a long time. I came to Dr. Dhananjayas Hospitals, Porur. Now I am much better, doctor is very kind and I have complete satisfaction. Thank you doctor!',
-    name: 'Magbool Basha',
-    context: 'Porur Branch, Chennai · Piles Treatment',
-  },
-  {
-    quote: 'Finding a clinic that treats sensitive issues with such high levels of dignity and clinical expertise is rare. The diagnosis was precise, the explanation was clear, and the follow-up care was exceptional. Truly a life-changing experience.',
-    name: 'Priya Ramachandran',
-    context: 'Maduravoyal, Chennai · Fissure Care',
-  },
-  {
-    quote: 'I was suffering for months and dreading cutting surgery, but Dr. Venkhatesan and his team made the entire process comfortable and completely stress-free. The Kshara Sutra procedure worked wonders, and I am finally pain-free with no loss of control.',
-    name: 'Venkatesh S.',
-    context: 'Central Chennai · Complex Fistula Recovery',
-  },
-  {
-    quote: 'Professional, clean, and extremely empathetic. The staff put my anxiety at ease. The day-care procedure took 30 minutes, I walked home immediately, and recovery was completely smooth. Highly recommended.',
-    name: 'Suresh Kumar',
-    context: 'Ramapuram, Chennai · Grade 3 Piles Relief',
-  },
-  {
-    quote: 'Kshara Sutra treatment here cured my recurrent fistula that two previous surgeries failed to resolve. No incontinence, no hospital stay, and zero recurrence after 2 years.',
-    name: 'Jayaprakash Kasinathan',
-    context: 'Valasaravakkam, Chennai · Recurrent Fistula Cure',
-  },
-];
-
-export const FAQS = [
-  {
-    q: 'Are the procedures at Dr. Dhananjayas Hospitals, Porur painful?',
-    a: 'Most of our modern, minimally invasive procedures involve minimal discomfort and are performed under gentle local anesthesia. Our clinical focus is on ensuring your experience is virtually painless with a smooth, rapid recovery.',
-  },
-  {
-    q: 'Will my piles or fistula return after treatment?',
-    a: 'Our advanced treatments and authentic Kshara Sutra therapy offer permanent solutions by addressing the root cause of the condition. Unlike conventional surgery which has high recurrence (20%–40%) in fistula, Kshara Sutra has a clinically documented recurrence rate of less than 1.5%. Maintaining a high-fiber diet and hydration ensures lifelong comfort.',
-  },
-  {
-    q: 'Is a major operation required for your Ayurvedic treatment?',
-    a: 'Our clinic focuses on gentle Ayurvedic care without major open operations. The doctor recommends medicines, local care, diet guidance, or Kshara Sutra based on an individual clinical assessment.',
-  },
-  {
-    q: 'Why is Kshara Sutra superior to conventional cutting surgery for fistula?',
-    a: 'Conventional cutting surgery (fistulotomy) risks damaging the anal sphincter muscles, which can cause partial or total bowel incontinence (loss of control over gas and stools). Kshara Sutra uses a medicated linen thread coated with alkaline herbs that gradually cuts and heals the tract simultaneously over several weeks, preserving 100% of sphincter muscles and bowel control.',
-  },
-  {
-    q: 'How soon can I return to normal work after the procedure?',
-    a: 'Because our procedures are minimally invasive with no large surgical incisions, most patients resume routine office, desk work, and daily activities within 24 to 48 hours.',
-  },
-  {
-    q: 'Where is the hospital located in Porur?',
-    a: 'We are at 6, Pillayar Koil St, Astalakshmi Nagar, Lakshmi Nagar, Porur, Chennai – 600116, near Pillayar Koil. The hospital is open every day from 10:00 AM to 7:30 PM.',
-  },
-  {
-    q: 'How do I schedule an appointment?',
-    a: 'Call or WhatsApp +91 97907 47350, or submit the online booking form on this website. We confirm your slot with Dr. Venkhatesan within 15 minutes during working hours.',
+    desc: 'Air-conditioned and comfortable seating environment for patients visiting for morning diagnostic screenings.',
   },
 ];
 
 export const TIME_SLOTS = [
-  '9:30 AM', '11:00 AM', '12:30 PM', '4:30 PM', '5:30 PM', '6:30 PM', '7:30 PM', '8:00 PM',
+  '6:30 AM', '7:00 AM', '7:30 AM', '8:00 AM', '8:30 AM', '9:00 AM',
+  '10:00 AM', '11:30 AM', '4:30 PM', '6:00 PM', '7:30 PM', '8:30 PM',
 ];
-

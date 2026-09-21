@@ -3,28 +3,21 @@ import JsonLdScript from '@/components/JsonLdScript';
 import { SERVICES } from '@/data';
 import { pageMetadata, ogCard, breadcrumbJsonLd, absoluteUrl, WEBSITE_ID, CLINIC_ID } from '@/lib/seo';
 
-const TITLE = 'Piles, Fistula & Fissure Treatments';
+const TITLE = 'Diagnostic Services & Pathology Tests | Dharshini Laboratory';
 const DESCRIPTION =
-  'Ayurvedic treatment for piles, anal fistula (authentic Kshara Sutra) and anal fissure. Gentle 30-minute day-care with Dr. Venkhatesan, no major surgery, in Porur, Chennai.';
+  'Clinical pathology, blood tests, diabetic profiles, thyroid panels, and doorstep home sample collection at Dharshini Laboratory, Guduvancheri & Kayarambedu.';
 
 export const metadata = pageMetadata({
   title: TITLE,
   description: DESCRIPTION,
   path: '/treatments',
-  image: ogCard('treatments', 'Medical illustration of an anal fistula tract treated with Kshara Sutra'),
+  image: ogCard('treatments', 'Dharshini Laboratory diagnostic testing and pathology services'),
 });
-
-/* The three conditions this page is about, each linked to its Ayurvedic treatment. */
-const CONDITIONS = [
-  { name: 'Hemorrhoids (Piles)', alternateName: ['Piles', 'Moolam', 'Arsha'], service: SERVICES[0] },
-  { name: 'Anal Fistula', alternateName: ['Fistula-in-ano', 'Bhagandara'], service: SERVICES[1] },
-  { name: 'Anal Fissure', alternateName: ['Fissure-in-ano', 'Parikartika'], service: SERVICES[2] },
-];
 
 const jsonLd = {
   '@context': 'https://schema.org',
   '@graph': [
-    breadcrumbJsonLd([{ name: 'Home', path: '/' }, { name: 'Treatments', path: '/treatments' }]),
+    breadcrumbJsonLd([{ name: 'Home', path: '/' }, { name: 'Diagnostic Services', path: '/treatments' }]),
     {
       '@type': 'MedicalWebPage',
       '@id': `${absoluteUrl('/treatments')}#webpage`,
@@ -33,20 +26,14 @@ const jsonLd = {
       description: DESCRIPTION,
       inLanguage: 'en-IN',
       isPartOf: { '@id': WEBSITE_ID },
-      specialty: 'Proctology',
+      specialty: 'Clinical Pathology',
       medicalAudience: { '@type': 'MedicalAudience', audienceType: 'Patient' },
       provider: { '@id': CLINIC_ID },
-      about: CONDITIONS.map((c) => ({
-        '@type': 'MedicalCondition',
-        name: c.name,
-        alternateName: c.alternateName,
-        possibleTreatment: {
-          '@type': 'MedicalTherapy',
-          name: c.service.title,
-          alternateName: c.service.tamilTitle,
-          description: c.service.desc,
-          medicineSystem: 'https://schema.org/Ayurvedic',
-        },
+      about: SERVICES.map((s) => ({
+        '@type': 'MedicalTest',
+        name: s.title,
+        alternateName: s.tamilTitle,
+        description: s.desc,
       })),
     },
   ],

@@ -98,8 +98,8 @@ export default function Navbar() {
               </svg>
             </span>
             <span className="nav__brand-txt">
-              <strong><span style={{ color: 'var(--ink)' }}>DR.</span> <span style={{ color: 'var(--teal)' }}>DHANANJAYAS</span></strong>
-              <small className="nav__brand-sub">Hospitals · Porur</small>
+              <strong><span style={{ color: 'var(--ink)' }}>DHARSHINI</span> <span style={{ color: 'var(--teal)' }}>LABORATORY</span></strong>
+              <small className="nav__brand-sub">Diagnostic Center · Guduvancheri</small>
             </span>
           </Link>
 
@@ -126,8 +126,8 @@ export default function Navbar() {
             <a className="nav__wa" href={WA_DEFAULT} target="_blank" rel="noreferrer" data-cursor="hover" aria-label={`WhatsApp ${CLINIC.name}`} title="Chat on WhatsApp">
               <Icon name="whatsapp" size={18} />
             </a>
-            <Button variant="primary" className="btn--sm nav__cta" onClick={() => openBooking()} icon="calendar" title="Book appointment">
-              Book appointment
+            <Button variant="primary" className="btn--sm nav__cta" onClick={() => openBooking()} icon="calendar" title="Book Test / Home Collection">
+              Book Test
             </Button>
             <button
               className={`nav__burger ${menuOpen ? 'is-open' : ''}`}
@@ -160,7 +160,7 @@ export default function Navbar() {
         </nav>
         <div className="menu__foot">
           <button className="btn btn--primary btn--block" onClick={() => { setMenuOpen(false); openBooking(); }}>
-            <span className="btn__solo">Book appointment</span>
+            <span className="btn__solo">Book Test / Home Collection</span>
             <span className="btn__ic"><Icon name="calendar" size={16} strokeWidth={2} /></span>
           </button>
           <div className="menu__row">
@@ -173,7 +173,7 @@ export default function Navbar() {
               <span className="btn__ic"><Icon name="whatsapp" size={15} strokeWidth={2} /></span>
             </a>
           </div>
-          <p className="menu__hours">Open daily: 10:00 AM – 7:30 PM · Porur, Chennai</p>
+          <p className="menu__hours">Open Daily: 6:30 AM – 9:00 PM · Guduvancheri</p>
         </div>
       </div>
     </>

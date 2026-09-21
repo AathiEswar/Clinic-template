@@ -1,4 +1,4 @@
-import { NAV_LINKS, SERVICES, DOCTORS, GALLERY_IMAGES } from '@/data';
+import { NAV_LINKS, SERVICES, GALLERY_IMAGES } from '@/data';
 import { absoluteUrl, assetUrl } from '@/lib/seo';
 import { HERO_IMAGE } from '@/lib/images';
 
@@ -7,11 +7,11 @@ export const dynamic = 'force-static';
 /** Images worth indexing per route (Google Image sitemap extension). */
 const IMAGES = {
   '/': ['/og/home.jpg', HERO_IMAGE, ...SERVICES.map((s) => s.image)],
-  '/about-us': ['/og/about-us.jpg', ...DOCTORS.map((d) => d.image)],
+  '/about-us': ['/og/about-us.jpg', '/clinic-assets/dharshini-lab-reception.jpg'],
   '/treatments': ['/og/treatments.jpg', ...SERVICES.map((s) => s.image)],
   '/gallery': ['/og/gallery.jpg', ...GALLERY_IMAGES.map((g) => g.src)],
-  '/testimonials': ['/og/testimonials.jpg', '/piles-treatment-banner.png'],
-  '/contact': ['/og/contact.jpg'],
+  '/testimonials': ['/og/testimonials.jpg', '/clinic-assets/dharshini-lab-reception.jpg'],
+  '/contact': ['/og/contact.jpg', '/clinic-assets/dharshini-lab-exterior.jpg'],
 };
 
 /** Emitted as /sitemap.xml at build time — one entry per navigable route. */

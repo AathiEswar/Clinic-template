@@ -1,249 +1,45 @@
 {
-  "/clinic-assets/doctor-photo-40.jpg": {
-    "width": 393,
-    "height": 680,
-    "variants": [
-      {
-        "w": 393,
-        "src": "/optimized/clinic-assets/doctor-photo-40-393.webp"
-      }
-    ]
-  },
-  "/clinic-assets/gallery-10.jpg": {
-    "width": 960,
-    "height": 1280,
+  "/clinic-assets/dharshini-lab-exterior.jpg": {
+    "width": 800,
+    "height": 600,
     "variants": [
       {
         "w": 480,
-        "src": "/optimized/clinic-assets/gallery-10-480.webp"
+        "src": "/optimized/clinic-assets/dharshini-lab-exterior-480.webp"
       },
       {
         "w": 768,
-        "src": "/optimized/clinic-assets/gallery-10-768.webp"
+        "src": "/optimized/clinic-assets/dharshini-lab-exterior-768.webp"
       },
       {
-        "w": 960,
-        "src": "/optimized/clinic-assets/gallery-10-960.webp"
+        "w": 800,
+        "src": "/optimized/clinic-assets/dharshini-lab-exterior-800.webp"
       }
     ]
   },
-  "/clinic-assets/gallery-12.jpg": {
-    "width": 960,
-    "height": 1280,
+  "/clinic-assets/dharshini-lab-reception.jpg": {
+    "width": 1600,
+    "height": 1200,
     "variants": [
       {
         "w": 480,
-        "src": "/optimized/clinic-assets/gallery-12-480.webp"
+        "src": "/optimized/clinic-assets/dharshini-lab-reception-480.webp"
       },
       {
         "w": 768,
-        "src": "/optimized/clinic-assets/gallery-12-768.webp"
-      },
-      {
-        "w": 960,
-        "src": "/optimized/clinic-assets/gallery-12-960.webp"
-      }
-    ]
-  },
-  "/clinic-assets/gallery-20.jpg": {
-    "width": 1884,
-    "height": 3033,
-    "variants": [
-      {
-        "w": 480,
-        "src": "/optimized/clinic-assets/gallery-20-480.webp"
-      },
-      {
-        "w": 768,
-        "src": "/optimized/clinic-assets/gallery-20-768.webp"
+        "src": "/optimized/clinic-assets/dharshini-lab-reception-768.webp"
       },
       {
         "w": 1080,
-        "src": "/optimized/clinic-assets/gallery-20-1080.webp"
+        "src": "/optimized/clinic-assets/dharshini-lab-reception-1080.webp"
       },
       {
         "w": 1440,
-        "src": "/optimized/clinic-assets/gallery-20-1440.webp"
+        "src": "/optimized/clinic-assets/dharshini-lab-reception-1440.webp"
       },
       {
         "w": 1600,
-        "src": "/optimized/clinic-assets/gallery-20-1600.webp"
-      }
-    ]
-  },
-  "/clinic-assets/gallery-22.jpg": {
-    "width": 1884,
-    "height": 2640,
-    "variants": [
-      {
-        "w": 480,
-        "src": "/optimized/clinic-assets/gallery-22-480.webp"
-      },
-      {
-        "w": 768,
-        "src": "/optimized/clinic-assets/gallery-22-768.webp"
-      },
-      {
-        "w": 1080,
-        "src": "/optimized/clinic-assets/gallery-22-1080.webp"
-      },
-      {
-        "w": 1440,
-        "src": "/optimized/clinic-assets/gallery-22-1440.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/optimized/clinic-assets/gallery-22-1600.webp"
-      }
-    ]
-  },
-  "/clinic-assets/gallery-24.jpg": {
-    "width": 1884,
-    "height": 3197,
-    "variants": [
-      {
-        "w": 480,
-        "src": "/optimized/clinic-assets/gallery-24-480.webp"
-      },
-      {
-        "w": 768,
-        "src": "/optimized/clinic-assets/gallery-24-768.webp"
-      },
-      {
-        "w": 1080,
-        "src": "/optimized/clinic-assets/gallery-24-1080.webp"
-      },
-      {
-        "w": 1440,
-        "src": "/optimized/clinic-assets/gallery-24-1440.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/optimized/clinic-assets/gallery-24-1600.webp"
-      }
-    ]
-  },
-  "/clinic-assets/gallery-26.jpg": {
-    "width": 1884,
-    "height": 2511,
-    "variants": [
-      {
-        "w": 480,
-        "src": "/optimized/clinic-assets/gallery-26-480.webp"
-      },
-      {
-        "w": 768,
-        "src": "/optimized/clinic-assets/gallery-26-768.webp"
-      },
-      {
-        "w": 1080,
-        "src": "/optimized/clinic-assets/gallery-26-1080.webp"
-      },
-      {
-        "w": 1440,
-        "src": "/optimized/clinic-assets/gallery-26-1440.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/optimized/clinic-assets/gallery-26-1600.webp"
-      }
-    ]
-  },
-  "/clinic-assets/gallery-28.jpg": {
-    "width": 1832,
-    "height": 2606,
-    "variants": [
-      {
-        "w": 480,
-        "src": "/optimized/clinic-assets/gallery-28-480.webp"
-      },
-      {
-        "w": 768,
-        "src": "/optimized/clinic-assets/gallery-28-768.webp"
-      },
-      {
-        "w": 1080,
-        "src": "/optimized/clinic-assets/gallery-28-1080.webp"
-      },
-      {
-        "w": 1440,
-        "src": "/optimized/clinic-assets/gallery-28-1440.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/optimized/clinic-assets/gallery-28-1600.webp"
-      }
-    ]
-  },
-  "/clinic-assets/gallery-6.jpg": {
-    "width": 960,
-    "height": 1280,
-    "variants": [
-      {
-        "w": 480,
-        "src": "/optimized/clinic-assets/gallery-6-480.webp"
-      },
-      {
-        "w": 768,
-        "src": "/optimized/clinic-assets/gallery-6-768.webp"
-      },
-      {
-        "w": 960,
-        "src": "/optimized/clinic-assets/gallery-6-960.webp"
-      }
-    ]
-  },
-  "/clinic-assets/gallery-8.jpg": {
-    "width": 960,
-    "height": 1280,
-    "variants": [
-      {
-        "w": 480,
-        "src": "/optimized/clinic-assets/gallery-8-480.webp"
-      },
-      {
-        "w": 768,
-        "src": "/optimized/clinic-assets/gallery-8-768.webp"
-      },
-      {
-        "w": 960,
-        "src": "/optimized/clinic-assets/gallery-8-960.webp"
-      }
-    ]
-  },
-  "/clinic-assets/heritage-dr-s-dhananjayan-1986.jpg": {
-    "width": 1038,
-    "height": 1280,
-    "variants": [
-      {
-        "w": 480,
-        "src": "/optimized/clinic-assets/heritage-dr-s-dhananjayan-1986-480.webp"
-      },
-      {
-        "w": 768,
-        "src": "/optimized/clinic-assets/heritage-dr-s-dhananjayan-1986-768.webp"
-      },
-      {
-        "w": 1038,
-        "src": "/optimized/clinic-assets/heritage-dr-s-dhananjayan-1986-1038.webp"
-      }
-    ]
-  },
-  "/clinic-assets/heritage-family-portrait.jpg": {
-    "width": 1052,
-    "height": 1280,
-    "variants": [
-      {
-        "w": 480,
-        "src": "/optimized/clinic-assets/heritage-family-portrait-480.webp"
-      },
-      {
-        "w": 768,
-        "src": "/optimized/clinic-assets/heritage-family-portrait-768.webp"
-      },
-      {
-        "w": 1052,
-        "src": "/optimized/clinic-assets/heritage-family-portrait-1052.webp"
+        "src": "/optimized/clinic-assets/dharshini-lab-reception-1600.webp"
       }
     ]
   },
@@ -270,206 +66,6 @@
       {
         "w": 1600,
         "src": "/optimized/clinic-assets/hero-bg-52-1600.webp"
-      }
-    ]
-  },
-  "/clinic-assets/hero-bg-53.png": {
-    "width": 1240,
-    "height": 543,
-    "variants": [
-      {
-        "w": 480,
-        "src": "/optimized/clinic-assets/hero-bg-53-480.webp"
-      },
-      {
-        "w": 768,
-        "src": "/optimized/clinic-assets/hero-bg-53-768.webp"
-      },
-      {
-        "w": 1080,
-        "src": "/optimized/clinic-assets/hero-bg-53-1080.webp"
-      },
-      {
-        "w": 1240,
-        "src": "/optimized/clinic-assets/hero-bg-53-1240.webp"
-      }
-    ]
-  },
-  "/clinic-assets/hero-bg-54.png": {
-    "width": 2723,
-    "height": 1193,
-    "variants": [
-      {
-        "w": 480,
-        "src": "/optimized/clinic-assets/hero-bg-54-480.webp"
-      },
-      {
-        "w": 768,
-        "src": "/optimized/clinic-assets/hero-bg-54-768.webp"
-      },
-      {
-        "w": 1080,
-        "src": "/optimized/clinic-assets/hero-bg-54-1080.webp"
-      },
-      {
-        "w": 1440,
-        "src": "/optimized/clinic-assets/hero-bg-54-1440.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/optimized/clinic-assets/hero-bg-54-1600.webp"
-      }
-    ]
-  },
-  "/clinic-assets/hero-bg-55.png": {
-    "width": 1078,
-    "height": 472,
-    "variants": [
-      {
-        "w": 480,
-        "src": "/optimized/clinic-assets/hero-bg-55-480.webp"
-      },
-      {
-        "w": 768,
-        "src": "/optimized/clinic-assets/hero-bg-55-768.webp"
-      },
-      {
-        "w": 1078,
-        "src": "/optimized/clinic-assets/hero-bg-55-1078.webp"
-      }
-    ]
-  },
-  "/dhananjaya-logo.png": {
-    "width": 700,
-    "height": 140,
-    "variants": [
-      {
-        "w": 480,
-        "src": "/optimized/dhananjaya-logo-480.webp"
-      },
-      {
-        "w": 700,
-        "src": "/optimized/dhananjaya-logo-700.webp"
-      }
-    ]
-  },
-  "/images/piles-discomfort-hero.jpg": {
-    "width": 864,
-    "height": 1152,
-    "variants": [
-      {
-        "w": 480,
-        "src": "/optimized/images/piles-discomfort-hero-480.webp"
-      },
-      {
-        "w": 768,
-        "src": "/optimized/images/piles-discomfort-hero-768.webp"
-      },
-      {
-        "w": 864,
-        "src": "/optimized/images/piles-discomfort-hero-864.webp"
-      }
-    ]
-  },
-  "/images/press/pauthiram-article-2016.jpg": {
-    "width": 850,
-    "height": 1280,
-    "variants": [
-      {
-        "w": 480,
-        "src": "/optimized/images/press/pauthiram-article-2016-480.webp"
-      },
-      {
-        "w": 768,
-        "src": "/optimized/images/press/pauthiram-article-2016-768.webp"
-      },
-      {
-        "w": 850,
-        "src": "/optimized/images/press/pauthiram-article-2016-850.webp"
-      }
-    ]
-  },
-  "/images/treatments/fissure.jpg": {
-    "width": 1152,
-    "height": 864,
-    "variants": [
-      {
-        "w": 480,
-        "src": "/optimized/images/treatments/fissure-480.webp"
-      },
-      {
-        "w": 768,
-        "src": "/optimized/images/treatments/fissure-768.webp"
-      },
-      {
-        "w": 1080,
-        "src": "/optimized/images/treatments/fissure-1080.webp"
-      },
-      {
-        "w": 1152,
-        "src": "/optimized/images/treatments/fissure-1152.webp"
-      }
-    ]
-  },
-  "/images/treatments/fistula.jpg": {
-    "width": 1152,
-    "height": 864,
-    "variants": [
-      {
-        "w": 480,
-        "src": "/optimized/images/treatments/fistula-480.webp"
-      },
-      {
-        "w": 768,
-        "src": "/optimized/images/treatments/fistula-768.webp"
-      },
-      {
-        "w": 1080,
-        "src": "/optimized/images/treatments/fistula-1080.webp"
-      },
-      {
-        "w": 1152,
-        "src": "/optimized/images/treatments/fistula-1152.webp"
-      }
-    ]
-  },
-  "/images/treatments/piles.jpg": {
-    "width": 1152,
-    "height": 864,
-    "variants": [
-      {
-        "w": 480,
-        "src": "/optimized/images/treatments/piles-480.webp"
-      },
-      {
-        "w": 768,
-        "src": "/optimized/images/treatments/piles-768.webp"
-      },
-      {
-        "w": 1080,
-        "src": "/optimized/images/treatments/piles-1080.webp"
-      },
-      {
-        "w": 1152,
-        "src": "/optimized/images/treatments/piles-1152.webp"
-      }
-    ]
-  },
-  "/piles-treatment-banner.png": {
-    "width": 1080,
-    "height": 1080,
-    "variants": [
-      {
-        "w": 480,
-        "src": "/optimized/piles-treatment-banner-480.webp"
-      },
-      {
-        "w": 768,
-        "src": "/optimized/piles-treatment-banner-768.webp"
-      },
-      {
-        "w": 1080,
-        "src": "/optimized/piles-treatment-banner-1080.webp"
       }
     ]
   }

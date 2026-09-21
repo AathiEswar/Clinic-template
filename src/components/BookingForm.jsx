@@ -48,7 +48,7 @@ export default function BookingForm({ defaultDept = '', compact = false, onDone 
     if (form.name.trim().length < 3) er.name = 'Please enter your full name';
     const digits = form.phone.replace(/[^\d]/g, '').replace(/^91/, '');
     if (!/^[6-9]\d{9}$/.test(digits)) er.phone = 'Enter a valid 10-digit mobile number';
-    if (!form.dept) er.dept = 'Choose a department';
+    if (!form.dept) er.dept = 'Choose a service or test';
     if (!form.date) er.date = 'Pick a date';
     if (!form.time) er.time = 'Pick a time';
     setErrors(er);
@@ -65,7 +65,7 @@ export default function BookingForm({ defaultDept = '', compact = false, onDone 
   };
 
   const waConfirm = waLink(
-    `Hi ${CLINIC.name}! I just requested an appointment.\nName: ${form.name}\nDepartment: ${form.dept}\nPreferred: ${form.date} at ${form.time}\nPlease confirm my slot.`
+    `Hi ${CLINIC.name}! I would like to book a diagnostic test / sample collection.\nName: ${form.name}\nService: ${form.dept}\nPreferred: ${form.date} at ${form.time}\nPlease confirm my slot.`
   );
 
   if (status === 'done') {
@@ -76,8 +76,8 @@ export default function BookingForm({ defaultDept = '', compact = false, onDone 
         </span>
         <h3 className="bform__success-title">Request received, {form.name.split(' ')[0]}.</h3>
         <p className="bform__success-txt">
-          We’ll call you within <strong>15 minutes</strong> to confirm your{' '}
-          <strong>{form.dept}</strong> visit on <strong>{form.date}</strong> at{' '}
+          We’ll contact you promptly to confirm your{' '}
+          <strong>{form.dept}</strong> booking for <strong>{form.date}</strong> at{' '}
           <strong>{form.time}</strong>.
         </p>
         <div className="bform__success-actions">
@@ -100,7 +100,7 @@ export default function BookingForm({ defaultDept = '', compact = false, onDone 
       <div className="bform__grid">
         <label className={`field ${errors.name ? 'has-error' : ''}`}>
           <span className="field__label">Full name</span>
-          <input type="text" value={form.name} onChange={set('name')} placeholder="e.g. Aathi Eswar" autoComplete="name" />
+          <input type="text" value={form.name} onChange={set('name')} placeholder="e.g. Patient Name" autoComplete="name" />
           {errors.name && <em className="field__err">{errors.name}</em>}
         </label>
 
@@ -111,9 +111,9 @@ export default function BookingForm({ defaultDept = '', compact = false, onDone 
         </label>
 
         <label className={`field ${errors.dept ? 'has-error' : ''}`}>
-          <span className="field__label">Department</span>
+          <span className="field__label">Diagnostic Test / Service</span>
           <select value={form.dept} onChange={set('dept')}>
-            <option value="" disabled>Select department</option>
+            <option value="" disabled>Select test or service</option>
             {depts.map((d) => <option key={d} value={d}>{d}</option>)}
           </select>
           {errors.dept && <em className="field__err">{errors.dept}</em>}
@@ -127,7 +127,7 @@ export default function BookingForm({ defaultDept = '', compact = false, onDone 
       </div>
 
       <div className={`field ${errors.time ? 'has-error' : ''}`}>
-        <span className="field__label">Preferred time</span>
+        <span className="field__label">Preferred time (6:30 AM onwards)</span>
         <div className="bform__slots" role="radiogroup" aria-label="Preferred time">
           {TIME_SLOTS.map((t) => (
             <button
@@ -147,18 +147,18 @@ export default function BookingForm({ defaultDept = '', compact = false, onDone 
 
       {!compact && (
         <label className="field">
-          <span className="field__label">Anything we should know? <i>(optional)</i></span>
-          <textarea rows="2" value={form.note} onChange={set('note')} placeholder="Symptoms, reports, insurance…" />
+          <span className="field__label">Specific test or home collection address <i>(optional)</i></span>
+          <textarea rows="2" value={form.note} onChange={set('note')} placeholder="Mention doctor prescription, fasting tests, or doorstep address…" />
         </label>
       )}
 
       <button type="submit" className={`btn btn--primary btn--block bform__submit ${status === 'sending' ? 'is-busy' : ''}`}>
-        <span className="btn__solo">{status === 'sending' ? 'Booking your slot…' : 'Confirm my appointment'}</span>
+        <span className="btn__solo">{status === 'sending' ? 'Booking your test…' : 'Confirm Test Request'}</span>
         <span className="btn__ic"><Icon name="arrowR" size={16} strokeWidth={2} /></span>
       </button>
 
       <p className="bform__note">
-        <Icon name="shield" size={14} /> Free rescheduling · We confirm within 15 minutes · No advance payment
+        <Icon name="shield" size={14} /> 100% Sterile Collection · Early Morning Slots · WhatsApp Report Delivery
       </p>
     </form>
   );

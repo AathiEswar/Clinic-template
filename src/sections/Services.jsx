@@ -13,15 +13,15 @@ export default function Services() {
     <section className="services section" data-scroll-section id="services">
       <div className="container">
         <SectionHeader
-          eyebrow="Three Focused Ayurvedic Treatments"
-          segments={[{ t: 'Piles, Fistula & Fissure care, ' }, { t: 'without major operations.', em: true }]}
+          eyebrow="Diagnostic &amp; Pathology Services"
+          segments={[{ t: 'Certified clinical testing & ' }, { t: 'home sample collection.', em: true }]}
           side={
             <>
               <p>
-                Our clinic focuses only on Piles, Fistula and Fissure, using personalized Ayurvedic medicines, local care, lifestyle guidance, and authentic Kshara Sutra when clinically appropriate.
+                Dharshini Laboratory provides accurate hematology, diabetes screening, thyroid profiles, routine urine/stool tests, and doorstep phlebotomy across Guduvancheri and Kayarambedu.
               </p>
-              <button className="link-arrow" onClick={() => scrollTo('#procedure-guide')} data-cursor="hover">
-                Explore our gentle approach <Icon name="arrowR" size={15} strokeWidth={2.2} />
+              <button className="link-arrow" onClick={() => scrollTo('#process')} data-cursor="hover">
+                How sample collection works <Icon name="arrowR" size={15} strokeWidth={2.2} />
               </button>
             </>
           }
@@ -37,7 +37,7 @@ export default function Services() {
               data-reveal
               tabIndex={0}
               role="button"
-              aria-label={`Book appointment for ${s.title}`}
+              aria-label={`Book test for ${s.title}`}
               onKeyDown={(e) => {
                 if (e.key === 'Enter' || e.key === ' ') {
                   e.preventDefault();
@@ -55,7 +55,7 @@ export default function Services() {
 
               <div className="svc-card__top">
                 <span className="svc-card__icon"><Icon name={s.icon} size={26} strokeWidth={2} /></span>
-                <span className="svc-card__badge">Ayurvedic Care</span>
+                <span className="svc-card__badge">Diagnostic Test</span>
               </div>
 
               <h3 className="svc-card__title">{s.title}</h3>
@@ -71,7 +71,7 @@ export default function Services() {
               {s.meta && <p className="svc-card__meta">{s.meta}</p>}
 
               <div className="svc-card__cta">
-                <span>Book consultation</span>
+                <span>Book test / sample collection</span>
                 <span className="svc-card__arrow"><Icon name="arrowR" size={15} strokeWidth={2.2} /></span>
               </div>
             </article>

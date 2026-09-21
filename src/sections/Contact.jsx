@@ -8,42 +8,39 @@ export default function Contact() {
     <section className="contact section" data-scroll-section id="visit">
       <div className="container">
         <SectionHeader
-          eyebrow="Visit Dr. Dhananjayas Hospitals, Porur"
-          segments={[{ t: 'Conveniently located at Pillayar Koil St, ' }, { t: 'Astalakshmi Nagar, Porur.', em: true }]}
+          eyebrow="Visit Dharshini Laboratory"
+          segments={[{ t: 'Conveniently located at SP MAHAL, ' }, { t: 'Nellikuppam Rd, Guduvancheri.', em: true }]}
         />
 
         <div className="contact__grid">
           <div className="contact__info">
-            <a
-              className="contact__map"
-              href={CLINIC.mapsUrl}
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Open Dr. Dhananjayas Hospitals Porur in Google Maps"
-              data-cursor="hover"
-              data-reveal
-            >
-              <svg viewBox="0 0 400 240" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
-                <rect width="400" height="240" fill="#EBF2EE" />
-                <path d="M-10 190 C80 150 140 230 230 196 S380 150 420 176" fill="none" stroke="#D1E2D8" strokeWidth="26" strokeLinecap="round" />
-                <g stroke="#DDD6C8" strokeWidth="7" strokeLinecap="round">
-                  <path d="M40 -10 V250" /><path d="M110 -10 V250" /><path d="M180 -10 V250" />
-                  <path d="M250 -10 V250" /><path d="M320 -10 V250" />
-                  <path d="M-10 60 H410" /><path d="M-10 130 H410" />
-                </g>
-                <g stroke="#fff" strokeWidth="2.5" strokeLinecap="round" opacity="0.9">
-                  <path d="M40 -10 V250" /><path d="M180 -10 V250" /><path d="M320 -10 V250" /><path d="M-10 60 H410" />
-                </g>
-                <circle cx="200" cy="118" r="34" fill="#0F4C3A" opacity="0.14" />
-              </svg>
-              <span className="contact__pin" aria-hidden="true">
-                <Icon name="pin" size={22} strokeWidth={2} />
-                <i className="contact__pin-pulse" />
-              </span>
-              <span className="contact__map-cta">
-                Get directions on Google Maps <Icon name="arrow" size={14} strokeWidth={2.2} />
-              </span>
-            </a>
+            <div className="contact__map-wrap" data-reveal style={{ borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--border)', marginBottom: '24px', background: 'var(--surface)' }}>
+              <iframe
+                title="Dharshini Laboratory Google Maps Location"
+                src={CLINIC.mapsEmbedUrl}
+                width="100%"
+                height="240"
+                style={{ border: 0, display: 'block' }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+              <div style={{ padding: '12px 16px', background: 'var(--surface)', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                <span style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--ink)' }}>
+                  <Icon name="pin" size={14} style={{ marginRight: '6px', verticalAlign: '-2px', color: 'var(--teal)' }} />
+                  Plus Code: {CLINIC.plusCode}
+                </span>
+                <a
+                  href={CLINIC.mapsUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  data-cursor="hover"
+                  style={{ fontSize: '0.85rem', fontWeight: 700, color: 'var(--teal)', textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '4px' }}
+                >
+                  Directions on Google Maps ↗
+                </a>
+              </div>
+            </div>
 
             <address className="contact__addr" data-reveal>
               <h3>{CLINIC.name}</h3>
@@ -52,7 +49,7 @@ export default function Contact() {
             </address>
 
             <div className="contact__hours" data-reveal>
-              <h4><Icon name="clock" size={15} /> Hours</h4>
+              <h4><Icon name="clock" size={15} /> Laboratory Operating Hours</h4>
               <dl>
                 {CLINIC.hours.map((h) => (
                   <div key={h.days}><dt>{h.days}</dt><dd>{h.time}</dd></div>
@@ -77,8 +74,8 @@ export default function Contact() {
 
           <div className="contact__form" data-reveal>
             <div className="contact__form-head">
-              <h3>Book your consultation</h3>
-              <p><span className="pulse-dot" aria-hidden="true" /> Confirmed quickly · Walk-ins &amp; Appointments welcome</p>
+              <h3>Book a test or home collection</h3>
+              <p><span className="pulse-dot" aria-hidden="true" /> Open Daily 6:30 AM – 9:00 PM · Walk-ins &amp; Home Visits</p>
             </div>
             <BookingForm />
           </div>

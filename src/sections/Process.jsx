@@ -9,11 +9,11 @@ export default function Process() {
   const { openBooking } = useScroll();
 
   return (
-    <section className="process section" data-scroll-section>
+    <section className="process section" data-scroll-section id="process">
       <div className="container">
         <SectionHeader
-          eyebrow="How it works"
-          segments={[{ t: 'From worry to plan, ' }, { t: 'in three steps.', em: true }]}
+          eyebrow="Diagnostic Workflow"
+          segments={[{ t: 'From sample collection to report, ' }, { t: 'in three simple steps.', em: true }]}
         />
 
         <ol className="process__grid">
@@ -27,9 +27,9 @@ export default function Process() {
         </ol>
 
         <p className="process__cta" data-reveal>
-          Not sure which procedure is appropriate for your condition?{' '}
-          <button className="link-arrow" onClick={() => openBooking('Piles & Fistula Consultation')} data-cursor="hover">
-            Book a confidential evaluation with Dr. Venkhatesan <Icon name="arrowR" size={15} strokeWidth={2.2} />
+          Need a specific pathology test or doorstep morning sample collection?{' '}
+          <button className="link-arrow" onClick={() => openBooking('Home Blood Sample Collection')} data-cursor="hover">
+            Schedule your test or home visit now <Icon name="arrowR" size={15} strokeWidth={2.2} />
           </button>
         </p>
       </div>

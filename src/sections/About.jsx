@@ -2,12 +2,12 @@
 
 import { useScroll } from '@/context/ScrollContext';
 import { WHY_US } from '@/data';
+import { CLINIC } from '@/config';
 import SectionHeader from '@/components/SectionHeader';
 import Icon from '@/lib/Icons';
 
-/* Not currently rendered on any page (same as in the Vite version) — kept for reuse. */
 export default function About() {
-  const { scrollTo } = useScroll();
+  const { scrollTo, openBooking } = useScroll();
 
   return (
     <section className="about section" data-scroll-section id="about">
@@ -27,31 +27,28 @@ export default function About() {
                 <path id="circlePath" d="M60,60 m-44,0 a44,44 0 1,1 88,0 a44,44 0 1,1 -88,0" />
               </defs>
               <text>
-                <textPath href="#circlePath">DR. DHANANJAYAS HOSPITALS · PORUR · 4.9 RATED ·&nbsp;</textPath>
+                <textPath href="#circlePath">DHARSHINI LABORATORY · GUDUVANCHERI · EST. 2010 ·&nbsp;</textPath>
               </text>
             </svg>
             <span className="about__badge-core"><Icon name="sparkle" size={20} /></span>
           </div>
 
           <div className="about__exp" data-scroll data-scroll-speed="0.5">
-            <strong>4.9★</strong>
-            <span>Google<br />Verified</span>
+            <strong>2010</strong>
+            <span>Est. Year<br />Guduvancheri</span>
           </div>
         </div>
 
         <div className="about__content">
           <SectionHeader
-            eyebrow="Why Choose Dr. Dhananjayas Hospitals"
+            eyebrow="About Dharshini Laboratory"
             segments={[
-              { t: 'Gentle Ayurvedic care that restores ' },
-              { t: 'complete comfort, dignity & freedom.', em: true },
+              { t: 'Accurate clinical diagnostics & ' },
+              { t: 'doorstep home sample collection.', em: true },
             ]}
           />
           <p className="about__lead" data-reveal>
-            Care for Piles, Fistula and Fissure should be dignified, gentle and personalized.
-            Dr. Dhananjayas Hospitals carries a family tradition of Ayurvedic proctology now in its ninth generation,
-            with over 25 years of experience at Porur — herbal care, lifestyle guidance and authentic Kshara Sutra
-            without major open operations.
+            Established in 2010, Dharshini Laboratory is a trusted diagnostic pathology center in Kayarambedu, Guduvancheri. We provide comprehensive hematology, diabetic screenings, thyroid profiles, and doorstep blood collection across Guduvancheri, Kayarambedu, and Urapakkam.
           </p>
 
           <ul className="about__list">
@@ -64,12 +61,12 @@ export default function About() {
           </ul>
 
           <blockquote className="about__sign" data-reveal>
-            “Our commitment is complete cure with utmost patient dignity, 100% sphincter muscle safety, and immediate return to normal life without hospital stays.”
-            <cite>— Dr. Venkhatesan, Dr. Dhananjayas Hospitals, Porur</cite>
+            “Our goal is to provide every patient with accurate diagnostic reports, sterile sample collection, and early morning convenience.”
+            <cite>— Dharshini Laboratory, Guduvancheri</cite>
           </blockquote>
 
-          <button className="link-arrow" onClick={() => scrollTo('#doctors')} data-cursor="hover" data-reveal>
-            Meet our specialists <Icon name="arrowR" size={15} strokeWidth={2.2} />
+          <button className="link-arrow" onClick={() => openBooking()} data-cursor="hover" data-reveal>
+            Book a test or home visit <Icon name="arrowR" size={15} strokeWidth={2.2} />
           </button>
         </div>
       </div>

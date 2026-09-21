@@ -1,27 +1,28 @@
 import GalleryView from '@/views/GalleryView';
 import JsonLdScript from '@/components/JsonLdScript';
 import { GALLERY_IMAGES } from '@/data';
+import { CLINIC } from '@/config';
 import { pageMetadata, ogCard, breadcrumbJsonLd, absoluteUrl, assetUrl, WEBSITE_ID } from '@/lib/seo';
 
-const TITLE = 'Clinic Photo Gallery';
+const TITLE = 'Laboratory Photo Gallery | Dharshini Laboratory';
 
 export const metadata = pageMetadata({
   title: TITLE,
   description:
-    'Photo tour of Dr. Dhananjayas Hospitals, Porur: Dr. Venkhatesan’s consultation chamber, sterile day-care treatment rooms, diagnostics and recovery lounge.',
+    'Photo tour of Dharshini Laboratory in Guduvancheri: clean reception, patient waiting area, specimen registration counter, and facility location on Nellikuppam Road.',
   path: '/gallery',
-  image: ogCard('gallery', 'Reception and welcome desk at Dr. Dhananjayas Hospitals, Porur'),
+  image: ogCard('gallery', 'Dharshini Laboratory reception and testing center in Guduvancheri'),
 });
 
 const jsonLd = {
   '@context': 'https://schema.org',
   '@graph': [
-    breadcrumbJsonLd([{ name: 'Home', path: '/' }, { name: 'Photo Gallery', path: '/gallery' }]),
+    breadcrumbJsonLd([{ name: 'Home', path: '/' }, { name: 'Laboratory Gallery', path: '/gallery' }]),
     {
       '@type': 'ImageGallery',
       '@id': `${absoluteUrl('/gallery')}#gallery`,
       url: absoluteUrl('/gallery'),
-      name: `${TITLE} — Dr. Dhananjayas Hospitals`,
+      name: `${TITLE} — ${CLINIC.name}`,
       isPartOf: { '@id': WEBSITE_ID },
       image: GALLERY_IMAGES.map((g) => ({
         '@type': 'ImageObject',

@@ -32,7 +32,7 @@ export default function NotFound() {
               <span className="btn__solo">Back to home</span>
             </Link>
             <Link href="/treatments" className="btn btn--outline-light" data-cursor="hover">
-              <span className="btn__solo">View treatments</span>
+              <span className="btn__solo">View diagnostic services</span>
             </Link>
             <a href={CLINIC.phoneHref} className="btn btn--outline-light" data-cursor="hover">
               <span className="btn__solo">Call {CLINIC.phoneDisplay}</span>

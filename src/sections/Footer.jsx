@@ -14,19 +14,19 @@ export default function Footer() {
       <div className="container">
         <div className="footer__top">
           <p className="footer__tag" data-reveal>
-            Nine Generations of Ayurvedic Piles, Fistula &amp; Fissure Care · No Major Operations
+            Reliable Clinical Pathology &amp; Diagnostic Services · Open Daily 6:30 AM – 9:00 PM
           </p>
           <h2 className="footer__wordmark" aria-label={CLINIC.name}>
             <span className="footer__wordmark-line">
-              {"DR. DHANANJAYA".split('').map((ch, i) => (
+              {"DHARSHINI".split('').map((ch, i) => (
                 <span key={`l1-${i}`} style={{ '--i': i }}>
                   {ch === ' ' ? ' ' : ch}
                 </span>
               ))}
             </span>
             <span className="footer__wordmark-line">
-              {"HOSPITALS · PORUR".split('').map((ch, i) => (
-                <span key={`l2-${i}`} style={{ '--i': i + 14 }}>
+              {"LABORATORY · GUDUVANCHERI".split('').map((ch, i) => (
+                <span key={`l2-${i}`} style={{ '--i': i + 10 }}>
                   {ch === ' ' ? ' ' : ch}
                 </span>
               ))}
@@ -37,10 +37,10 @@ export default function Footer() {
         <div className="footer__grid">
           <div className="footer__col footer__col--brand">
             <p>
-              A focused Ayurvedic hospital in {CLINIC.city}, led by {CLINIC.doctorName}, caring only for Piles, Fistula and Fissure through gentle treatment plans and authentic Kshara Sutra—without major open operations.
+              A dependable diagnostic center and pathology laboratory in {CLINIC.city}, established in 2010. Offering comprehensive blood testing, diabetes &amp; lipid screening, and doorstep sample collection across Guduvancheri and Kayarambedu.
             </p>
             <button className="btn btn--primary btn--sm" onClick={() => openBooking()} data-cursor="hover">
-              <span className="btn__solo">Book consultation</span>
+              <span className="btn__solo">Book diagnostic test</span>
               <span className="btn__ic"><Icon name="calendar" size={14} strokeWidth={2} /></span>
             </button>
           </div>
@@ -54,20 +54,20 @@ export default function Footer() {
             ))}
           </nav>
 
-          <nav className="footer__col" aria-label="Treatments">
-            <h4>Treatments</h4>
+          <nav className="footer__col" aria-label="Diagnostic Services">
+            <h4>Diagnostics</h4>
             {SERVICES.map((s) => (
               <Link key={s.id} href="/treatments" data-cursor="hover">
-                {s.title.split('(')[0]}
+                {s.title.split('&')[0].trim()}
               </Link>
             ))}
             <Link href="/treatments" data-cursor="hover" style={{ color: 'var(--teal)', fontWeight: '600' }}>
-              Explore Treatments →
+              All Diagnostic Tests →
             </Link>
           </nav>
 
           <div className="footer__col" aria-label="Contact">
-            <h4>Visit Us</h4>
+            <h4>Visit Laboratory</h4>
             <div style={{ marginBottom: '12px' }}>
               <strong style={{ color: '#fff', fontSize: '0.9rem' }}>{CLINIC.name}</strong>
               <p style={{ fontSize: '0.85rem', margin: '2px 0 6px' }}>{CLINIC.address}</p>
@@ -83,9 +83,9 @@ export default function Footer() {
         <div className="footer__bottom">
           <p>© 2026 {CLINIC.name}. All rights reserved.</p>
           <p className="footer__legal">
-            <Link href="/about-us" data-cursor="hover">About Doctors</Link>
+            <Link href="/about-us" data-cursor="hover">About Laboratory</Link>
             <Link href="/gallery" data-cursor="hover">Facility Gallery</Link>
-            <Link href="/contact" data-cursor="hover">Visit Porur</Link>
+            <Link href="/contact" data-cursor="hover">Contact &amp; Location</Link>
           </p>
           <button
             className="footer__up round-btn"

@@ -1,5 +1,5 @@
 import { CLINIC } from '@/config';
-import { SERVICES, DOCTORS } from '@/data';
+import { SERVICES } from '@/data';
 import { CLINIC_ID, WEBSITE_ID, SITE_NAME, absoluteUrl, assetUrl } from '@/lib/seo';
 import JsonLdScript from './JsonLdScript';
 
@@ -11,16 +11,14 @@ const hoursSpec = (spec) =>
     closes: h.closes,
   }));
 
-const SPECIALTIES = ['Proctology', 'Ayurveda'];
+const SPECIALTIES = ['Clinical Pathology', 'Diagnostic Laboratory', 'Phlebotomy'];
 
 /**
  * Site-wide structured data, rendered once in the root layout as a single
- * schema.org @graph: the WebSite and the Porur hospital (MedicalClinic with
- * address, hours, consultant and the three treatments as availableService).
- * Every value comes from config/data so the markup can never drift.
+ * schema.org @graph: the WebSite and Dharshini Laboratory (DiagnosticLab /
+ * MedicalBusiness with address, hours, location coordinates, and diagnostic services).
  */
 export default function JsonLd() {
-  const doctor = DOCTORS[0];
   const graph = [
     {
       '@type': 'WebSite',
@@ -31,33 +29,40 @@ export default function JsonLd() {
       publisher: { '@id': CLINIC_ID },
     },
     {
-      '@type': 'MedicalClinic',
+      '@type': ['DiagnosticLab', 'MedicalBusiness', 'LocalBusiness'],
       '@id': CLINIC_ID,
       name: SITE_NAME,
       legalName: CLINIC.name,
-      alternateName: [CLINIC.altName, 'Dr. Dhananjayas Hospitals Porur', 'Dr. Venkhatesan Piles & Fistula Clinic, Porur'],
+      alternateName: [CLINIC.altName, 'Dharshini Lab Guduvanchery', 'Dharshini Pathology Lab Kayarambedu'],
       description:
-        'Focused Ayurvedic Piles, Kshara Sutra Anal Fistula, and Fissure hospital in Astalakshmi Nagar, Porur, Chennai, led by Dr. Venkhatesan.',
+        'Certified clinical pathology laboratory and diagnostic center in Kayarambedu, Guduvancheri offering blood tests, diabetic profiles, and doorstep home sample collection.',
       slogan: CLINIC.slogan,
       url: absoluteUrl('/'),
-      logo: assetUrl('/dhananjaya-logo.png'),
-      image: [assetUrl('/og/home.jpg'), assetUrl('/images/piles-discomfort-hero.jpg'), assetUrl(doctor.image)],
+      image: [
+        assetUrl('/clinic-assets/dharshini-lab-reception.jpg'),
+        assetUrl('/clinic-assets/dharshini-lab-exterior.jpg'),
+      ],
       telephone: CLINIC.telephoneE164,
       email: CLINIC.email,
-      address: { '@type': 'PostalAddress', ...CLINIC.postalAddress },
+      address: {
+        '@type': 'PostalAddress',
+        ...CLINIC.postalAddress,
+      },
+      geo: {
+        '@type': 'GeoCoordinates',
+        latitude: CLINIC.coordinates.lat,
+        longitude: CLINIC.coordinates.lng,
+      },
       hasMap: CLINIC.mapsUrl,
       openingHoursSpecification: hoursSpec(CLINIC.openingHoursSpec),
       medicalSpecialty: SPECIALTIES,
-      isAcceptingNewPatients: true,
       areaServed: CLINIC.areaServed.map((name) => ({ '@type': 'Place', name })),
       knowsAbout: CLINIC.knowsAbout,
-      employee: { '@id': `${absoluteUrl('/about-us')}#dr-venkhatesan` },
       availableService: SERVICES.map((s) => ({
-        '@type': 'MedicalTherapy',
+        '@type': 'MedicalTest',
         name: s.title,
         alternateName: s.tamilTitle,
         description: s.desc,
-        medicineSystem: 'https://schema.org/Ayurvedic',
         url: absoluteUrl('/treatments'),
       })),
       sameAs: CLINIC.sameAs,

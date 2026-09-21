@@ -1,9 +1,8 @@
 /**
  * ─────────────────────────────────────────────────────────────
- *  CLINIC CONFIG — Dr. Dhananjayas Hospitals, Porur Branch
- *  Ayurvedic Piles, Fistula (Kshara Sutra) & Fissure care
- *  Consultant: Dr. Venkhatesan · Astalakshmi Nagar, Porur, Chennai
- *  This website is for the Porur branch only.
+ *  CLINIC CONFIG — Dharshini Laboratory
+ *  Diagnostic Center & Pathology Lab · Guduvancheri / Kayarambedu
+ *  Verified from Official Google Maps Listing: https://maps.app.goo.gl/YudkZh6dJosRJ4jG8
  * ─────────────────────────────────────────────────────────────
  */
 
@@ -18,54 +17,80 @@ export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3
 const ALL_DAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 
 export const CLINIC = {
-  name: 'Dr. Dhananjayas Hospitals – Porur',
-  shortName: 'Dr. Dhananjayas Hospitals, Porur',
-  altName: 'Dr. Dhananjayas Piles & Fistula Hospital, Porur',
-  tagline: 'Ayurvedic Piles, Fistula (Kshara Sutra) & Fissure Care · Porur, Chennai',
-  slogan: 'Gentle Ayurvedic Care for Piles, Fistula & Fissure Without Major Operations.',
-  motto: 'Nine Generations of Ayurvedic Proctology · 25 Years of Focused Kshara Sutra Care.',
-  tamilTagline: 'மூலம், பௌத்திரம் மற்றும் ஆசனவாய் வெடிப்புக்கான நவீன மற்றும் க்ஷாரசூத்ரா அறுவை சிகிச்சையற்ற தீர்வு',
-  city: 'Porur, Chennai',
-  locality: 'Astalakshmi Nagar, Porur',
+  name: 'Dharshini Laboratory',
+  shortName: 'Dharshini Laboratory',
+  altName: 'Dharshini Diagnostic Center & Pathology Lab',
+  tagline: 'Diagnostic Center & Clinical Pathology Laboratory · Guduvancheri / Kayarambedu',
+  slogan: 'Accurate Diagnostic Testing & Reliable Pathology Services With Doorstep Home Sample Collection.',
+  motto: 'Established in 2010 · Over 15 Years of Dependable Diagnostic Care in Guduvancheri.',
+  tamilTagline: 'துல்லியமான பரிசோதனைகள் மற்றும் நம்பகமான மருத்துவ ஆய்வக சேவைகள்',
+  city: 'Guduvancheri, Chengalpattu',
+  locality: 'Moolakazhani, Kayarambedu',
 
-  // The one and only contact number for this branch
-  phoneDisplay: '+91 97907 47350',
-  phoneHref: 'tel:+919790747350',
-  whatsapp: '919790747350',
+  // Official contact number from Google Maps listing
+  phoneDisplay: '+91 99628 99950',
+  phoneHref: 'tel:+919962899950',
+  whatsapp: '919962899950',
 
-  email: 'v.prashanthi1995@gmail.com',
+  email: 'dharshinilab.chengalpattu@gmail.com',
 
-  // Consultant
-  doctorName: 'Dr. Venkhatesan',
+  // Laboratory Leadership / Team
+  doctorName: 'Chief Medical Technologist & Staff',
 
-  address: '6, Pillayar Koil St, Astalakshmi Nagar, Lakshmi Nagar, Porur, Chennai, Tamil Nadu – 600116',
-  landmark: 'Near Pillayar Koil, Astalakshmi Nagar, Porur',
-  mapsUrl: 'https://www.google.com/maps/search/?api=1&query=6+Pillayar+Koil+St+Astalakshmi+Nagar+Porur+Chennai+600116',
-  timings: 'Daily: 10:00 AM – 7:30 PM',
+  address: 'SP MAHAL, Anna street, Nellikuppam Rd, opposite Guduvancheri, Kameshwary Nagar, Moolakazhani, Kayarambedu, Tamil Nadu 603202',
+  landmark: 'Near SP MAHAL, Nellikuppam Road, opposite Guduvancheri',
+  mapsUrl: 'https://maps.app.goo.gl/YudkZh6dJosRJ4jG8',
+  mapsEmbedUrl: 'https://maps.google.com/maps?q=12.8164521,80.0768841&z=16&output=embed',
+  coordinates: {
+    lat: 12.8164521,
+    lng: 80.0768841,
+  },
+  plusCode: '7M42R38G+HQ',
+  timings: 'Daily: 6:30 AM – 9:00 PM',
 
-  rating: '4.9',
-  reviewCount: '34+',
+  rating: '5.0',
+  reviewCount: 'Google Verified',
 
   hours: [
-    { days: 'Monday – Sunday', time: '10:00 AM – 7:30 PM' },
-    { days: 'Anorectal Helpline', time: '+91 97907 47350 · Call or WhatsApp' },
+    { days: 'Monday – Sunday', time: '6:30 AM – 9:00 PM' },
+    { days: 'Home Blood Collection', time: '+91 99628 99950 · Call or WhatsApp' },
   ],
 
   /* ── Structured-data (schema.org) extras, used by src/components/JsonLd.jsx ── */
-  telephoneE164: '+91-97907-47350',
+  telephoneE164: '+91-99628-99950',
   postalAddress: {
-    streetAddress: '6, Pillayar Koil St, Astalakshmi Nagar, Lakshmi Nagar',
-    addressLocality: 'Porur, Chennai',
-    postalCode: '600116',
+    streetAddress: 'SP MAHAL, Anna street, Nellikuppam Rd, opposite Guduvancheri, Kameshwary Nagar',
+    addressLocality: 'Moolakazhani, Kayarambedu, Guduvancheri',
+    postalCode: '603202',
     addressRegion: 'Tamil Nadu',
     addressCountry: 'IN',
   },
-  openingHoursSpec: [{ days: ALL_DAYS, opens: '10:00', closes: '19:30' }],
-  // Localities around Porur named on the site (schema.org areaServed)
-  areaServed: ['Porur', 'Ramapuram', 'Maduravoyal', 'Valasaravakkam', 'Vadapalani', 'Mugalivakkam', 'Chennai'],
-  knowsAbout: ['Piles (Hemorrhoids)', 'Anal Fistula', 'Anal Fissure', 'Kshara Sutra therapy', 'Ayurvedic proctology'],
-  // Only this branch's own listing — no links to other websites
-  sameAs: ['https://www.google.com/maps/search/?api=1&query=6+Pillayar+Koil+St+Astalakshmi+Nagar+Porur+Chennai+600116'],
+  openingHoursSpec: [{ days: ALL_DAYS, opens: '06:30', closes: '21:00' }],
+  // Localities around Guduvancheri & Kayarambedu
+  areaServed: [
+    'Kayarambedu',
+    'Moolakazhani',
+    'Guduvancheri',
+    'Urapakkam',
+    'Potheri',
+    'Kattankulathur',
+    'Maraimalai Nagar',
+    'Chengalpattu',
+  ],
+  knowsAbout: [
+    'Clinical Pathology',
+    'Complete Blood Count (CBC)',
+    'Blood Glucose & HbA1c',
+    'Thyroid Profile (T3, T4, TSH)',
+    'Lipid Profile',
+    'Liver & Renal Function Tests',
+    'Urine & Stool Routine Analysis',
+    'Home Blood Sample Collection',
+  ],
+  sameAs: [
+    'https://maps.app.goo.gl/YudkZh6dJosRJ4jG8',
+    'https://www.google.com/maps/place/Dharshini+Laboratory/@12.8164521,80.0768841,17z/data=!3m1!4b1!4m6!3m5!1s0x3a52f783c4684965:0x2fd4c21341e5c00d!8m2!3d12.8164521!4d80.0768841!16s%2Fg%2F11l8521hlb',
+  ],
 };
 
 /** Builds a prefilled WhatsApp deep link. */
@@ -74,5 +99,5 @@ export function waLink(message) {
 }
 
 export const WA_DEFAULT = waLink(
-  `Hi ${CLINIC.name}! I would like to book a confidential consultation with ${CLINIC.doctorName} for piles / fistula / fissure treatment.`
+  `Hi ${CLINIC.name}! I would like to enquire about diagnostic testing / book a home sample collection.`
 );

@@ -3,12 +3,13 @@
 import { useState, useEffect, useCallback } from 'react';
 import { createPortal } from 'react-dom';
 import { GALLERY_IMAGES } from '@/data';
+import { CLINIC } from '@/config';
 import { useScroll } from '@/context/ScrollContext';
 import Icon from '@/lib/Icons';
 import Button from '@/components/Button';
 import { img as imgProps, SIZES } from '@/lib/images';
 
-const CATEGORIES = ['All', 'Chambers', 'Day-Care OT', 'Diagnostics', 'Facilities', 'Heritage'];
+const CATEGORIES = ['All', 'Reception', 'Location', 'Facilities'];
 
 export default function GalleryView() {
   const [selectedCat, setSelectedCat] = useState('All');
@@ -43,14 +44,14 @@ export default function GalleryView() {
   return (
     <div className="page-view gallery-page">
       {/* Page Header */}
-      <section className="page-header" style={{ backgroundImage: 'linear-gradient(135deg, rgba(8, 48, 58, 0.94), rgba(15, 23, 42, 0.95)), url(/clinic-assets/hero-bg-52.png)' }}>
+      <section className="page-header" style={{ backgroundImage: 'linear-gradient(135deg, rgba(8, 48, 58, 0.94), rgba(15, 23, 42, 0.95))' }}>
         <div className="container">
-          <span className="chip chip--light">Hospital Tour &amp; Clinical Facilities</span>
+          <span className="chip chip--light">Laboratory Tour &amp; Facilities</span>
           <h1 className="page-header__title">
-            Authentic Ayurvedic Clinic <em>Photo Gallery.</em>
+            Dharshini Laboratory <em>Photo Gallery.</em>
           </h1>
           <p className="page-header__sub">
-            Take a visual tour of our sterile day-care treatment rooms, Dr. Venkhatesan’s private consultation chamber, and comfortable patient recovery lounges at our Porur hospital.
+            Take a visual tour of our clean reception desk, air-conditioned patient waiting area, specimen registration counter, and facility location at SP MAHAL, Nellikuppam Road, opposite Guduvancheri.
           </p>
         </div>
       </section>
@@ -98,52 +99,44 @@ export default function GalleryView() {
         </div>
       </section>
 
-      {/* Lightbox Modal */}
-      {activeModal && typeof document !== 'undefined' && createPortal(
-        <div className="brochure-modal" onClick={closeModal} role="dialog" aria-modal="true">
-          <div className="brochure-modal__backdrop" aria-hidden="true" />
-          <div className="brochure-modal__content" onClick={(e) => e.stopPropagation()}>
-            <div className="brochure-modal__head">
-              <div className="brochure-modal__title-box">
-                <h4>{activeModal.title}</h4>
-                <span className="brochure-modal__tag">{activeModal.category}</span>
-              </div>
-              <div className="brochure-modal__btns">
-                <a href={activeModal.src} target="_blank" rel="noreferrer" className="btn btn--ghost btn--sm">
-                  Open Original
-                </a>
-                <button className="round-btn brochure-modal__close" onClick={closeModal} aria-label="Close">
-                  ✕
-                </button>
-              </div>
-            </div>
-            <div className="brochure-modal__img-holder">
-              <img {...imgProps(activeModal.src, { sizes: SIZES.lightbox, dimensions: false })} alt={activeModal.title} />
-            </div>
-            <p style={{ padding: '12px 20px', color: 'var(--ink-2)', fontSize: '14px', borderTop: '1px solid var(--line)' }}>
-              {activeModal.desc}
-            </p>
-          </div>
-        </div>,
-        document.body
-      )}
-
-      {/* CTA Footer */}
-      <section className="section ctab" style={{ padding: '60px 0' }}>
+      {/* Bottom CTA */}
+      <section className="section" style={{ background: 'var(--bg-soft)', textAlign: 'center', padding: '64px 0' }}>
         <div className="container">
-          <div className="ctab__panel text-center">
-            <h2 className="h3" style={{ color: '#fff', marginBottom: '14px' }}>
-              Ready to experience world-class, painless anorectal care?
-            </h2>
-            <p style={{ color: 'rgba(255,255,255,0.9)', maxWidth: '580px', margin: '0 auto 24px' }}>
-              Consult Dr. Venkhatesan at our Porur hospital — open every day, 10:00 AM to 7:30 PM.
-            </p>
-            <Button variant="light" icon="calendar" onClick={() => openBooking()}>
-              Schedule your appointment today
+          <h2 className="h2" style={{ marginBottom: '16px' }}>Need a Diagnostic Test?</h2>
+          <p style={{ maxWidth: '600px', margin: '0 auto 28px', color: 'var(--ink-2)' }}>
+            Visit our center directly on Nellikuppam Road from 6:30 AM onwards or schedule a doorstep morning blood draw.
+          </p>
+          <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
+            <Button variant="primary" icon="calendar" onClick={() => openBooking()}>
+              Book diagnostic test
+            </Button>
+            <Button variant="call" icon="phone" href={CLINIC.phoneHref}>
+              Call {CLINIC.phoneDisplay}
             </Button>
           </div>
         </div>
       </section>
+
+      {/* Lightbox Modal */}
+      {activeModal && typeof document !== 'undefined' && createPortal(
+        <div className="gallery-modal" onClick={closeModal} role="dialog" aria-modal="true" aria-label={activeModal.title}>
+          <div className="gallery-modal__scrim" />
+          <div className="gallery-modal__content" onClick={(e) => e.stopPropagation()}>
+            <button className="gallery-modal__close" onClick={closeModal} aria-label="Close photo">
+              <Icon name="plus" size={24} strokeWidth={2} className="rot--45" />
+            </button>
+            <div className="gallery-modal__img-box">
+              <img src={activeModal.src} alt={activeModal.title} className="gallery-modal__img" />
+            </div>
+            <div className="gallery-modal__caption">
+              <span className="chip chip--purple">{activeModal.category}</span>
+              <h3>{activeModal.title}</h3>
+              <p>{activeModal.desc}</p>
+            </div>
+          </div>
+        </div>,
+        document.body
+      )}
     </div>
   );
 }
