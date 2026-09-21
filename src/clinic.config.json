@@ -1,0 +1,476 @@
+{
+  "clinic": {
+    "name": "Dream Smile Dental and Orthodontic care",
+    "shortName": "Dream Smile Dental",
+    "altName": "Dream Smile Dental & Orthodontic Care",
+    "tagline": "Multi-Specialty Dental Clinic & Orthodontic Care Centre · Guduvanchery",
+    "slogan": "Specialized Orthodontic Treatments, Advanced Pain-Free Dentistry & Radiant Smiles for the Whole Family.",
+    "motto": "Led by Dr. Rubiya Sayed (BDS, MDS - Orthodontist) · 15+ Years of Clinical Dental Excellence.",
+    "tamilTagline": "சிறப்பு பல் சீரமைப்பு மற்றும் நவீன பல் மருத்துவ சிகிச்சை மையம்",
+    "city": "Guduvanchery, Chengalpattu",
+    "locality": "Kayarambedu, Moolakazhani",
+    "brandWordmark1": "DREAM SMILE",
+    "brandWordmark2": "DENTAL",
+    "brandSub": "Dental & Orthodontics · Guduvanchery",
+    "wordmarkLine1": "DREAM SMILE",
+    "wordmarkLine2": "DENTAL & ORTHODONTICS",
+    "phoneDisplay": "+91 80984 80982",
+    "phoneHref": "tel:+918098480982",
+    "whatsapp": "918098480982",
+    "email": "dreamsmiledentalcare.guduvanchery@gmail.com",
+    "establishedYear": "2010",
+    "experienceYears": "15+",
+    "doctorName": "Dr. Rubiya Sayed",
+    "doctorQualifications": "BDS, MDS (Orthodontics and Dentofacial Orthopaedics)",
+    "address": "Nellikuppam Road, Above SBI - Kayarambedu Branch, Opp. SP Mahal, Guduvanchery, Moolakazhani, Tamil Nadu 603202",
+    "landmark": "Above SBI - Kayarambedu Branch, Opp. SP Mahal, Nellikuppam Road",
+    "mapsUrl": "https://maps.app.goo.gl/Dhs4Y65j75nYaeCk9",
+    "mapsEmbedUrl": "https://maps.google.com/maps?q=12.8146924,80.076715&z=16&output=embed",
+    "coordinates": {
+      "lat": 12.8146924,
+      "lng": 80.076715
+    },
+    "plusCode": "7M42R37G+VM",
+    "timings": "Mon–Sat: 9:30 AM–2 PM & 5–9 PM | Sun: 10 AM–2 PM",
+    "rating": "4.9",
+    "reviewCount": "50+ Google Reviews",
+    "hours": [
+      { "days": "Monday – Saturday", "time": "9:30 AM – 2:00 PM & 5:00 PM – 9:00 PM" },
+      { "days": "Sunday", "time": "10:00 AM – 2:00 PM" },
+      { "days": "Appointments & Inquiries", "time": "+91 80984 80982 · Call or WhatsApp" }
+    ],
+    "streetAddress": "Nellikuppam Road, Above SBI - Kayarambedu Branch, Opp. SP Mahal",
+    "addressLocality": "Guduvanchery, Moolakazhani, Kayarambedu",
+    "postalCode": "603202",
+    "addressRegion": "Tamil Nadu",
+    "addressCountry": "IN",
+    "areaServed": [
+      "Guduvanchery",
+      "Kayarambedu",
+      "Moolakazhani",
+      "Urapakkam",
+      "Potheri",
+      "Kattankulathur",
+      "Maraimalai Nagar",
+      "Chengalpattu"
+    ],
+    "knowsAbout": [
+      "Orthodontics and Dentofacial Orthopaedics",
+      "Metal and Ceramic Braces",
+      "Invisible Clear Aligners",
+      "Root Canal Treatment (RCT)",
+      "Dental Crowns and Bridges",
+      "Dental Implants",
+      "Cosmetic Smile Designing",
+      "Teeth Whitening and Veneers",
+      "Pediatric Dentistry",
+      "Ultrasonic Scaling and Gum Care"
+    ],
+    "schemaTypes": ["Dentist", "MedicalBusiness", "LocalBusiness"],
+    "medicalSpecialties": [
+      "Orthodontics",
+      "Dentofacial Orthopaedics",
+      "Endodontics",
+      "Cosmetic Dentistry",
+      "Pediatric Dentistry",
+      "Implantology"
+    ],
+    "sameAs": [
+      "https://maps.app.goo.gl/Dhs4Y65j75nYaeCk9",
+      "https://www.google.com/maps/place/Dream+Smile+Dental+and+Orthodontic+care/@12.8146924,80.076715,17z/data=!4m7!3m6!1s0x3a52f78aad561d59:0x50444651d03d8649!8m2!3d12.8146924!4d80.076715!16s%2Fg%2F11l_g5nmm6"
+    ]
+  },
+  "hero": {
+    "heroImage": "/clinic-assets/dream-smile-operatory-main.jpg",
+    "titlePre": "Advanced Dental &",
+    "highlightWord1": "Orthodontic",
+    "highlightWord2": "Smile Care",
+    "titlePost": "Excellence.",
+    "titleEm": "",
+    "subHeadline": "Led by Dr. Rubiya Sayed (BDS, MDS - Orthodontist) with 15+ years of experience, Dream Smile Dental and Orthodontic Care offers specialized braces, clear aligners, root canals, implants, and pediatric dental care above SBI Kayarambedu Branch on Nellikuppam Road, Guduvanchery.",
+    "ctaBook": "Book Dental Appointment",
+    "badgeText": "15+ Years Experience · Rated 4.9★ by Patients · Open 7 Days",
+    "badgeLink": "#visit",
+    "proofEstablished": "15+ Yrs Experience",
+    "proofProtocol": "100% UV Sterilization",
+    "cardQuote": "“Specialized Orthodontic Care & Painless Dentistry for Radiant Smiles.”",
+    "cardSub": "Above SBI, Nellikuppam Rd, Guduvanchery · Dr. Rubiya Sayed (MDS)",
+    "cardBadge": "Dental & Orthodontic Care",
+    "floatingCardEyebrow": "Specialized Consultation",
+    "floatingCardTitle": "Braces & Aligners",
+    "floatingCardDept": "Orthodontics & Smile Designing",
+    "floatingCardTime": "Mon–Sat: 9:30 AM–2 PM & 5–9 PM · Sun: 10 AM–2 PM",
+    "floatingCardButton": "Book Consultation"
+  },
+  "trustStats": {
+    "stats": [
+      { "value": 15, "suffix": "+ Yrs", "label": "Clinical Dental Experience (Dr. Rubiya Sayed, MDS)" },
+      { "value": 4.9, "suffix": " ★", "label": "Patient Rating on Google Reviews" },
+      { "value": 100, "suffix": "%", "label": "UV & Autoclave Instrument Sterilization" },
+      { "value": 7, "suffix": " Days", "label": "Open Every Week for Dental Care" }
+    ],
+    "caption": "Delivering exceptional orthodontic transformations, pain-free root canals, aesthetic smile designing, and gentle pediatric dentistry for patients across Guduvanchery, Kayarambedu, Moolakazhani, Urapakkam, and Chengalpattu."
+  },
+  "services": [
+    {
+      "id": "orthodontic-braces",
+      "featured": true,
+      "icon": "sparkle",
+      "image": "/clinic-assets/dream-smile-operatory-main.jpg",
+      "imageAlt": "Advanced dental operatory suite with electronic chair and orthodontic unit at Dream Smile Dental Care, Guduvanchery",
+      "title": "Orthodontic Braces & Clear Aligners",
+      "tamilTitle": "பல் சீரமைப்பு மற்றும் கிளியர் அலைனர்ஸ் (Braces & Aligners)",
+      "desc": "Specialized orthodontic treatments led by Dr. Rubiya Sayed (MDS). Correction of crooked, crowded, spaced teeth, and bite misalignments using modern metal braces, ceramic braces, and invisible clear aligners.",
+      "chips": ["Clear Invisible Aligners", "Ceramic Braces", "Self-Ligating Metal Braces", "Bite & Jaw Alignment"],
+      "meta": "Orthodontics & Dentofacial Orthopaedics",
+      "longDesc": "Orthodontics goes beyond aesthetics — properly aligned teeth improve chewing efficiency, speech clarity, and long-term oral health. Dr. Rubiya Sayed creates customized alignment plans tailored for children, teens, and adults using discreet aesthetic ceramic brackets and modern clear aligners."
+    },
+    {
+      "id": "root-canal-crowns",
+      "featured": true,
+      "icon": "shield",
+      "image": "/clinic-assets/dream-smile-xray-chair.jpg",
+      "imageAlt": "Digital intraoral X-ray unit and operatory chair at Dream Smile Dental Care",
+      "title": "Root Canal Treatment (RCT) & Crowns",
+      "tamilTitle": "ரூட் கெனால் மற்றும் பற்கள் பொருத்துதல் (Root Canal & Crowns)",
+      "desc": "Painless single-sitting and rotary root canal therapies to eliminate severe toothache, save natural infected teeth, and restore strength with precision-milled ceramic, zirconia, or metal crowns.",
+      "chips": ["Painless Rotary RCT", "Zirconia & Ceramic Crowns", "Infection Eradication", "Natural Tooth Preservation"],
+      "meta": "Endodontics & Restorative Dentistry",
+      "longDesc": "Don't let tooth decay lead to extraction. Our digital radiography and rotary endodontic systems allow efficient, gentle, and painless removal of infected nerve pulp, sealing the canal completely and placing durable, lifelike aesthetic crowns."
+    },
+    {
+      "id": "dental-implants",
+      "featured": false,
+      "icon": "activity",
+      "image": "/clinic-assets/dream-smile-consultation-room.jpg",
+      "imageAlt": "Dr. Rubiya Sayed consultation room and dental certification at Dream Smile Dental Care",
+      "title": "Dental Implants & Tooth Replacement",
+      "tamilTitle": "டென்டல் இம்ப்ளான்ட்ஸ் மற்றும் செயற்கை பற்கள் (Implants & Bridges)",
+      "desc": "Permanent biocompatible titanium dental implants to replace missing teeth with natural chewing power, alongside fixed dental bridges and comfortable partial or complete dentures.",
+      "chips": ["Titanium Dental Implants", "Fixed Dental Bridges", "Crown & Bridge Restorations", "Complete & Partial Dentures"],
+      "meta": "Prosthodontics & Implantology",
+      "longDesc": "Missing teeth can cause adjacent teeth to drift and impair facial contours. Dental implants fuse securely with the jawbone, offering a lifelong foundation that looks, feels, and performs exactly like healthy natural teeth."
+    },
+    {
+      "id": "smile-cosmetic",
+      "featured": true,
+      "icon": "heart",
+      "image": "/clinic-assets/dream-smile-doctor-desk.jpg",
+      "imageAlt": "Doctor consultation desk and modern operatory suite at Dream Smile Dental, Guduvanchery",
+      "title": "Cosmetic Dentistry & Smile Designing",
+      "tamilTitle": "புன்னகை வடிவமைப்பு மற்றும் பற்கள் வெண்மையாக்குதல் (Cosmetic Smile)",
+      "desc": "Aesthetic smile transformations including professional in-office teeth whitening, composite dental veneers, gap closures (diastema), chipped tooth bonding, and gummy smile corrections.",
+      "chips": ["In-Office Teeth Whitening", "Composite & Porcelain Veneers", "Gap Closure & Bonding", "Aesthetic Contouring"],
+      "meta": "Cosmetic & Aesthetic Dentistry",
+      "longDesc": "A radiant, symmetrical smile enhances self-confidence in personal and professional life. We use modern shade-matching technology and gentle cosmetic procedures to brighten discolored teeth, repair chips, and design your dream smile."
+    },
+    {
+      "id": "pediatric-dentistry",
+      "featured": false,
+      "icon": "pulse",
+      "image": "/clinic-assets/dream-smile-waiting-area.jpg",
+      "imageAlt": "Comfortable patient waiting lounge at Dream Smile Dental Care",
+      "title": "Pediatric Dental Care & Preventive Care",
+      "tamilTitle": "குழந்தைகளுக்கான பல் மருத்துவ சிகிச்சை (Kids Dentistry)",
+      "desc": "Gentle, child-friendly dentistry in a welcoming environment. Cavity prevention with fluoride therapy, pit and fissure sealants, milk tooth fillings, space maintainers, and early orthodontic guidance.",
+      "chips": ["Gentle Child Dentistry", "Fluoride Application", "Pit & Fissure Sealants", "Early Orthodontic Screening"],
+      "meta": "Pediatric & Preventive Dentistry",
+      "longDesc": "Instilling positive dental habits early protects your child's permanent teeth. Our warm, playful operatory setup and gentle approach ensure kids feel relaxed, eliminating dental anxiety from their very first visit."
+    },
+    {
+      "id": "cleaning-gum-care",
+      "featured": false,
+      "icon": "shield",
+      "image": "/clinic-assets/dream-smile-reception-lounge.jpg",
+      "imageAlt": "Reception and waiting lounge corridor at Dream Smile Dental Care, Guduvanchery",
+      "title": "Ultrasonic Scaling & Gum Therapy",
+      "tamilTitle": "பற்கள் சுத்தம் செய்தல் மற்றும் ஈறு சிகிச்சை (Scaling & Polishing)",
+      "desc": "Gentle ultrasonic removal of stubborn plaque, calculus (tartar), and food stains without scratching enamel, followed by polishing and periodontal care to treat bleeding gums and bad breath.",
+      "chips": ["Ultrasonic Plaque Removal", "Enamel-Safe Polishing", "Bleeding Gums Treatment", "Fresh Breath Therapy"],
+      "meta": "Periodontics & Oral Hygiene",
+      "longDesc": "Routine professional teeth cleaning every 6 months prevents gum recession, periodontitis, and bone loss. Our advanced ultrasonic scalers comfortably clean hard-to-reach pockets, leaving your teeth smooth and your breath revitalized."
+    }
+  ],
+  "servicesHeader": {
+    "eyebrow": "Specialized Dental Treatments",
+    "title": "Comprehensive dentistry & specialized orthodontics.",
+    "sideText": "Led by Dr. Rubiya Sayed (BDS, MDS - Orthodontist), Dream Smile Dental provides advanced braces, pain-free root canals, implants, cosmetic smile designing, and gentle pediatric care in Guduvanchery.",
+    "workflowLinkText": "How your treatment works"
+  },
+  "workflow": {
+    "eyebrow": "Our Patient Workflow",
+    "title": "From consultation to your confident smile, in three gentle steps.",
+    "steps": [
+      {
+        "step": "01",
+        "title": "Comprehensive Dental Evaluation",
+        "desc": "Consult directly with Dr. Rubiya Sayed. We examine your teeth, gums, and bite alignment using digital intraoral radiography to understand your precise oral health needs."
+      },
+      {
+        "step": "02",
+        "title": "Personalized Treatment Plan",
+        "desc": "We explain all treatment options, materials (clear aligners, ceramic braces, crowns), expected timelines, and transparent pricing with no hidden costs."
+      },
+      {
+        "step": "03",
+        "title": "Gentle Pain-Free Dental Care",
+        "desc": "Experience gentle, precise dental care in our UV-sterilized operatory suite equipped with modern dental chairs, digital X-rays, and calming clinical care."
+      }
+    ],
+    "ctaPrompt": "Ready to transform your smile or need relief from tooth pain?",
+    "ctaButtonText": "Schedule your consultation now"
+  },
+  "about": {
+    "badgeText": "DREAM SMILE DENTAL · GUDUVANCHERY · DR. RUBIYA SAYED (MDS) · ",
+    "eyebrow": "About Dream Smile Dental",
+    "headline": "Specialized orthodontic care & multi-specialty family dentistry.",
+    "lead": "Led by Dr. Rubiya Sayed (BDS, MDS - Orthodontics and Dentofacial Orthopaedics) with over 15 years of specialized experience, Dream Smile Dental and Orthodontic Care is a premier dental clinic located above SBI Kayarambedu Branch on Nellikuppam Road, Guduvanchery.",
+    "quote": "“Our mission is to craft confident, radiant smiles through specialized orthodontic expertise, pain-free treatments, and uncompromising sterilization standards.”",
+    "cite": "— Dr. Rubiya Sayed (BDS, MDS), Orthodontist & Dental Surgeon",
+    "ctaText": "Book a dental consultation",
+    "whyUs": [
+      "Led by Dr. Rubiya Sayed (BDS, MDS), a specialized Orthodontist with 15+ years of clinical experience",
+      "Comprehensive multi-specialty care: Orthodontic Braces, Clear Aligners, Painless RCT, Implants & Kids Dentistry",
+      "Rated 4.9★ by satisfied patients on Google Reviews for gentle, effective dental treatments",
+      "Equipped with modern electronic dental chairs, arm-mounted digital intraoral X-rays, and rotary endodontics",
+      "100% strict infection control with Bio-Warrior UV chamber sterilization and autoclaved instruments",
+      "Convenient clinic location above SBI Kayarambedu Branch on Nellikuppam Road, opposite SP Mahal",
+      "Open 7 days a week with convenient morning and evening appointment timings"
+    ],
+    "pageStory": {
+      "chip": "About Dream Smile Dental",
+      "title": "15+ Years of Dental Excellence & Orthodontic Care in Guduvanchery.",
+      "sub": "Led by Dr. Rubiya Sayed (BDS, MDS in Orthodontics & Dentofacial Orthopaedics), Dream Smile Dental and Orthodontic Care brings world-class dental treatments, braces, aligners, and pain-free dentistry to families across Guduvanchery and Chengalpattu.",
+      "sectionEyebrow": "Our Clinical Philosophy",
+      "sectionHeading": "Precision Orthodontics, Patient Comfort & Modern Sterilization",
+      "paragraphs": [
+        "A healthy, beautiful smile has the power to transform self-esteem, improve facial harmony, and support long-term digestive and oral health. At Dream Smile Dental and Orthodontic Care, we combine specialized postgraduate orthodontic training with modern clinical infrastructure to deliver compassionate, gentle dental care.",
+        "Under the leadership of Dr. Rubiya Sayed (BDS, MDS), our clinic specializes in correcting complex misalignments, crowded teeth, and bite discrepancies for children, teenagers, and adults using discreet aesthetic brackets and modern clear aligners.",
+        "Beyond orthodontics, our clinic provides comprehensive dental treatments under one roof — including single-sitting painless root canals, zirconia crowns, titanium dental implants, aesthetic smile designing, and child-friendly pediatric care. With strict Bio-Warrior UV chamber sterilization and autoclaving protocols, every patient is assured the highest standards of safety, hygiene, and clinical comfort."
+      ]
+    }
+  },
+  "patientGuide": {
+    "eyebrow": "Dental Care Guide",
+    "title": "Important Guidelines for Your Dental Visit",
+    "cards": [
+      {
+        "title": "First Visit & Consultation",
+        "desc": "Bring any previous dental records, X-rays, or medical prescriptions. Dr. Rubiya Sayed conducts a comprehensive visual exam and digital X-ray to diagnose underlying concerns before starting treatment."
+      },
+      {
+        "title": "Braces & Aligners Care",
+        "desc": "Brush gently around brackets after meals with an orthodontic toothbrush. Avoid biting directly into hard, sticky, or chewy foods. Wear clear aligners for 20–22 hours daily as prescribed."
+      },
+      {
+        "title": "Pain-Free Root Canal Care",
+        "desc": "Our treatments use modern local anesthetics to ensure complete comfort. Avoid chewing hard foods on the treated side until the permanent crown is placed to safeguard the tooth."
+      }
+    ]
+  },
+  "qualityStandards": {
+    "eyebrow": "Clinical Standards",
+    "title": "Our Commitments to Patient Safety & Care",
+    "headerTitle": "Committed to Clinical Excellence & Patient Comfort.",
+    "headerSub": "Serving patients across Guduvanchery, Kayarambedu, Moolakazhani, and Urapakkam with specialized orthodontic expertise, gentle pain-free dentistry, and hospital-grade sterilization protocols.",
+    "proofItems": [
+      { "val": "15+", "lbl": "Years Clinical Dental Experience" },
+      { "val": "4.9★", "lbl": "Patient Rating on Google Reviews" },
+      { "val": "100%", "lbl": "UV Chamber & Autoclave Protocol" }
+    ],
+    "cards": [
+      {
+        "icon": "shield",
+        "title": "Bio-Warrior UV Sterilization",
+        "desc": "All dental instruments undergo multi-tier ultrasonic cleaning, medical-grade autoclaving, and UV chamber storage to guarantee 100% infection-free dental procedures."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Specialized MDS Orthodontist",
+        "desc": "Treatments are planned and executed by Dr. Rubiya Sayed, a qualified specialist with Master of Dental Surgery (MDS) in Orthodontics and Dentofacial Orthopaedics."
+      },
+      {
+        "icon": "check",
+        "title": "Transparent & Gentle Care",
+        "desc": "Detailed explanation of every procedure, gentle pain-free anesthesia techniques, and transparent pricing without unexpected surprises."
+      }
+    ]
+  },
+  "gallery": {
+    "headerChip": "Clinic Tour & Facilities",
+    "headerTitle": "Dream Smile Dental Photo Gallery.",
+    "headerSub": "Take a visual tour of our modern dental operatory suite, digital intraoral X-ray unit, Dr. Rubiya Sayed's consultation room, and air-conditioned patient waiting lounge above SBI Kayarambedu Branch on Nellikuppam Road, Guduvanchery.",
+    "categories": ["All", "Operatory", "Consultation", "Lounge"],
+    "images": [
+      {
+        "id": "gal-1",
+        "src": "/clinic-assets/dream-smile-operatory-main.jpg",
+        "title": "Advanced Dental Operatory Suite",
+        "category": "Operatory",
+        "desc": "High-tech electronic dental operatory chair with purple upholstery, delivery unit, and wall-mounted Bio-Warrior UV sterilization chamber."
+      },
+      {
+        "id": "gal-2",
+        "src": "/clinic-assets/dream-smile-consultation-room.jpg",
+        "title": "Dr. Rubiya Sayed Consultation Room",
+        "category": "Consultation",
+        "desc": "Air-conditioned doctor consultation office displaying verified BDS and MDS orthodontic degrees and patient discussion desk."
+      },
+      {
+        "id": "gal-3",
+        "src": "/clinic-assets/dream-smile-xray-chair.jpg",
+        "title": "Digital Intraoral X-Ray & Operatory Unit",
+        "category": "Operatory",
+        "desc": "Close-up of treatment chair equipped with arm-mounted digital intraoral dental X-ray machine and ergonomic operatory lighting."
+      },
+      {
+        "id": "gal-4",
+        "src": "/clinic-assets/dream-smile-reception-lounge.jpg",
+        "title": "Patient Reception & Waiting Corridor",
+        "category": "Lounge",
+        "desc": "Comfortable black leather sofa seating in the reception lounge with frosted glass partition and clinic branding."
+      },
+      {
+        "id": "gal-5",
+        "src": "/clinic-assets/dream-smile-doctor-desk.jpg",
+        "title": "Consultation Desk & Operatory View",
+        "category": "Consultation",
+        "desc": "Doctor consultation desk with patient seating, overlooking the spotless sterile dental operatory room."
+      },
+      {
+        "id": "gal-6",
+        "src": "/clinic-assets/dream-smile-waiting-area.jpg",
+        "title": "Air-Conditioned Patient Waiting Lounge",
+        "category": "Lounge",
+        "desc": "Spacious and peaceful waiting lounge with leather couches, coffee table, and patient care signage."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Who is the lead doctor at Dream Smile Dental and Orthodontic care?",
+      "a": "The clinic is led by Dr. Rubiya Sayed (BDS, MDS), a specialized Orthodontist and Dentofacial Orthopaedist with over 15 years of clinical experience in dental alignment, smile designing, and comprehensive dentistry."
+    },
+    {
+      "q": "What types of braces and aligners do you provide?",
+      "a": "We offer conventional metal braces, aesthetic ceramic (tooth-colored) braces, self-ligating brackets, and clear invisible aligners. Dr. Rubiya Sayed evaluates your bite and recommends the most comfortable and discreet option for your lifestyle."
+    },
+    {
+      "q": "Is root canal treatment (RCT) painful at Dream Smile Dental?",
+      "a": "Not at all. With modern local anesthesia, digital X-rays, and advanced rotary instruments, root canal treatment is completely comfortable and virtually pain-free. Most patients experience immediate relief from the toothache that brought them in."
+    },
+    {
+      "q": "What are the clinic timings of Dream Smile Dental in Guduvanchery?",
+      "a": "We are open Monday through Saturday with two sessions: 9:30 AM to 2:00 PM (Morning) and 5:00 PM to 9:00 PM (Evening). On Sundays, we are open from 10:00 AM to 2:00 PM for weekend appointments."
+    },
+    {
+      "q": "Where is the clinic located in Guduvanchery?",
+      "a": "Dream Smile Dental and Orthodontic Care is located on Nellikuppam Road, directly above the SBI Kayarambedu Branch and opposite SP Mahal, Guduvanchery, Tamil Nadu 603202. Click our Google Maps directions button for direct GPS navigation."
+    },
+    {
+      "q": "How can I book an appointment?",
+      "a": "You can call or WhatsApp us directly at +91 80984 80982, or submit the appointment booking form on this website. Our clinic team confirms appointments promptly."
+    },
+    {
+      "q": "Do you treat children (Pediatric Dentistry)?",
+      "a": "Yes! We provide compassionate, gentle dental care for children, including preventive fluoride treatments, pit and fissure sealants, milk tooth fillings, and early orthodontic evaluations to guide proper jaw development."
+    }
+  ],
+  "booking": {
+    "ctaLabel": "Book Appointment",
+    "ctaFullLabel": "Book Dental Appointment",
+    "modalEyebrow": "Usually confirmed in 15 min",
+    "modalTitle": "Book Dental Appointment",
+    "modalHint": "Morning & evening consultation slots available 7 days a week.",
+    "serviceLabel": "Dental Treatment / Consultation",
+    "servicePlaceholder": "Select treatment or service",
+    "timeLabel": "Preferred time slot",
+    "noteLabel": "Reason for visit or symptoms (optional)",
+    "notePlaceholder": "E.g., braces consultation, tooth pain, teeth cleaning, dental crown…",
+    "submitButtonText": "Confirm Dental Appointment",
+    "guaranteeNote": "100% UV Sterilization · Advanced Dental Equipment · Gentle Pain-Free Care",
+    "timeSlots": [
+      "9:30 AM", "10:30 AM", "11:30 AM", "12:30 PM", "1:30 PM",
+      "5:00 PM", "6:00 PM", "7:00 PM", "8:00 PM", "8:30 PM"
+    ]
+  },
+  "ctaBanner": {
+    "eyebrow": "Led by Dr. Rubiya Sayed (MDS - Orthodontist) · Open 7 Days",
+    "title": "Transform your smile with specialized, gentle dental care.",
+    "sub": "Book your consultation for braces, clear aligners, painless root canals, implants, or general dental checkups in Guduvanchery.",
+    "btnPrimary": "Book Dental Appointment"
+  },
+  "navigation": {
+    "links": [
+      { "label": "Home", "short": "Home", "path": "/" },
+      { "label": "About Clinic", "short": "About", "path": "/about-us" },
+      { "label": "Dental Treatments", "short": "Treatments", "path": "/treatments" },
+      { "label": "Clinic Gallery", "short": "Gallery", "path": "/gallery" },
+      { "label": "Contact & Location", "short": "Contact", "path": "/contact" }
+    ],
+    "ticker": [
+      "Specialized Orthodontics & Clear Aligners",
+      "Dr. Rubiya Sayed (BDS, MDS - Orthodontist)",
+      "15+ Years of Clinical Dental Excellence",
+      "Single-Sitting Painless Root Canal (RCT)",
+      "Ceramic & Zirconia Aesthetic Crowns",
+      "Permanent Dental Implants & Bridges",
+      "Cosmetic Smile Designing & Whitening",
+      "Child-Friendly Pediatric Dental Care",
+      "100% Bio-Warrior UV Chamber Sterilization",
+      "Above SBI · Nellikuppam Rd · Guduvanchery"
+    ]
+  },
+  "seo": {
+    "homeTitle": "Dream Smile Dental and Orthodontic care | Guduvanchery | Dr. Rubiya Sayed",
+    "homeDescription": "Dream Smile Dental & Orthodontic Care in Guduvanchery. Led by Dr. Rubiya Sayed (MDS). Specialized braces, invisible aligners, painless RCT, and implants. Call +91 80984 80982.",
+    "ogDefaults": {
+      "title": "Dream Smile Dental and Orthodontic care — Guduvanchery",
+      "description": "Led by Dr. Rubiya Sayed (BDS, MDS). Advanced braces, clear aligners, painless root canals, implants, and pediatric dentistry in Guduvanchery.",
+      "image": "/clinic-assets/dream-smile-operatory-main.jpg",
+      "imageAlt": "Dream Smile Dental and Orthodontic care operatory suite in Guduvanchery"
+    },
+    "pages": {
+      "about": {
+        "title": "About Dr. Rubiya Sayed & Clinic | Dream Smile Dental Guduvanchery",
+        "description": "Learn about Dr. Rubiya Sayed (BDS, MDS in Orthodontics) with 15+ years experience. Modern operatory, UV chamber sterilization, and compassionate dental care in Guduvanchery.",
+        "ogTitle": "About Dream Smile Dental — Dr. Rubiya Sayed (MDS)",
+        "ogDescription": "15+ years of specialized orthodontic care and multi-specialty family dentistry in Guduvanchery above SBI Kayarambedu Branch.",
+        "ogImage": "about-us",
+        "ogAlt": "Dr. Rubiya Sayed consultation room at Dream Smile Dental"
+      },
+      "treatments": {
+        "title": "Dental Treatments & Orthodontic Braces | Dream Smile Dental",
+        "description": "Explore specialized dental services: Orthodontic braces, clear aligners, painless root canals, zirconia crowns, dental implants, teeth whitening, and kids dentistry in Guduvanchery.",
+        "ogTitle": "Dental Treatments & Orthodontic Care — Dream Smile Dental",
+        "ogDescription": "Braces, clear aligners, painless RCT, dental implants, and cosmetic smile designing in Guduvanchery by Dr. Rubiya Sayed.",
+        "ogImage": "treatments",
+        "ogAlt": "Digital intraoral X-ray and operatory chair at Dream Smile Dental"
+      },
+      "gallery": {
+        "title": "Clinic Photos & Facilities Tour | Dream Smile Dental Guduvanchery",
+        "description": "View official photos of Dream Smile Dental: High-tech operatory chair, digital X-ray unit, Dr. Rubiya Sayed's consultation room, and patient waiting lounge.",
+        "ogTitle": "Clinic Photos & Facilities — Dream Smile Dental Guduvanchery",
+        "ogDescription": "Explore our modern dental operatory, UV sterilization facility, consultation office, and comfortable waiting lounge.",
+        "ogImage": "gallery",
+        "ogAlt": "Dream Smile Dental reception and waiting lounge corridor"
+      },
+      "testimonials": {
+        "title": "Quality Standards & Patient Care | Dream Smile Dental",
+        "description": "Dream Smile Dental's clinical standards: Bio-Warrior UV sterilization, 15+ years orthodontic expertise, 4.9★ patient rating, and dental treatment FAQs.",
+        "ogTitle": "Clinical Standards & Patient Safety — Dream Smile Dental",
+        "ogDescription": "Committed to gentle, pain-free dental care, specialized orthodontic planning, and 100% sterile instruments in Guduvanchery.",
+        "ogImage": "testimonials",
+        "ogAlt": "Doctor consultation desk at Dream Smile Dental Care"
+      },
+      "contact": {
+        "title": "Location, Timings & Contact | Dream Smile Dental Guduvanchery",
+        "description": "Visit Dream Smile Dental on Nellikuppam Road (Above SBI Kayarambedu Branch, Opp. SP Mahal), Guduvanchery 603202. Mon–Sat 9:30 AM–2 PM & 5–9 PM, Sun 10 AM–2 PM. Call +91 80984 80982.",
+        "ogTitle": "Location, Timings & Contact — Dream Smile Dental Guduvanchery",
+        "ogDescription": "Find Dream Smile Dental above SBI on Nellikuppam Road, opposite SP Mahal, Guduvanchery. Call/WhatsApp: +91 80984 80982.",
+        "ogImage": "contact",
+        "ogAlt": "Dream Smile Dental patient waiting lounge and facility"
+      }
+    }
+  }
+}

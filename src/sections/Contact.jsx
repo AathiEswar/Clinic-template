@@ -1,4 +1,5 @@
 import { CLINIC, WA_DEFAULT } from '@/config';
+import { BOOKING_CONFIG } from '@/data';
 import SectionHeader from '@/components/SectionHeader';
 import BookingForm from '@/components/BookingForm';
 import Icon from '@/lib/Icons';
@@ -8,15 +9,15 @@ export default function Contact() {
     <section className="contact section" data-scroll-section id="visit">
       <div className="container">
         <SectionHeader
-          eyebrow="Visit Dharshini Laboratory"
-          segments={[{ t: 'Conveniently located at SP MAHAL, ' }, { t: 'Nellikuppam Rd, Guduvancheri.', em: true }]}
+          eyebrow={`Visit ${CLINIC.name}`}
+          segments={[{ t: `Conveniently located at ${CLINIC.landmark || CLINIC.address}` }]}
         />
 
         <div className="contact__grid">
           <div className="contact__info">
             <div className="contact__map-wrap" data-reveal style={{ borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--border)', marginBottom: '24px', background: 'var(--surface)' }}>
               <iframe
-                title="Dharshini Laboratory Google Maps Location"
+                title={`${CLINIC.name} Google Maps Location`}
                 src={CLINIC.mapsEmbedUrl}
                 width="100%"
                 height="240"
@@ -45,11 +46,15 @@ export default function Contact() {
             <address className="contact__addr" data-reveal>
               <h3>{CLINIC.name}</h3>
               <p>{CLINIC.address}</p>
-              <p className="contact__landmark" style={{ color: 'var(--teal)', fontWeight: '600', marginTop: '6px' }}>Landmark: {CLINIC.landmark}</p>
+              {CLINIC.landmark && (
+                <p className="contact__landmark" style={{ color: 'var(--teal)', fontWeight: '600', marginTop: '6px' }}>
+                  Landmark: {CLINIC.landmark}
+                </p>
+              )}
             </address>
 
             <div className="contact__hours" data-reveal>
-              <h4><Icon name="clock" size={15} /> Laboratory Operating Hours</h4>
+              <h4><Icon name="clock" size={15} /> Operating Hours</h4>
               <dl>
                 {CLINIC.hours.map((h) => (
                   <div key={h.days}><dt>{h.days}</dt><dd>{h.time}</dd></div>
@@ -66,16 +71,18 @@ export default function Contact() {
                 <span className="btn__solo">Chat on WhatsApp</span>
                 <span className="btn__ic"><Icon name="whatsapp" size={15} strokeWidth={2} /></span>
               </a>
-              <a className="contact__mail" href={`mailto:${CLINIC.email}`} data-cursor="hover">
-                <Icon name="mail" size={15} /> {CLINIC.email}
-              </a>
+              {CLINIC.email && (
+                <a className="contact__mail" href={`mailto:${CLINIC.email}`} data-cursor="hover">
+                  <Icon name="mail" size={15} /> {CLINIC.email}
+                </a>
+              )}
             </div>
           </div>
 
           <div className="contact__form" data-reveal>
             <div className="contact__form-head">
-              <h3>Book a test or home collection</h3>
-              <p><span className="pulse-dot" aria-hidden="true" /> Open Daily 6:30 AM – 9:00 PM · Walk-ins &amp; Home Visits</p>
+              <h3>{BOOKING_CONFIG.modalTitle || 'Book a test or appointment'}</h3>
+              <p><span className="pulse-dot" aria-hidden="true" /> Open Daily: {CLINIC.timings} · Walk-ins &amp; Home Visits</p>
             </div>
             <BookingForm />
           </div>

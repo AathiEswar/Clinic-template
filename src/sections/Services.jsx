@@ -1,7 +1,7 @@
 'use client';
 
 import { useScroll } from '@/context/ScrollContext';
-import { SERVICES } from '@/data';
+import { SERVICES, SERVICES_HEADER } from '@/data';
 import SectionHeader from '@/components/SectionHeader';
 import Icon from '@/lib/Icons';
 import { img, SIZES } from '@/lib/images';
@@ -13,15 +13,15 @@ export default function Services() {
     <section className="services section" data-scroll-section id="services">
       <div className="container">
         <SectionHeader
-          eyebrow="Diagnostic &amp; Pathology Services"
-          segments={[{ t: 'Certified clinical testing & ' }, { t: 'home sample collection.', em: true }]}
+          eyebrow={SERVICES_HEADER.eyebrow}
+          segments={[{ t: SERVICES_HEADER.title }]}
           side={
             <>
               <p>
-                Dharshini Laboratory provides accurate hematology, diabetes screening, thyroid profiles, routine urine/stool tests, and doorstep phlebotomy across Guduvancheri and Kayarambedu.
+                {SERVICES_HEADER.sideText}
               </p>
               <button className="link-arrow" onClick={() => scrollTo('#process')} data-cursor="hover">
-                How sample collection works <Icon name="arrowR" size={15} strokeWidth={2.2} />
+                {SERVICES_HEADER.workflowLinkText || 'How it works'} <Icon name="arrowR" size={15} strokeWidth={2.2} />
               </button>
             </>
           }

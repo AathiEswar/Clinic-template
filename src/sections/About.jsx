@@ -1,13 +1,16 @@
 'use client';
 
 import { useScroll } from '@/context/ScrollContext';
-import { WHY_US } from '@/data';
+import { WHY_US, ABOUT_CONTENT } from '@/data';
 import { CLINIC } from '@/config';
 import SectionHeader from '@/components/SectionHeader';
 import Icon from '@/lib/Icons';
 
 export default function About() {
-  const { scrollTo, openBooking } = useScroll();
+  const { openBooking } = useScroll();
+
+  const badgeText = ABOUT_CONTENT.badgeText || `${CLINIC.name.toUpperCase()} · EST. ${CLINIC.establishedYear} · `;
+  const localityShort = CLINIC.locality?.split(',')[0]?.trim() || CLINIC.city?.split(',')[0]?.trim() || '';
 
   return (
     <section className="about section" data-scroll-section id="about">
@@ -27,28 +30,25 @@ export default function About() {
                 <path id="circlePath" d="M60,60 m-44,0 a44,44 0 1,1 88,0 a44,44 0 1,1 -88,0" />
               </defs>
               <text>
-                <textPath href="#circlePath">DHARSHINI LABORATORY · GUDUVANCHERI · EST. 2010 ·&nbsp;</textPath>
+                <textPath href="#circlePath">{badgeText}</textPath>
               </text>
             </svg>
             <span className="about__badge-core"><Icon name="sparkle" size={20} /></span>
           </div>
 
           <div className="about__exp" data-scroll data-scroll-speed="0.5">
-            <strong>2010</strong>
-            <span>Est. Year<br />Guduvancheri</span>
+            <strong>{CLINIC.establishedYear}</strong>
+            <span>Est. Year<br />{localityShort}</span>
           </div>
         </div>
 
         <div className="about__content">
           <SectionHeader
-            eyebrow="About Dharshini Laboratory"
-            segments={[
-              { t: 'Accurate clinical diagnostics & ' },
-              { t: 'doorstep home sample collection.', em: true },
-            ]}
+            eyebrow={ABOUT_CONTENT.eyebrow || `About ${CLINIC.name}`}
+            segments={[{ t: ABOUT_CONTENT.headline || CLINIC.slogan }]}
           />
           <p className="about__lead" data-reveal>
-            Established in 2010, Dharshini Laboratory is a trusted diagnostic pathology center in Kayarambedu, Guduvancheri. We provide comprehensive hematology, diabetic screenings, thyroid profiles, and doorstep blood collection across Guduvancheri, Kayarambedu, and Urapakkam.
+            {ABOUT_CONTENT.lead || CLINIC.motto}
           </p>
 
           <ul className="about__list">
@@ -60,13 +60,15 @@ export default function About() {
             ))}
           </ul>
 
-          <blockquote className="about__sign" data-reveal>
-            “Our goal is to provide every patient with accurate diagnostic reports, sterile sample collection, and early morning convenience.”
-            <cite>— Dharshini Laboratory, Guduvancheri</cite>
-          </blockquote>
+          {ABOUT_CONTENT.quote && (
+            <blockquote className="about__sign" data-reveal>
+              {ABOUT_CONTENT.quote}
+              <cite>{ABOUT_CONTENT.cite || `— ${CLINIC.name}`}</cite>
+            </blockquote>
+          )}
 
           <button className="link-arrow" onClick={() => openBooking()} data-cursor="hover" data-reveal>
-            Book a test or home visit <Icon name="arrowR" size={15} strokeWidth={2.2} />
+            {ABOUT_CONTENT.ctaText || 'Book a test or visit'} <Icon name="arrowR" size={15} strokeWidth={2.2} />
           </button>
         </div>
       </div>

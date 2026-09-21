@@ -77,8 +77,8 @@ export default function Preloader({ onComplete }) {
         {/* <p>, not <h1>: this overlay is now part of the pre-rendered HTML on every
             page, and each page already has exactly one real <h1>. */}
         <p className="preloader__name">
-          <span>DHARSHINI</span>
-          <span>LABORATORY</span>
+          <span>{CLINIC.brandWordmark1}</span>
+          <span>{CLINIC.brandWordmark2}</span>
         </p>
         <span className="preloader__tag">{CLINIC.tagline}</span>
       </div>

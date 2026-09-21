@@ -6,9 +6,8 @@ export const dynamic = 'force-static';
 export default function manifest() {
   return {
     name: CLINIC.name,
-    short_name: 'Dharshini Lab',
-    description:
-      'Diagnostic Center & Clinical Pathology Laboratory with doorstep home blood collection in Guduvancheri & Kayarambedu.',
+    short_name: CLINIC.shortName || CLINIC.name,
+    description: CLINIC.tagline,
     start_url: '/',
     display: 'minimal-ui',
     background_color: '#F8FAFC',

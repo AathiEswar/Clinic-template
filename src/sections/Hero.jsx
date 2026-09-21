@@ -3,7 +3,7 @@
 import { useRef } from 'react';
 import { useScroll, useAnim, skipReveal } from '@/context/ScrollContext';
 import { CLINIC } from '@/config';
-import { SPECIALTIES_TICKER } from '@/data';
+import { SPECIALTIES_TICKER, HERO_CONTENT } from '@/data';
 import Button from '@/components/Button';
 import Marquee from '@/components/Marquee';
 import Icon from '@/lib/Icons';
@@ -36,19 +36,26 @@ export default function Hero() {
       <div className="hero__inner container">
         <div className="hero__copy">
           <h1 className="hero__title">
-            Accurate Diagnostic{' '}
+            {HERO_CONTENT.titlePre || 'Accurate Diagnostic'}{' '}
             <span className="hero__condition-highlight">
-              <span>Pathology</span><i> &amp; </i> <span>Blood Testing</span>
+              <span>{HERO_CONTENT.highlightWord1 || 'Pathology'}</span>
+              <i> &amp; </i>
+              <span>{HERO_CONTENT.highlightWord2 || 'Blood Testing'}</span>
             </span>{' '}
+            {HERO_CONTENT.titlePost || 'Services.'}{' '}
+            {HERO_CONTENT.titleEm && <em>{HERO_CONTENT.titleEm}</em>}
           </h1>
 
           <p className="hero__sub">
-            <strong className="hero__sub-highlight hero__sub-highlight--gold">Established in 2010</strong>, Dharshini Laboratory provides comprehensive pathology testing, blood profiles, and doorstep sample collection across <strong className="hero__sub-highlight">Guduvancheri</strong>, Kayarambedu, Urapakkam, and Chengalpattu. Open 7 days a week from 6:30 AM to 9:00 PM.
+            <strong className="hero__sub-highlight hero__sub-highlight--gold">
+              Est. {CLINIC.establishedYear}
+            </strong>
+            , {HERO_CONTENT.subHeadline || CLINIC.slogan}
           </p>
 
           <div className="hero__ctas">
-            <Button magnetic icon="calendar" onClick={() => openBooking()} aria-label="Book a diagnostic test or home sample collection">
-              Book Test / Collection
+            <Button magnetic icon="calendar" onClick={() => openBooking()} aria-label={HERO_CONTENT.ctaBook || 'Book Test / Collection'}>
+              {HERO_CONTENT.ctaBook || 'Book Test / Collection'}
             </Button>
             <Button variant="call" icon="phone" href={CLINIC.phoneHref}>
               Call {CLINIC.phoneDisplay}
@@ -57,7 +64,7 @@ export default function Hero() {
 
           <a
             className="hero__yt-badge"
-            href="#visit"
+            href={HERO_CONTENT.badgeLink || '#visit'}
             data-cursor="hover"
             style={{
               display: 'inline-flex',
@@ -78,7 +85,7 @@ export default function Hero() {
             }}
           >
             <span className="pulse-dot" aria-hidden="true" />
-            <span>Open Early: 6:30 AM Daily · Fasting Tests &amp; Home Collection</span>
+            <span>{HERO_CONTENT.badgeText || `Open Daily: ${CLINIC.timings}`}</span>
             <Icon name="arrowR" size={13} strokeWidth={2.2} />
           </a>
 
@@ -88,57 +95,57 @@ export default function Hero() {
               <strong>{CLINIC.rating}</strong> · {CLINIC.reviewCount}
             </span>
             <span className="hero__proof-sep" aria-hidden="true" />
-            <span className="hero__proof-item"><strong>Est. 2010</strong> · 15+ Yrs</span>
+            <span className="hero__proof-item"><strong>Est. {CLINIC.establishedYear}</strong> · {CLINIC.experienceYears} Yrs</span>
             <span className="hero__proof-sep" aria-hidden="true" />
-            <span className="hero__proof-item"><strong>100%</strong> Sterile Protocol</span>
+            <span className="hero__proof-item"><strong>{HERO_CONTENT.proofProtocol || '100% Sterile Protocol'}</strong></span>
           </div>
         </div>
 
         <div className="hero__visual" aria-hidden="false">
-          {/* Main Hero Visual: Genuine Google Maps photo of Dharshini Laboratory reception */}
+          {/* Main Hero Visual */}
           <div className="hero__main-card" data-scroll data-scroll-speed="-0.3">
             <div className="hero__img-frame">
               <img
-                {...img(HERO_IMAGE, { sizes: HERO_SIZES, priority: true })}
-                alt="Dharshini Laboratory reception desk, waiting area and consultation counter in Kayarambedu, Guduvancheri"
+                {...img(HERO_CONTENT.heroImage || HERO_IMAGE, { sizes: HERO_SIZES, priority: true })}
+                alt={`${CLINIC.name} dental operatory and clinic in ${CLINIC.locality || CLINIC.city}`}
                 className="hero__main-img"
               />
               <div className="hero__img-badge">
                 <span className="hero__img-badge-dot" />
-                <span>Diagnostic Center &amp; Pathology Lab</span>
+                <span>{HERO_CONTENT.cardBadge || CLINIC.tagline}</span>
               </div>
               <div className="hero__img-caption">
-                <p className="hero__img-quote">“Prompt Diagnostics &amp; Doorstep Blood Collection Across Guduvancheri.”</p>
-                <span className="hero__img-sub">SP MAHAL, Nellikuppam Rd, Kayarambedu · Est. 2010</span>
+                <p className="hero__img-quote">{HERO_CONTENT.cardQuote || `“${CLINIC.slogan}”`}</p>
+                <span className="hero__img-sub">{HERO_CONTENT.cardSub || `${CLINIC.landmark} · Est. ${CLINIC.establishedYear}`}</span>
               </div>
             </div>
-            <span className="hero__floating-heart" title="Accurate diagnostic care and clinical pathology">
+            <span className="hero__floating-heart" title={CLINIC.slogan}>
               ✦
             </span>
           </div>
 
           <div className="hero__card hero__card--slot" data-scroll data-scroll-speed="0.6">
-            <p className="hero__card-eyebrow"><span className="pulse-dot" aria-hidden="true" /> Fasting &amp; Routine Tests</p>
-            <p className="hero__card-doc">Home Sample Collection</p>
-            <p className="hero__card-dept">Doorstep phlebotomy service available</p>
-            <p className="hero__card-time"><Icon name="clock" size={14} /> Daily: 6:30 AM – 9:00 PM</p>
+            <p className="hero__card-eyebrow"><span className="pulse-dot" aria-hidden="true" /> {HERO_CONTENT.floatingCardEyebrow || 'Fasting & Routine Tests'}</p>
+            <p className="hero__card-doc">{HERO_CONTENT.floatingCardTitle || 'Home Sample Collection'}</p>
+            <p className="hero__card-dept">{HERO_CONTENT.floatingCardDept || 'Doorstep phlebotomy service available'}</p>
+            <p className="hero__card-time"><Icon name="clock" size={14} /> {HERO_CONTENT.floatingCardTime || CLINIC.timings}</p>
             <button
               className="hero__card-btn"
-              onClick={() => openBooking('Home Blood Sample Collection')}
+              onClick={() => openBooking(HERO_CONTENT.floatingCardTitle || 'Home Blood Sample Collection')}
               data-cursor="hover"
             >
-              Book Home Collection <Icon name="arrowR" size={14} strokeWidth={2.2} />
+              {HERO_CONTENT.floatingCardButton || 'Book Home Collection'} <Icon name="arrowR" size={14} strokeWidth={2.2} />
             </button>
           </div>
 
           <div className="hero__card hero__card--rating" data-scroll data-scroll-speed="1.1">
             <Stars />
             <p><strong>Google Maps Verified</strong></p>
-            <span>Guduvancheri</span>
+            <span>{CLINIC.locality || CLINIC.city}</span>
           </div>
 
           <div className="hero__chip" data-scroll data-scroll-speed="0.9">
-            <Icon name="pin" size={15} /> SP MAHAL, Nellikuppam Rd, Guduvancheri
+            <Icon name="pin" size={15} /> {CLINIC.landmark || CLINIC.address}
           </div>
         </div>
       </div>

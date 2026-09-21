@@ -1,7 +1,7 @@
 'use client';
 
 import { useScroll } from '@/context/ScrollContext';
-import { PROCESS } from '@/data';
+import { PROCESS, PROCESS_HEADER } from '@/data';
 import SectionHeader from '@/components/SectionHeader';
 import Icon from '@/lib/Icons';
 
@@ -12,8 +12,8 @@ export default function Process() {
     <section className="process section" data-scroll-section id="process">
       <div className="container">
         <SectionHeader
-          eyebrow="Diagnostic Workflow"
-          segments={[{ t: 'From sample collection to report, ' }, { t: 'in three simple steps.', em: true }]}
+          eyebrow={PROCESS_HEADER.eyebrow}
+          segments={[{ t: PROCESS_HEADER.title }]}
         />
 
         <ol className="process__grid">
@@ -27,9 +27,9 @@ export default function Process() {
         </ol>
 
         <p className="process__cta" data-reveal>
-          Need a specific pathology test or doorstep morning sample collection?{' '}
-          <button className="link-arrow" onClick={() => openBooking('Home Blood Sample Collection')} data-cursor="hover">
-            Schedule your test or home visit now <Icon name="arrowR" size={15} strokeWidth={2.2} />
+          {PROCESS_HEADER.ctaPrompt}{' '}
+          <button className="link-arrow" onClick={() => openBooking()} data-cursor="hover">
+            {PROCESS_HEADER.ctaButtonText || 'Schedule your visit now'} <Icon name="arrowR" size={15} strokeWidth={2.2} />
           </button>
         </p>
       </div>

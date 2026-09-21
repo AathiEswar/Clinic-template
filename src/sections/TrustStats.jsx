@@ -1,4 +1,4 @@
-import { STATS } from '@/data';
+import { STATS, STATS_CAPTION } from '@/data';
 import { Counter } from '@/lib/anim';
 
 export default function TrustStats() {
@@ -13,9 +13,11 @@ export default function TrustStats() {
             </div>
           ))}
         </div>
-        <p className="stats__caption" data-reveal>
-          Serving patients and families across Guduvancheri, Kayarambedu, Moolakazhani, Urapakkam, Potheri, and Chengalpattu with dependable pathology testing, early morning sample collection, and prompt digital reports since 2010.
-        </p>
+        {STATS_CAPTION && (
+          <p className="stats__caption" data-reveal>
+            {STATS_CAPTION}
+          </p>
+        )}
       </div>
     </section>
   );

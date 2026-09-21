@@ -3,16 +3,18 @@
 import SectionHeader from '@/components/SectionHeader';
 import DoctorSpotlight from '@/components/DoctorSpotlight';
 
+import { CLINIC } from '@/config';
+
 export default function Doctors() {
   return (
     <section className="doctors section" data-scroll-section id="team">
       <div className="container">
         <SectionHeader
-          eyebrow="Our Diagnostic Team"
-          segments={[{ t: 'Dharshini Laboratory — 15+ years of dependable ' }, { t: 'Pathology & Diagnostic Testing.', em: true }]}
+          eyebrow="Specialist Doctor Profile"
+          segments={[{ t: `${CLINIC.name} — Led by ` }, { t: `${CLINIC.doctorName} (MDS - Orthodontist).`, em: true }]}
           side={
             <p>
-              Serving Guduvancheri, Kayarambedu, and Urapakkam with certified clinical testing, sterile single-use vacutainers, and doorstep morning sample collection.
+              Delivering specialized orthodontic corrections, invisible aligners, painless root canals, and family dentistry in Guduvanchery.
             </p>
           }
         />

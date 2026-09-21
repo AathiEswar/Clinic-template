@@ -1,17 +1,12 @@
 import ContactView from '@/views/ContactView';
 import JsonLdScript from '@/components/JsonLdScript';
 import { CLINIC } from '@/config';
-import { pageMetadata, ogCard, breadcrumbJsonLd, absoluteUrl, WEBSITE_ID, CLINIC_ID } from '@/lib/seo';
+import { getPageMetadata, breadcrumbJsonLd, absoluteUrl, WEBSITE_ID, CLINIC_ID } from '@/lib/seo';
+import clinicConfig from '@/clinic.config.json';
 
-const TITLE = 'Location, Timings & Contact | Dharshini Laboratory';
+export const metadata = getPageMetadata('contact', '/contact');
 
-export const metadata = pageMetadata({
-  title: TITLE,
-  description:
-    `Visit ${CLINIC.name} at ${CLINIC.address}. Open daily 6:30 AM–9:00 PM. Call or WhatsApp ${CLINIC.phoneDisplay} or book home sample collection online.`,
-  path: '/contact',
-  image: ogCard('contact', 'Dharshini Laboratory location on Nellikuppam Road opposite Guduvancheri'),
-});
+const p = clinicConfig.seo?.pages?.contact || {};
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -21,7 +16,7 @@ const jsonLd = {
       '@type': 'ContactPage',
       '@id': `${absoluteUrl('/contact')}#webpage`,
       url: absoluteUrl('/contact'),
-      name: `${TITLE} — ${CLINIC.name}`,
+      name: `${p.title || 'Contact'} — ${CLINIC.name}`,
       isPartOf: { '@id': WEBSITE_ID },
       about: { '@id': CLINIC_ID },
     },

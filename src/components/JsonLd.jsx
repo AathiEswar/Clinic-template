@@ -15,8 +15,7 @@ const SPECIALTIES = ['Clinical Pathology', 'Diagnostic Laboratory', 'Phlebotomy'
 
 /**
  * Site-wide structured data, rendered once in the root layout as a single
- * schema.org @graph: the WebSite and Dharshini Laboratory (DiagnosticLab /
- * MedicalBusiness with address, hours, location coordinates, and diagnostic services).
+ * schema.org @graph: the WebSite and Clinic (Dentist / MedicalBusiness with address, hours, location coordinates, and dental services).
  */
 export default function JsonLd() {
   const graph = [
@@ -29,18 +28,17 @@ export default function JsonLd() {
       publisher: { '@id': CLINIC_ID },
     },
     {
-      '@type': ['DiagnosticLab', 'MedicalBusiness', 'LocalBusiness'],
+      '@type': CLINIC.schemaTypes || ['Dentist', 'MedicalBusiness', 'LocalBusiness'],
       '@id': CLINIC_ID,
       name: SITE_NAME,
       legalName: CLINIC.name,
-      alternateName: [CLINIC.altName, 'Dharshini Lab Guduvanchery', 'Dharshini Pathology Lab Kayarambedu'],
-      description:
-        'Certified clinical pathology laboratory and diagnostic center in Kayarambedu, Guduvancheri offering blood tests, diabetic profiles, and doorstep home sample collection.',
+      alternateName: [CLINIC.altName, CLINIC.shortName, `${CLINIC.shortName} ${CLINIC.city}`],
+      description: CLINIC.slogan || CLINIC.tagline,
       slogan: CLINIC.slogan,
       url: absoluteUrl('/'),
       image: [
-        assetUrl('/clinic-assets/dharshini-lab-reception.jpg'),
-        assetUrl('/clinic-assets/dharshini-lab-exterior.jpg'),
+        assetUrl('/clinic-assets/dream-smile-operatory-main.jpg'),
+        assetUrl('/clinic-assets/dream-smile-consultation-room.jpg'),
       ],
       telephone: CLINIC.telephoneE164,
       email: CLINIC.email,
@@ -55,11 +53,11 @@ export default function JsonLd() {
       },
       hasMap: CLINIC.mapsUrl,
       openingHoursSpecification: hoursSpec(CLINIC.openingHoursSpec),
-      medicalSpecialty: SPECIALTIES,
+      medicalSpecialty: CLINIC.medicalSpecialties || ['Orthodontics', 'Dentistry'],
       areaServed: CLINIC.areaServed.map((name) => ({ '@type': 'Place', name })),
       knowsAbout: CLINIC.knowsAbout,
       availableService: SERVICES.map((s) => ({
-        '@type': 'MedicalTest',
+        '@type': 'MedicalProcedure',
         name: s.title,
         alternateName: s.tamilTitle,
         description: s.desc,

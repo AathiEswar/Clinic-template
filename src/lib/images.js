@@ -12,8 +12,9 @@
  * Anything not in the manifest simply gets `{ src }` back.
  */
 import manifest from './image-manifest.json';
+import clinicConfig from '@/clinic.config.json';
 
-export const HERO_IMAGE = '/clinic-assets/dharshini-lab-reception.jpg';
+export const HERO_IMAGE = clinicConfig.hero?.heroImage || '/clinic-assets/dream-smile-operatory-main.jpg';
 export const HERO_SIZES = '(max-width: 900px) 100vw, 45vw';
 
 /** Common `sizes` presets matching the site's grids. */

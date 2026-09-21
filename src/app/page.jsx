@@ -4,15 +4,17 @@ import JsonLdScript from '@/components/JsonLdScript';
 import { FAQS } from '@/data';
 import { pageMetadata, ogCard, HOME_TITLE, HOME_DESCRIPTION } from '@/lib/seo';
 import { img, HERO_IMAGE, HERO_SIZES } from '@/lib/images';
+import clinicConfig from '@/clinic.config.json';
+
+const seoDefaults = clinicConfig.seo?.ogDefaults || {};
 
 export const metadata = pageMetadata({
   absoluteTitle: HOME_TITLE,
   description: HOME_DESCRIPTION,
   path: '/',
-  image: ogCard('home', 'Dharshini Laboratory diagnostic center and pathology lab in Kayarambedu, Guduvancheri'),
-  ogTitle: 'Dharshini Laboratory — Diagnostic Center & Pathology Lab in Guduvancheri',
-  ogDescription:
-    'Established in 2010. Accurate clinical pathology, blood tests, diabetes & lipid profiles, and doorstep home sample collection in Guduvancheri, Kayarambedu.',
+  image: ogCard('home', seoDefaults.imageAlt || `${clinicConfig.clinic.name} diagnostic center and pathology lab`),
+  ogTitle: seoDefaults.title || HOME_TITLE,
+  ogDescription: seoDefaults.description || HOME_DESCRIPTION,
 });
 
 /* FAQ rich-result markup, generated from the same FAQS the page renders. */

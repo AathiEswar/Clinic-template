@@ -2,17 +2,12 @@ import GalleryView from '@/views/GalleryView';
 import JsonLdScript from '@/components/JsonLdScript';
 import { GALLERY_IMAGES } from '@/data';
 import { CLINIC } from '@/config';
-import { pageMetadata, ogCard, breadcrumbJsonLd, absoluteUrl, assetUrl, WEBSITE_ID } from '@/lib/seo';
+import { getPageMetadata, breadcrumbJsonLd, absoluteUrl, assetUrl, WEBSITE_ID } from '@/lib/seo';
+import clinicConfig from '@/clinic.config.json';
 
-const TITLE = 'Laboratory Photo Gallery | Dharshini Laboratory';
+export const metadata = getPageMetadata('gallery', '/gallery');
 
-export const metadata = pageMetadata({
-  title: TITLE,
-  description:
-    'Photo tour of Dharshini Laboratory in Guduvancheri: clean reception, patient waiting area, specimen registration counter, and facility location on Nellikuppam Road.',
-  path: '/gallery',
-  image: ogCard('gallery', 'Dharshini Laboratory reception and testing center in Guduvancheri'),
-});
+const p = clinicConfig.seo?.pages?.gallery || {};
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -22,7 +17,7 @@ const jsonLd = {
       '@type': 'ImageGallery',
       '@id': `${absoluteUrl('/gallery')}#gallery`,
       url: absoluteUrl('/gallery'),
-      name: `${TITLE} — ${CLINIC.name}`,
+      name: `${p.title || 'Gallery'} — ${CLINIC.name}`,
       isPartOf: { '@id': WEBSITE_ID },
       image: GALLERY_IMAGES.map((g) => ({
         '@type': 'ImageObject',

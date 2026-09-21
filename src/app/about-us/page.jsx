@@ -1,29 +1,21 @@
 import AboutView from '@/views/AboutView';
 import JsonLdScript from '@/components/JsonLdScript';
 import { CLINIC } from '@/config';
-import { pageMetadata, ogCard, breadcrumbJsonLd, absoluteUrl, assetUrl, CLINIC_ID } from '@/lib/seo';
+import { getPageMetadata, breadcrumbJsonLd, absoluteUrl, assetUrl, CLINIC_ID } from '@/lib/seo';
+import { HERO_IMAGE } from '@/lib/images';
 
-const TITLE = 'About Dharshini Laboratory | Diagnostic Center Guduvancheri';
-
-export const metadata = pageMetadata({
-  title: TITLE,
-  description:
-    'Learn about Dharshini Laboratory, established in 2010. Accurate clinical pathology, blood tests, and doorstep home sample collection in Guduvancheri, Kayarambedu.',
-  path: '/about-us',
-  image: ogCard('about-us', 'Dharshini Laboratory diagnostic center and clinical pathology'),
-});
+export const metadata = getPageMetadata('about', '/about-us');
 
 const jsonLd = {
   '@context': 'https://schema.org',
   '@graph': [
     breadcrumbJsonLd([{ name: 'Home', path: '/' }, { name: 'About Laboratory', path: '/about-us' }]),
     {
-      '@type': 'DiagnosticLab',
+      '@type': CLINIC.schemaTypes?.[0] || 'DiagnosticLab',
       '@id': `${absoluteUrl('/about-us')}#lab`,
       name: CLINIC.name,
-      description:
-        'Established in 2010. Providing certified pathology testing, blood profiles, and doorstep sample collection across Guduvancheri, Kayarambedu, and Urapakkam.',
-      image: assetUrl('/clinic-assets/dharshini-lab-reception.jpg'),
+      description: CLINIC.slogan,
+      image: assetUrl(HERO_IMAGE),
       url: absoluteUrl('/about-us'),
       telephone: CLINIC.telephoneE164,
       address: { '@type': 'PostalAddress', ...CLINIC.postalAddress },

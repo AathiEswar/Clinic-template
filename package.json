@@ -1,8 +1,8 @@
 {
-  "name": "dharshini-laboratory-next",
+  "name": "dream-smile-dental-next",
   "private": true,
   "version": "2.0.0",
-  "description": "Dharshini Laboratory — Diagnostic Center & Pathology Lab (SP MAHAL, Nellikuppam Road, Guduvancheri / Kayarambedu)",
+  "description": "Dream Smile Dental and Orthodontic care — Multi-Specialty Dental Clinic & Orthodontic Care Centre (Nellikuppam Road, Above SBI, Guduvanchery)",
   "scripts": {
     "dev": "next dev",
     "images": "node scripts/optimize-images.mjs",

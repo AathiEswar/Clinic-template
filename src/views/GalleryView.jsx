@@ -2,14 +2,12 @@
 
 import { useState, useEffect, useCallback } from 'react';
 import { createPortal } from 'react-dom';
-import { GALLERY_IMAGES } from '@/data';
+import { GALLERY_IMAGES, GALLERY_CATEGORIES, GALLERY_PAGE_CONTENT } from '@/data';
 import { CLINIC } from '@/config';
 import { useScroll } from '@/context/ScrollContext';
 import Icon from '@/lib/Icons';
 import Button from '@/components/Button';
 import { img as imgProps, SIZES } from '@/lib/images';
-
-const CATEGORIES = ['All', 'Reception', 'Location', 'Facilities'];
 
 export default function GalleryView() {
   const [selectedCat, setSelectedCat] = useState('All');
@@ -46,12 +44,12 @@ export default function GalleryView() {
       {/* Page Header */}
       <section className="page-header" style={{ backgroundImage: 'linear-gradient(135deg, rgba(8, 48, 58, 0.94), rgba(15, 23, 42, 0.95))' }}>
         <div className="container">
-          <span className="chip chip--light">Laboratory Tour &amp; Facilities</span>
+          <span className="chip chip--light">{GALLERY_PAGE_CONTENT.headerChip || 'Facility Tour'}</span>
           <h1 className="page-header__title">
-            Dharshini Laboratory <em>Photo Gallery.</em>
+            {GALLERY_PAGE_CONTENT.headerTitle || `${CLINIC.name} Photo Gallery.`}
           </h1>
           <p className="page-header__sub">
-            Take a visual tour of our clean reception desk, air-conditioned patient waiting area, specimen registration counter, and facility location at SP MAHAL, Nellikuppam Road, opposite Guduvancheri.
+            {GALLERY_PAGE_CONTENT.headerSub || CLINIC.slogan}
           </p>
         </div>
       </section>
@@ -61,7 +59,7 @@ export default function GalleryView() {
         <div className="container">
           {/* Category Filter Buttons */}
           <div className="gallery-filters" role="tablist" aria-label="Gallery categories">
-            {CATEGORIES.map((cat) => (
+            {GALLERY_CATEGORIES.map((cat) => (
               <button
                 key={cat}
                 className={`gallery-filter-btn ${selectedCat === cat ? 'is-active' : ''}`}
@@ -99,37 +97,17 @@ export default function GalleryView() {
         </div>
       </section>
 
-      {/* Bottom CTA */}
-      <section className="section" style={{ background: 'var(--bg-soft)', textAlign: 'center', padding: '64px 0' }}>
-        <div className="container">
-          <h2 className="h2" style={{ marginBottom: '16px' }}>Need a Diagnostic Test?</h2>
-          <p style={{ maxWidth: '600px', margin: '0 auto 28px', color: 'var(--ink-2)' }}>
-            Visit our center directly on Nellikuppam Road from 6:30 AM onwards or schedule a doorstep morning blood draw.
-          </p>
-          <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
-            <Button variant="primary" icon="calendar" onClick={() => openBooking()}>
-              Book diagnostic test
-            </Button>
-            <Button variant="call" icon="phone" href={CLINIC.phoneHref}>
-              Call {CLINIC.phoneDisplay}
-            </Button>
-          </div>
-        </div>
-      </section>
-
       {/* Lightbox Modal */}
       {activeModal && typeof document !== 'undefined' && createPortal(
-        <div className="gallery-modal" onClick={closeModal} role="dialog" aria-modal="true" aria-label={activeModal.title}>
-          <div className="gallery-modal__scrim" />
-          <div className="gallery-modal__content" onClick={(e) => e.stopPropagation()}>
-            <button className="gallery-modal__close" onClick={closeModal} aria-label="Close photo">
-              <Icon name="plus" size={24} strokeWidth={2} className="rot--45" />
+        <div className="gallery-modal" onClick={closeModal} role="dialog" aria-modal="true" aria-label="Expanded photo">
+          <div className="gallery-modal__inner" onClick={(e) => e.stopPropagation()}>
+            <button className="gallery-modal__close" onClick={closeModal} aria-label="Close photo preview">
+              <Icon name="plus" size={24} style={{ transform: 'rotate(45deg)' }} />
             </button>
-            <div className="gallery-modal__img-box">
-              <img src={activeModal.src} alt={activeModal.title} className="gallery-modal__img" />
+            <div className="gallery-modal__img-wrap">
+              <img {...imgProps(activeModal.src, { dimensions: false })} alt={activeModal.title} className="gallery-modal__img" />
             </div>
             <div className="gallery-modal__caption">
-              <span className="chip chip--purple">{activeModal.category}</span>
               <h3>{activeModal.title}</h3>
               <p>{activeModal.desc}</p>
             </div>
@@ -137,6 +115,21 @@ export default function GalleryView() {
         </div>,
         document.body
       )}
+
+      {/* Closing CTA */}
+      <section className="section" style={{ padding: '40px 0 80px' }}>
+        <div className="container text-center">
+          <div className="ctab__panel" style={{ margin: '0 auto', maxWidth: '800px' }}>
+            <h2 className="h2" style={{ color: '#fff', marginBottom: '16px' }}>Ready to Schedule Your Test?</h2>
+            <p style={{ color: 'rgba(255, 255, 255, 0.85)', maxWidth: '580px', margin: '0 auto 28px', lineHeight: 1.6 }}>
+              {CLINIC.name} provides fast diagnostic testing and doorstep blood collection visits across {CLINIC.locality || CLINIC.city}.
+            </p>
+            <Button variant="light" icon="calendar" onClick={() => openBooking()}>
+              Book Diagnostic Test
+            </Button>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

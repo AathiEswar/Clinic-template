@@ -2,6 +2,7 @@
 
 import { useScroll } from '@/context/ScrollContext';
 import { CLINIC } from '@/config';
+import { CTA_BANNER_CONTENT } from '@/data';
 import { MaskText } from '@/lib/anim';
 import Button from '@/components/Button';
 
@@ -17,22 +18,22 @@ export default function CtaBanner() {
           <span className="ctab__ring" aria-hidden="true" />
 
           <p className="eyebrow eyebrow--light" data-reveal>
-            <span className="pulse-dot pulse-dot--light" aria-hidden="true" /> Open Daily from 6:30 AM · Doorstep Home Sample Collection
+            <span className="pulse-dot pulse-dot--light" aria-hidden="true" /> {CTA_BANNER_CONTENT.eyebrow || `Open Daily ${CLINIC.timings}`}
           </p>
 
           <MaskText
             as="h2"
             className="ctab__title"
-            segments={[{ t: 'Accurate, timely diagnostic results ' }, { t: 'when your health needs clarity.', em: true }]}
+            segments={[{ t: CTA_BANNER_CONTENT.title || CLINIC.slogan }]}
           />
 
           <p className="ctab__sub" data-reveal>
-            Book your blood test, diabetes panel, thyroid profile, or request a doorstep phlebotomy visit across Guduvancheri and Kayarambedu.
+            {CTA_BANNER_CONTENT.sub || CLINIC.tagline}
           </p>
 
           <div className="ctab__actions" data-reveal>
             <Button variant="light" icon="calendar" magnetic onClick={() => openBooking()}>
-              Book Diagnostic Test
+              {CTA_BANNER_CONTENT.btnPrimary || 'Book Diagnostic Test'}
             </Button>
             <Button variant="light" icon="phone" href={CLINIC.phoneHref}>
               {CLINIC.phoneDisplay}

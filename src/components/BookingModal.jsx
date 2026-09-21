@@ -4,6 +4,7 @@ import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { useScroll, prefersReducedMotion } from '@/context/ScrollContext';
 import { CLINIC, WA_DEFAULT } from '@/config';
+import { BOOKING_CONFIG } from '@/data';
 import Icon from '@/lib/Icons';
 import BookingForm from './BookingForm';
 
@@ -75,13 +76,13 @@ export default function BookingModal() {
         <div className="bmodal__head">
           <div>
             <p className="bmodal__eyebrow">
-              <span className="pulse-dot" aria-hidden="true" /> Usually confirmed in 15 min
+              <span className="pulse-dot" aria-hidden="true" /> {BOOKING_CONFIG.modalEyebrow || 'Usually confirmed in 15 min'}
             </p>
-            <h2 id="bmodal-title" className="bmodal__title">Book Diagnostic Test</h2>
+            <h2 id="bmodal-title" className="bmodal__title">{BOOKING_CONFIG.modalTitle || 'Book Diagnostic Test'}</h2>
             {booking.slot ? (
               <p className="bmodal__hint">Selected slot: <strong>{booking.slot}</strong> · Early morning collection available.</p>
             ) : (
-              <p className="bmodal__hint">Early morning slots starting from 6:30 AM for fasting tests.</p>
+              <p className="bmodal__hint">{BOOKING_CONFIG.modalHint || 'Early morning slots starting from 6:30 AM for fasting tests.'}</p>
             )}
           </div>
           <button className="bmodal__close" onClick={closeBooking} aria-label="Close" data-cursor="hover">

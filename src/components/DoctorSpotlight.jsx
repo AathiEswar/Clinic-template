@@ -13,48 +13,48 @@ export default function DoctorSpotlight({ compact = false }) {
     <div className={`doctor-spotlight ${compact ? 'doctor-spotlight--compact' : ''}`} data-reveal>
       <figure className="doctor-spotlight__photo">
         <img
-          {...img('/clinic-assets/dharshini-lab-reception.jpg', { sizes: SIZES.half })}
-          alt="Dharshini Laboratory diagnostic team and reception in Guduvancheri"
+          {...img('/clinic-assets/dream-smile-consultation-room.jpg', { sizes: SIZES.half })}
+          alt={`${CLINIC.doctorName} consultation room and clinic at ${CLINIC.name} Guduvanchery`}
         />
         <figcaption className="doctor-spotlight__badge">
-          <strong>Dharshini Laboratory</strong>
-          <span>Diagnostic Center · Est. 2010</span>
+          <strong>{CLINIC.doctorName}</strong>
+          <span>{CLINIC.doctorQualifications || 'BDS, MDS (Orthodontics)'}</span>
         </figcaption>
       </figure>
 
       <div className="doctor-spotlight__body">
         <p className="eyebrow">
-          <span className="eyebrow__dot" aria-hidden="true" /> Certified Laboratory Care
+          <span className="eyebrow__dot" aria-hidden="true" /> Lead Orthodontist &amp; Dental Surgeon
         </p>
-        <h3 className="doctor-spotlight__name">Diagnostic &amp; Phlebotomy Team</h3>
-        <p className="doctor-spotlight__role">Clinical Pathology &amp; Home Blood Collection</p>
-        <p className="doctor-spotlight__creds">Established 2010 · Over 15 Years of Diagnostic Care</p>
+        <h3 className="doctor-spotlight__name">{CLINIC.doctorName}</h3>
+        <p className="doctor-spotlight__role">Orthodontics &amp; Dentofacial Orthopaedics (BDS, MDS)</p>
+        <p className="doctor-spotlight__creds">Over 15 Years of Clinical Experience · Google Rating 4.9★</p>
         <p className="doctor-spotlight__bio">
-          Our laboratory team in Kayarambedu, Guduvancheri is committed to precision diagnostic testing, sterile single-use specimen collection, and fast report turnarounds for families, working professionals, and senior citizens.
+          Specializing in advanced orthodontic corrections, invisible clear aligners, aesthetic ceramic braces, painless root canals, and cosmetic smile transformations for patients across Guduvanchery and Chengalpattu.
         </p>
 
         <dl className="doctor-spotlight__facts">
           <div className="doctor-spotlight__fact">
-            <dt>Service History</dt>
+            <dt>Clinical Experience</dt>
             <dd>15+ <small>Years</small></dd>
           </div>
           <div className="doctor-spotlight__fact">
-            <dt>Daily Timings</dt>
-            <dd>6:30 AM <small>– 9 PM</small></dd>
+            <dt>Google Rating</dt>
+            <dd>4.9 <small>★ (50+)</small></dd>
           </div>
           <div className="doctor-spotlight__fact">
-            <dt>Sterile Protocol</dt>
-            <dd>100% <small>Vacutainers</small></dd>
+            <dt>Infection Control</dt>
+            <dd>100% <small>UV Chamber</small></dd>
           </div>
         </dl>
 
         <p className="doctor-spotlight__slot">
-          <span className="pulse-dot" aria-hidden="true" /> Open 7 Days: 6:30 AM – 9:00 PM · {CLINIC.locality}
+          <span className="pulse-dot" aria-hidden="true" /> Open 7 Days · Above SBI · {CLINIC.locality}
         </p>
 
         <div className="doctor-spotlight__actions">
-          <Button variant="primary" icon="calendar" onClick={() => openBooking('Home Blood Sample Collection')}>
-            Book Test / Home Collection
+          <Button variant="primary" icon="calendar" onClick={() => openBooking('General Dental Consultation')}>
+            Book Dental Appointment
           </Button>
           <Button variant="call" icon="phone" href={CLINIC.phoneHref}>
             Call {CLINIC.phoneDisplay}

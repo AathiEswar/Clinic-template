@@ -43,6 +43,142 @@
       }
     ]
   },
+  "/clinic-assets/dream-smile-consultation-room.jpg": {
+    "width": 1440,
+    "height": 1081,
+    "variants": [
+      {
+        "w": 480,
+        "src": "/optimized/clinic-assets/dream-smile-consultation-room-480.webp"
+      },
+      {
+        "w": 768,
+        "src": "/optimized/clinic-assets/dream-smile-consultation-room-768.webp"
+      },
+      {
+        "w": 1080,
+        "src": "/optimized/clinic-assets/dream-smile-consultation-room-1080.webp"
+      },
+      {
+        "w": 1440,
+        "src": "/optimized/clinic-assets/dream-smile-consultation-room-1440.webp"
+      }
+    ]
+  },
+  "/clinic-assets/dream-smile-doctor-desk.jpg": {
+    "width": 1440,
+    "height": 1085,
+    "variants": [
+      {
+        "w": 480,
+        "src": "/optimized/clinic-assets/dream-smile-doctor-desk-480.webp"
+      },
+      {
+        "w": 768,
+        "src": "/optimized/clinic-assets/dream-smile-doctor-desk-768.webp"
+      },
+      {
+        "w": 1080,
+        "src": "/optimized/clinic-assets/dream-smile-doctor-desk-1080.webp"
+      },
+      {
+        "w": 1440,
+        "src": "/optimized/clinic-assets/dream-smile-doctor-desk-1440.webp"
+      }
+    ]
+  },
+  "/clinic-assets/dream-smile-operatory-main.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "w": 480,
+        "src": "/optimized/clinic-assets/dream-smile-operatory-main-480.webp"
+      },
+      {
+        "w": 768,
+        "src": "/optimized/clinic-assets/dream-smile-operatory-main-768.webp"
+      },
+      {
+        "w": 1080,
+        "src": "/optimized/clinic-assets/dream-smile-operatory-main-1080.webp"
+      },
+      {
+        "w": 1440,
+        "src": "/optimized/clinic-assets/dream-smile-operatory-main-1440.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/optimized/clinic-assets/dream-smile-operatory-main-1600.webp"
+      }
+    ]
+  },
+  "/clinic-assets/dream-smile-reception-lounge.jpg": {
+    "width": 900,
+    "height": 1200,
+    "variants": [
+      {
+        "w": 480,
+        "src": "/optimized/clinic-assets/dream-smile-reception-lounge-480.webp"
+      },
+      {
+        "w": 768,
+        "src": "/optimized/clinic-assets/dream-smile-reception-lounge-768.webp"
+      },
+      {
+        "w": 900,
+        "src": "/optimized/clinic-assets/dream-smile-reception-lounge-900.webp"
+      }
+    ]
+  },
+  "/clinic-assets/dream-smile-waiting-area.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "w": 480,
+        "src": "/optimized/clinic-assets/dream-smile-waiting-area-480.webp"
+      },
+      {
+        "w": 768,
+        "src": "/optimized/clinic-assets/dream-smile-waiting-area-768.webp"
+      },
+      {
+        "w": 1080,
+        "src": "/optimized/clinic-assets/dream-smile-waiting-area-1080.webp"
+      },
+      {
+        "w": 1440,
+        "src": "/optimized/clinic-assets/dream-smile-waiting-area-1440.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/optimized/clinic-assets/dream-smile-waiting-area-1600.webp"
+      }
+    ]
+  },
+  "/clinic-assets/dream-smile-xray-chair.jpg": {
+    "width": 1440,
+    "height": 1085,
+    "variants": [
+      {
+        "w": 480,
+        "src": "/optimized/clinic-assets/dream-smile-xray-chair-480.webp"
+      },
+      {
+        "w": 768,
+        "src": "/optimized/clinic-assets/dream-smile-xray-chair-768.webp"
+      },
+      {
+        "w": 1080,
+        "src": "/optimized/clinic-assets/dream-smile-xray-chair-1080.webp"
+      },
+      {
+        "w": 1440,
+        "src": "/optimized/clinic-assets/dream-smile-xray-chair-1440.webp"
+      }
+    ]
+  },
   "/clinic-assets/hero-bg-52.png": {
     "width": 1682,
     "height": 737,

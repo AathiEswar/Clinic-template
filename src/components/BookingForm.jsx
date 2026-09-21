@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
-import { SERVICES, TIME_SLOTS } from '@/data';
+import { SERVICES, TIME_SLOTS, BOOKING_CONFIG } from '@/data';
 import { CLINIC, waLink } from '@/config';
 import Icon from '@/lib/Icons';
 
@@ -111,9 +111,9 @@ export default function BookingForm({ defaultDept = '', compact = false, onDone 
         </label>
 
         <label className={`field ${errors.dept ? 'has-error' : ''}`}>
-          <span className="field__label">Diagnostic Test / Service</span>
+          <span className="field__label">{BOOKING_CONFIG.serviceLabel || 'Diagnostic Test / Service'}</span>
           <select value={form.dept} onChange={set('dept')}>
-            <option value="" disabled>Select test or service</option>
+            <option value="" disabled>{BOOKING_CONFIG.servicePlaceholder || 'Select test or service'}</option>
             {depts.map((d) => <option key={d} value={d}>{d}</option>)}
           </select>
           {errors.dept && <em className="field__err">{errors.dept}</em>}
@@ -127,7 +127,7 @@ export default function BookingForm({ defaultDept = '', compact = false, onDone 
       </div>
 
       <div className={`field ${errors.time ? 'has-error' : ''}`}>
-        <span className="field__label">Preferred time (6:30 AM onwards)</span>
+        <span className="field__label">{BOOKING_CONFIG.timeLabel || 'Preferred time (6:30 AM onwards)'}</span>
         <div className="bform__slots" role="radiogroup" aria-label="Preferred time">
           {TIME_SLOTS.map((t) => (
             <button
@@ -147,18 +147,18 @@ export default function BookingForm({ defaultDept = '', compact = false, onDone 
 
       {!compact && (
         <label className="field">
-          <span className="field__label">Specific test or home collection address <i>(optional)</i></span>
-          <textarea rows="2" value={form.note} onChange={set('note')} placeholder="Mention doctor prescription, fasting tests, or doorstep address…" />
+          <span className="field__label">{BOOKING_CONFIG.noteLabel || 'Specific test or home collection address'} <i>(optional)</i></span>
+          <textarea rows="2" value={form.note} onChange={set('note')} placeholder={BOOKING_CONFIG.notePlaceholder || 'Mention doctor prescription, fasting tests, or doorstep address…'} />
         </label>
       )}
 
       <button type="submit" className={`btn btn--primary btn--block bform__submit ${status === 'sending' ? 'is-busy' : ''}`}>
-        <span className="btn__solo">{status === 'sending' ? 'Booking your test…' : 'Confirm Test Request'}</span>
+        <span className="btn__solo">{status === 'sending' ? 'Booking your test…' : (BOOKING_CONFIG.submitButtonText || 'Confirm Test Request')}</span>
         <span className="btn__ic"><Icon name="arrowR" size={16} strokeWidth={2} /></span>
       </button>
 
       <p className="bform__note">
-        <Icon name="shield" size={14} /> 100% Sterile Collection · Early Morning Slots · WhatsApp Report Delivery
+        <Icon name="shield" size={14} /> {BOOKING_CONFIG.guaranteeNote || '100% Sterile Collection · Early Morning Slots · WhatsApp Report Delivery'}
       </p>
     </form>
   );

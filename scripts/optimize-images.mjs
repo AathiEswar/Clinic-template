@@ -35,12 +35,12 @@ const WEBP = { quality: 78, effort: 4 };
 const OG_SIZE = { width: 1200, height: 630 };
 /** page slug → source photo, centre-cropped towards the most "interesting" region */
 const OG_CARDS = {
-  home: '/clinic-assets/dharshini-lab-reception.jpg',
-  'about-us': '/clinic-assets/dharshini-lab-reception.jpg',
-  treatments: '/clinic-assets/dharshini-lab-exterior.jpg',
-  gallery: '/clinic-assets/dharshini-lab-reception.jpg',
-  testimonials: '/clinic-assets/dharshini-lab-reception.jpg',
-  contact: '/clinic-assets/dharshini-lab-exterior.jpg',
+  home: '/clinic-assets/dream-smile-operatory-main.jpg',
+  'about-us': '/clinic-assets/dream-smile-consultation-room.jpg',
+  treatments: '/clinic-assets/dream-smile-xray-chair.jpg',
+  gallery: '/clinic-assets/dream-smile-reception-lounge.jpg',
+  testimonials: '/clinic-assets/dream-smile-doctor-desk.jpg',
+  contact: '/clinic-assets/dream-smile-waiting-area.jpg',
 };
 
 const THEME = '#086375';
@@ -71,7 +71,7 @@ async function walk(dir, out = []) {
   for (const e of await fs.readdir(dir, { withFileTypes: true })) {
     const p = path.join(dir, e.name);
     if (e.isDirectory()) await walk(p, out);
-    else if (/\.(jsx?|mjs|css)$/.test(e.name)) out.push(p);
+    else if (/\.(jsx?|mjs|css|json)$/.test(e.name)) out.push(p);
   }
   return out;
 }
