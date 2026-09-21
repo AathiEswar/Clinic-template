@@ -134,7 +134,7 @@ export default function Hero() {
           <div className="hero__card hero__card--rating" data-scroll data-scroll-speed="1.1">
             <Stars />
             <p><strong>Google Maps Verified</strong></p>
-            <span>Diagnostic Center · Guduvancheri</span>
+            <span>Guduvancheri</span>
           </div>
 
           <div className="hero__chip" data-scroll data-scroll-speed="0.9">
