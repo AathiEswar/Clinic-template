@@ -10,11 +10,11 @@ export default function Doctors() {
     <section className="doctors section" data-scroll-section id="team">
       <div className="container">
         <SectionHeader
-          eyebrow="Specialist Doctor Profile"
-          segments={[{ t: `${CLINIC.name} — Led by ` }, { t: `${CLINIC.doctorName} (MDS - Orthodontist).`, em: true }]}
+          eyebrow="Specialist Dental Profile"
+          segments={[{ t: `${CLINIC.name} — Led by ` }, { t: `${CLINIC.doctorName}.`, em: true }]}
           side={
             <p>
-              Delivering specialized orthodontic corrections, invisible aligners, painless root canals, and family dentistry in Guduvanchery.
+              Delivering pain-free root canals, crowns &amp; bridges, laser dentistry, and cosmetic smile restorations in Guduvancheri.
             </p>
           }
         />

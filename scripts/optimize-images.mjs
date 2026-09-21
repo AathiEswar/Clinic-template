@@ -35,12 +35,12 @@ const WEBP = { quality: 78, effort: 4 };
 const OG_SIZE = { width: 1200, height: 630 };
 /** page slug → source photo, centre-cropped towards the most "interesting" region */
 const OG_CARDS = {
-  home: '/clinic-assets/dream-smile-operatory-main.jpg',
-  'about-us': '/clinic-assets/dream-smile-consultation-room.jpg',
-  treatments: '/clinic-assets/dream-smile-xray-chair.jpg',
-  gallery: '/clinic-assets/dream-smile-reception-lounge.jpg',
-  testimonials: '/clinic-assets/dream-smile-doctor-desk.jpg',
-  contact: '/clinic-assets/dream-smile-waiting-area.jpg',
+  home: '/clinic-assets/shree-raaghav-operatory-main.jpg',
+  'about-us': '/clinic-assets/shree-raaghav-dental-unit.jpg',
+  treatments: '/clinic-assets/shree-raaghav-dental-rehabilitation.jpg',
+  gallery: '/clinic-assets/shree-raaghav-aesthetic-restoration.jpg',
+  testimonials: '/clinic-assets/shree-raaghav-rct-crown.jpg',
+  contact: '/clinic-assets/shree-raaghav-operatory-main.jpg',
 };
 
 const THEME = '#086375';

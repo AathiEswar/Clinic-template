@@ -1,53 +1,54 @@
 {
   "clinic": {
-    "name": "Dream Smile Dental and Orthodontic care",
-    "shortName": "Dream Smile Dental",
-    "altName": "Dream Smile Dental & Orthodontic Care",
-    "tagline": "Multi-Specialty Dental Clinic & Orthodontic Care Centre · Guduvanchery",
-    "slogan": "Specialized Orthodontic Treatments, Advanced Pain-Free Dentistry & Radiant Smiles for the Whole Family.",
-    "motto": "Led by Dr. Rubiya Sayed (BDS, MDS - Orthodontist) · 15+ Years of Clinical Dental Excellence.",
-    "tamilTagline": "சிறப்பு பல் சீரமைப்பு மற்றும் நவீன பல் மருத்துவ சிகிச்சை மையம்",
-    "city": "Guduvanchery, Chengalpattu",
-    "locality": "Kayarambedu, Moolakazhani",
-    "brandWordmark1": "DREAM SMILE",
+    "name": "SHREE RAAGHAV DENTAL CLINIC",
+    "shortName": "Shree Raaghav Dental",
+    "altName": "Shree Raaghav Dental Clinic Guduvanchery",
+    "tagline": "Multi-Specialty Dental Clinic · Nellikuppam Road, Guduvancheri",
+    "slogan": "Comprehensive Dental Care, Pain-Free Root Canals, Laser Dentistry & Natural Smile Restorations.",
+    "motto": "Rated 5.0★ by Patients on Google Maps · Gentle, Compassionate & Experienced Dental Care.",
+    "tamilTagline": "சிறப்பு பல் மருத்துவ சிகிச்சை மற்றும் நவீன புன்னகை மறுசீரமைப்பு மையம்",
+    "city": "Guduvancheri, Chengalpattu",
+    "locality": "Nandivaram-Guduvancheri, Perumattunallur",
+    "brandWordmark1": "SHREE RAAGHAV",
     "brandWordmark2": "DENTAL",
-    "brandSub": "Dental & Orthodontics · Guduvanchery",
-    "wordmarkLine1": "DREAM SMILE",
-    "wordmarkLine2": "DENTAL & ORTHODONTICS",
-    "phoneDisplay": "+91 80984 80982",
-    "phoneHref": "tel:+918098480982",
-    "whatsapp": "918098480982",
-    "email": "dreamsmiledentalcare.guduvanchery@gmail.com",
-    "establishedYear": "2010",
-    "experienceYears": "15+",
-    "doctorName": "Dr. Rubiya Sayed",
-    "doctorQualifications": "BDS, MDS (Orthodontics and Dentofacial Orthopaedics)",
-    "address": "Nellikuppam Road, Above SBI - Kayarambedu Branch, Opp. SP Mahal, Guduvanchery, Moolakazhani, Tamil Nadu 603202",
-    "landmark": "Above SBI - Kayarambedu Branch, Opp. SP Mahal, Nellikuppam Road",
-    "mapsUrl": "https://maps.app.goo.gl/Dhs4Y65j75nYaeCk9",
-    "mapsEmbedUrl": "https://maps.google.com/maps?q=12.8146924,80.076715&z=16&output=embed",
+    "brandSub": "Dental Clinic · Guduvanchery",
+    "wordmarkLine1": "SHREE RAAGHAV",
+    "wordmarkLine2": "DENTAL CLINIC · GUDUVANCHERY",
+    "phoneDisplay": "+91 84288 77818",
+    "phoneHref": "tel:+918428877818",
+    "whatsapp": "918428877818",
+    "email": "shreeraaghavdental@gmail.com",
+    "establishedYear": "2018",
+    "experienceYears": "10+",
+    "doctorName": "Dr. Raaghav & Senior Dental Specialists",
+    "doctorQualifications": "BDS, MDS & Experienced Dental Surgeons",
+    "address": "No. 24, Pragathi Enclave, Nellikuppam Road, Perumattunallur Main Road, near Velammal school, Guduvancheri, Tamil Nadu 603202",
+    "landmark": "Near Velammal School, Perumattunallur Main Road, Nellikuppam Road",
+    "mapsUrl": "https://maps.app.goo.gl/YKvSJkmqmfJBiEDT6",
+    "mapsEmbedUrl": "https://maps.google.com/maps?q=12.8223607,80.0774814&z=16&output=embed",
     "coordinates": {
-      "lat": 12.8146924,
-      "lng": 80.076715
+      "lat": 12.8223607,
+      "lng": 80.0774814
     },
-    "plusCode": "7M42R37G+VM",
-    "timings": "Mon–Sat: 9:30 AM–2 PM & 5–9 PM | Sun: 10 AM–2 PM",
-    "rating": "4.9",
-    "reviewCount": "50+ Google Reviews",
+    "plusCode": "R3CG+WX Guduvancheri, Nandivaram-Guduvancheri, Tamil Nadu",
+    "timings": "Mon–Sat: 10 AM–1 PM & 5–9 PM | Sun: 10 AM–1 PM",
+    "rating": "5.0",
+    "reviewCount": "39+ Google Reviews (100% 5-Star)",
     "hours": [
-      { "days": "Monday – Saturday", "time": "9:30 AM – 2:00 PM & 5:00 PM – 9:00 PM" },
-      { "days": "Sunday", "time": "10:00 AM – 2:00 PM" },
-      { "days": "Appointments & Inquiries", "time": "+91 80984 80982 · Call or WhatsApp" }
+      { "days": "Monday – Saturday", "time": "10:00 AM – 1:00 PM & 5:00 PM – 9:00 PM" },
+      { "days": "Sunday", "time": "10:00 AM – 1:00 PM" },
+      { "days": "Appointments & Emergencies", "time": "+91 84288 77818 · Call or WhatsApp" }
     ],
-    "streetAddress": "Nellikuppam Road, Above SBI - Kayarambedu Branch, Opp. SP Mahal",
-    "addressLocality": "Guduvanchery, Moolakazhani, Kayarambedu",
+    "streetAddress": "No. 24, Pragathi Enclave, Nellikuppam Road, Perumattunallur Main Road, near Velammal school",
+    "addressLocality": "Guduvancheri, Nandivaram, Perumattunallur",
     "postalCode": "603202",
     "addressRegion": "Tamil Nadu",
     "addressCountry": "IN",
     "areaServed": [
-      "Guduvanchery",
+      "Guduvancheri",
+      "Perumattunallur",
+      "Nandivaram",
       "Kayarambedu",
-      "Moolakazhani",
       "Urapakkam",
       "Potheri",
       "Kattankulathur",
@@ -55,349 +56,360 @@
       "Chengalpattu"
     ],
     "knowsAbout": [
-      "Orthodontics and Dentofacial Orthopaedics",
-      "Metal and Ceramic Braces",
-      "Invisible Clear Aligners",
       "Root Canal Treatment (RCT)",
-      "Dental Crowns and Bridges",
-      "Dental Implants",
-      "Cosmetic Smile Designing",
-      "Teeth Whitening and Veneers",
-      "Pediatric Dentistry",
-      "Ultrasonic Scaling and Gum Care"
+      "Crowns, Bridges & Fixed Prosthetics",
+      "Complete and Partial Dentures",
+      "Oral & Maxillofacial Surgery",
+      "Painless Tooth Extractions & Wisdom Tooth Removal",
+      "Laser Dentistry & Gum Contouring",
+      "Cosmetic Dentistry & Tooth Reshaping",
+      "Teeth Whitening & Aesthetic Restorations",
+      "Pediatric Dental Care",
+      "Ultrasonic Scaling & Polishing"
     ],
     "schemaTypes": ["Dentist", "MedicalBusiness", "LocalBusiness"],
     "medicalSpecialties": [
-      "Orthodontics",
-      "Dentofacial Orthopaedics",
+      "General Dentistry",
       "Endodontics",
+      "Oral and Maxillofacial Surgery",
+      "Prosthodontics",
+      "Laser Dentistry",
       "Cosmetic Dentistry",
-      "Pediatric Dentistry",
-      "Implantology"
+      "Pediatric Dentistry"
     ],
     "sameAs": [
-      "https://maps.app.goo.gl/Dhs4Y65j75nYaeCk9",
-      "https://www.google.com/maps/place/Dream+Smile+Dental+and+Orthodontic+care/@12.8146924,80.076715,17z/data=!4m7!3m6!1s0x3a52f78aad561d59:0x50444651d03d8649!8m2!3d12.8146924!4d80.076715!16s%2Fg%2F11l_g5nmm6"
+      "https://maps.app.goo.gl/YKvSJkmqmfJBiEDT6",
+      "https://www.google.com/maps/place/SHREE+RAAGHAV+DENTAL+CLINIC-+Guduvanchery/@12.8223607,80.0774814,17z/data=!4m7!3m6!1s0x3a52f77c34c13bc7:0xcb18d5c068226402!8m2!3d12.8223607!4d80.0774814!16s%2Fg%2F11rkgprh7g"
     ]
   },
   "hero": {
-    "heroImage": "/clinic-assets/dream-smile-operatory-main.jpg",
-    "titlePre": "Advanced Dental &",
-    "highlightWord1": "Orthodontic",
-    "highlightWord2": "Smile Care",
+    "heroImage": "/clinic-assets/shree-raaghav-operatory-main.jpg",
+    "titlePre": "",
+    "highlightWord1": "Dental Care",
+    "highlightWord2": "Smile Health",
     "titlePost": "Excellence.",
-    "titleEm": "",
-    "subHeadline": "Led by Dr. Rubiya Sayed (BDS, MDS - Orthodontist) with 15+ years of experience, Dream Smile Dental and Orthodontic Care offers specialized braces, clear aligners, root canals, implants, and pediatric dental care above SBI Kayarambedu Branch on Nellikuppam Road, Guduvanchery.",
+    "titleEm": "Painless, specialized & patient-centered.",
+    "subHeadline": "Shree Raaghav Dental Clinic provides comprehensive dental care, painless root canal therapies, laser dentistry, crowns & bridges, and natural smile restorations near Velammal School on Nellikuppam Road, Guduvancheri. Rated 5.0★ with 100% positive reviews on Google Maps.",
     "ctaBook": "Book Dental Appointment",
-    "badgeText": "15+ Years Experience · Rated 4.9★ by Patients · Open 7 Days",
+    "badgeText": "Rated 5.0★ on Google Maps · 39+ Verified Reviews · Open 7 Days",
     "badgeLink": "#visit",
-    "proofEstablished": "15+ Yrs Experience",
-    "proofProtocol": "100% UV Sterilization",
-    "cardQuote": "“Specialized Orthodontic Care & Painless Dentistry for Radiant Smiles.”",
-    "cardSub": "Above SBI, Nellikuppam Rd, Guduvanchery · Dr. Rubiya Sayed (MDS)",
-    "cardBadge": "Dental & Orthodontic Care",
-    "floatingCardEyebrow": "Specialized Consultation",
-    "floatingCardTitle": "Braces & Aligners",
-    "floatingCardDept": "Orthodontics & Smile Designing",
-    "floatingCardTime": "Mon–Sat: 9:30 AM–2 PM & 5–9 PM · Sun: 10 AM–2 PM",
+    "proofEstablished": "Rated 5.0★ Google",
+    "proofProtocol": "100% Sterile Protocol",
+    "cardQuote": "“Pleasant atmosphere, friendly doctor, and gentle pain-free dental treatments.”",
+    "cardSub": "Near Velammal School, Nellikuppam Rd, Guduvancheri",
+    "cardBadge": "Multi-Specialty Dental Clinic",
+    "floatingCardEyebrow": "Appointments & Consultations",
+    "floatingCardTitle": "Root Canal & Crowns",
+    "floatingCardDept": "Endodontics & Smile Rehabilitation",
+    "floatingCardTime": "Mon–Sat: 10 AM–1 PM & 5–9 PM · Sun: 10 AM–1 PM",
     "floatingCardButton": "Book Consultation"
   },
   "trustStats": {
     "stats": [
-      { "value": 15, "suffix": "+ Yrs", "label": "Clinical Dental Experience (Dr. Rubiya Sayed, MDS)" },
-      { "value": 4.9, "suffix": " ★", "label": "Patient Rating on Google Reviews" },
-      { "value": 100, "suffix": "%", "label": "UV & Autoclave Instrument Sterilization" },
-      { "value": 7, "suffix": " Days", "label": "Open Every Week for Dental Care" }
+      { "value": 5, "suffix": ".0 ★", "label": "Google Maps Rating (100% 5-Star Reviews)" },
+      { "value": 39, "suffix": "+", "label": "Verified 5-Star Patient Reviews" },
+      { "value": 100, "suffix": "%", "label": "Sterile Autoclaved & Single-Use Instruments" },
+      { "value": 7, "suffix": " Days", "label": "Open Every Week for Patient Care" }
     ],
-    "caption": "Delivering exceptional orthodontic transformations, pain-free root canals, aesthetic smile designing, and gentle pediatric dentistry for patients across Guduvanchery, Kayarambedu, Moolakazhani, Urapakkam, and Chengalpattu."
+    "caption": "Serving patients and families across Guduvancheri, Perumattunallur, Kayarambedu, Nandivaram, and Chengalpattu with gentle pain-free dentistry, clear treatment explanations, and modern dental technology."
   },
   "services": [
     {
-      "id": "orthodontic-braces",
+      "id": "root-canal-treatment",
+      "featured": true,
+      "icon": "shield",
+      "image": "/clinic-assets/shree-raaghav-rct-crown.jpg",
+      "imageAlt": "Root canal treatment with digital X-ray and crown restoration at Shree Raaghav Dental Clinic, Guduvancheri",
+      "title": "Painless Root Canal Treatment (RCT) & Crowns",
+      "tamilTitle": "வலி இல்லாத ரூட் கெனால் மற்றும் பற்கள் பொருத்துதல் (Root Canal & Crowns)",
+      "desc": "Gentle rotary root canal treatment with digital intraoral X-rays to relieve severe toothache, eradicate infection, save natural teeth, and restore strength with precision aesthetic crowns.",
+      "chips": ["Painless Rotary RCT", "Digital Intraoral X-Ray", "Ceramic & Zirconia Crowns", "Tooth Preservation"],
+      "meta": "Endodontics & Restorative Dentistry",
+      "longDesc": "Advanced rotary endodontics and local anesthesia make modern root canal treatments virtually painless. We remove the inflamed dental pulp, disinfect the canals thoroughly, and reinforce the tooth with a lifelike, custom-milled dental crown."
+    },
+    {
+      "id": "crowns-bridges-dentures",
       "featured": true,
       "icon": "sparkle",
-      "image": "/clinic-assets/dream-smile-operatory-main.jpg",
-      "imageAlt": "Advanced dental operatory suite with electronic chair and orthodontic unit at Dream Smile Dental Care, Guduvanchery",
-      "title": "Orthodontic Braces & Clear Aligners",
-      "tamilTitle": "பல் சீரமைப்பு மற்றும் கிளியர் அலைனர்ஸ் (Braces & Aligners)",
-      "desc": "Specialized orthodontic treatments led by Dr. Rubiya Sayed (MDS). Correction of crooked, crowded, spaced teeth, and bite misalignments using modern metal braces, ceramic braces, and invisible clear aligners.",
-      "chips": ["Clear Invisible Aligners", "Ceramic Braces", "Self-Ligating Metal Braces", "Bite & Jaw Alignment"],
-      "meta": "Orthodontics & Dentofacial Orthopaedics",
-      "longDesc": "Orthodontics goes beyond aesthetics — properly aligned teeth improve chewing efficiency, speech clarity, and long-term oral health. Dr. Rubiya Sayed creates customized alignment plans tailored for children, teens, and adults using discreet aesthetic ceramic brackets and modern clear aligners."
+      "image": "/clinic-assets/shree-raaghav-dental-rehabilitation.jpg",
+      "imageAlt": "Fixed crown and bridge tooth replacement rehabilitation at Shree Raaghav Dental Clinic",
+      "title": "Crowns, Fixed Bridges & Full Dentures",
+      "tamilTitle": "பற்கள் பொருத்துதல் & செயற்கை பற்கள் (Bridges & Dentures)",
+      "desc": "Complete tooth replacement and rehabilitation options including fixed porcelain-fused-to-metal (PFM) and zirconia bridges, single crowns, and precision-fitted complete or partial dentures.",
+      "chips": ["Zirconia & Ceramic Bridges", "Fixed Dental Crowns", "Complete Denture Prosthetics", "Chewing Restoration"],
+      "meta": "Prosthodontics & Rehabilitation",
+      "longDesc": "Missing teeth impair chewing efficiency and affect jaw alignment. We create precision-milled dental bridges and comfortable lightweight dentures that fit securely, allowing you to eat, speak, and smile naturally."
     },
     {
-      "id": "root-canal-crowns",
-      "featured": true,
-      "icon": "shield",
-      "image": "/clinic-assets/dream-smile-xray-chair.jpg",
-      "imageAlt": "Digital intraoral X-ray unit and operatory chair at Dream Smile Dental Care",
-      "title": "Root Canal Treatment (RCT) & Crowns",
-      "tamilTitle": "ரூட் கெனால் மற்றும் பற்கள் பொருத்துதல் (Root Canal & Crowns)",
-      "desc": "Painless single-sitting and rotary root canal therapies to eliminate severe toothache, save natural infected teeth, and restore strength with precision-milled ceramic, zirconia, or metal crowns.",
-      "chips": ["Painless Rotary RCT", "Zirconia & Ceramic Crowns", "Infection Eradication", "Natural Tooth Preservation"],
-      "meta": "Endodontics & Restorative Dentistry",
-      "longDesc": "Don't let tooth decay lead to extraction. Our digital radiography and rotary endodontic systems allow efficient, gentle, and painless removal of infected nerve pulp, sealing the canal completely and placing durable, lifelike aesthetic crowns."
-    },
-    {
-      "id": "dental-implants",
+      "id": "oral-maxillofacial-surgery",
       "featured": false,
       "icon": "activity",
-      "image": "/clinic-assets/dream-smile-consultation-room.jpg",
-      "imageAlt": "Dr. Rubiya Sayed consultation room and dental certification at Dream Smile Dental Care",
-      "title": "Dental Implants & Tooth Replacement",
-      "tamilTitle": "டென்டல் இம்ப்ளான்ட்ஸ் மற்றும் செயற்கை பற்கள் (Implants & Bridges)",
-      "desc": "Permanent biocompatible titanium dental implants to replace missing teeth with natural chewing power, alongside fixed dental bridges and comfortable partial or complete dentures.",
-      "chips": ["Titanium Dental Implants", "Fixed Dental Bridges", "Crown & Bridge Restorations", "Complete & Partial Dentures"],
-      "meta": "Prosthodontics & Implantology",
-      "longDesc": "Missing teeth can cause adjacent teeth to drift and impair facial contours. Dental implants fuse securely with the jawbone, offering a lifelong foundation that looks, feels, and performs exactly like healthy natural teeth."
+      "image": "/clinic-assets/shree-raaghav-operatory-main.jpg",
+      "imageAlt": "CHESA electronic dental operatory suite at Shree Raaghav Dental Clinic, Guduvanchery",
+      "title": "Oral & Maxillofacial Surgery / Extractions",
+      "tamilTitle": "பல் பிடுங்குதல் மற்றும் வாய் அறுவை சிகிச்சை (Surgical Extractions)",
+      "desc": "Gentle tooth extractions, painless wisdom tooth surgical removal (impaction), corrective minor jaw procedures, and surgical care performed under strict sterile precautions.",
+      "chips": ["Painless Wisdom Tooth Removal", "Atraumatic Extractions", "Minor Oral Surgery", "Sterile Operatory"],
+      "meta": "Oral & Maxillofacial Surgery",
+      "longDesc": "When teeth are severely impacted or non-restorable, our experienced surgeons perform gentle, atraumatic extractions minimizing post-operative swelling, tissue trauma, and discomfort."
     },
     {
-      "id": "smile-cosmetic",
+      "id": "cosmetic-tooth-reshaping",
       "featured": true,
       "icon": "heart",
-      "image": "/clinic-assets/dream-smile-doctor-desk.jpg",
-      "imageAlt": "Doctor consultation desk and modern operatory suite at Dream Smile Dental, Guduvanchery",
-      "title": "Cosmetic Dentistry & Smile Designing",
-      "tamilTitle": "புன்னகை வடிவமைப்பு மற்றும் பற்கள் வெண்மையாக்குதல் (Cosmetic Smile)",
-      "desc": "Aesthetic smile transformations including professional in-office teeth whitening, composite dental veneers, gap closures (diastema), chipped tooth bonding, and gummy smile corrections.",
-      "chips": ["In-Office Teeth Whitening", "Composite & Porcelain Veneers", "Gap Closure & Bonding", "Aesthetic Contouring"],
+      "image": "/clinic-assets/shree-raaghav-aesthetic-restoration.jpg",
+      "imageAlt": "Tooth reshaping and aesthetic contouring at Shree Raaghav Dental Clinic",
+      "title": "Cosmetic Dentistry & Tooth Reshaping",
+      "tamilTitle": "புன்னகை வடிவமைப்பு மற்றும் பற்கள் அழகுபடுத்துதல் (Cosmetic & Reshaping)",
+      "desc": "Aesthetic smile enhancements including tooth reshaping, enamel contouring, composite tooth-colored bonding, gap closures, chipped tooth repairs, and professional teeth whitening.",
+      "chips": ["Aesthetic Tooth Reshaping", "Composite Bonding", "Diastema Gap Closure", "Teeth Whitening"],
       "meta": "Cosmetic & Aesthetic Dentistry",
-      "longDesc": "A radiant, symmetrical smile enhances self-confidence in personal and professional life. We use modern shade-matching technology and gentle cosmetic procedures to brighten discolored teeth, repair chips, and design your dream smile."
+      "longDesc": "Minor tooth imperfections like uneven edges, gaps, or chips can be corrected quickly and conservatively. We reshape and bond teeth with shade-matched composite resins for a harmonious, radiant smile."
     },
     {
-      "id": "pediatric-dentistry",
+      "id": "full-mouth-rehab",
       "featured": false,
       "icon": "pulse",
-      "image": "/clinic-assets/dream-smile-waiting-area.jpg",
-      "imageAlt": "Comfortable patient waiting lounge at Dream Smile Dental Care",
-      "title": "Pediatric Dental Care & Preventive Care",
-      "tamilTitle": "குழந்தைகளுக்கான பல் மருத்துவ சிகிச்சை (Kids Dentistry)",
-      "desc": "Gentle, child-friendly dentistry in a welcoming environment. Cavity prevention with fluoride therapy, pit and fissure sealants, milk tooth fillings, space maintainers, and early orthodontic guidance.",
-      "chips": ["Gentle Child Dentistry", "Fluoride Application", "Pit & Fissure Sealants", "Early Orthodontic Screening"],
-      "meta": "Pediatric & Preventive Dentistry",
-      "longDesc": "Instilling positive dental habits early protects your child's permanent teeth. Our warm, playful operatory setup and gentle approach ensure kids feel relaxed, eliminating dental anxiety from their very first visit."
+      "image": "/clinic-assets/shree-raaghav-full-mouth-rehab.jpg",
+      "imageAlt": "Full arch teeth replacement and smile rehabilitation at Shree Raaghav Dental Clinic",
+      "title": "Full Mouth Smile Rehabilitation",
+      "tamilTitle": "முழுமையான பல் மறுசீரமைப்பு சிகிச்சை (Full Mouth Rehabilitation)",
+      "desc": "Comprehensive dental restorations for patients with multiple worn, damaged, or missing teeth, combining endodontic care, periodontal stabilization, and full arch prosthetic bridges.",
+      "chips": ["Full Arch Rehabilitation", "Bite Reconstruction", "Aesthetic Alignment", "Long-term Durability"],
+      "meta": "Comprehensive Dental Rehabilitation",
+      "longDesc": "For complex cases involving worn enamel or multiple missing teeth, full mouth rehabilitation restores proper vertical dimension, chewing function, and facial aesthetics through coordinated multi-specialty care."
     },
     {
-      "id": "cleaning-gum-care",
+      "id": "laser-dentistry-scaling",
       "featured": false,
       "icon": "shield",
-      "image": "/clinic-assets/dream-smile-reception-lounge.jpg",
-      "imageAlt": "Reception and waiting lounge corridor at Dream Smile Dental Care, Guduvanchery",
-      "title": "Ultrasonic Scaling & Gum Therapy",
-      "tamilTitle": "பற்கள் சுத்தம் செய்தல் மற்றும் ஈறு சிகிச்சை (Scaling & Polishing)",
-      "desc": "Gentle ultrasonic removal of stubborn plaque, calculus (tartar), and food stains without scratching enamel, followed by polishing and periodontal care to treat bleeding gums and bad breath.",
-      "chips": ["Ultrasonic Plaque Removal", "Enamel-Safe Polishing", "Bleeding Gums Treatment", "Fresh Breath Therapy"],
-      "meta": "Periodontics & Oral Hygiene",
-      "longDesc": "Routine professional teeth cleaning every 6 months prevents gum recession, periodontitis, and bone loss. Our advanced ultrasonic scalers comfortably clean hard-to-reach pockets, leaving your teeth smooth and your breath revitalized."
+      "image": "/clinic-assets/shree-raaghav-smile-restoration.jpg",
+      "imageAlt": "Teeth cleaning, scaling and dental filling at Shree Raaghav Dental Clinic",
+      "title": "Laser Dentistry, Scaling & Gum Therapy",
+      "tamilTitle": "லேசர் பல் மருத்துவம் மற்றும் ஈறு சிகிச்சை (Laser & Gum Care)",
+      "desc": "Advanced laser therapies for gum contouring and bleeding gums, paired with gentle ultrasonic teeth cleaning (scaling & polishing) to eliminate tartar, stains, and bad breath.",
+      "chips": ["Laser Gum Treatment", "Ultrasonic Scaling", "Stain & Tartar Removal", "Fresh Breath Therapy"],
+      "meta": "Periodontics & Laser Dentistry",
+      "longDesc": "Regular ultrasonic cleaning removes hardened calculus that brushing cannot reach, protecting against periodontal disease and tooth loss. Laser dental techniques ensure faster healing and minimal bleeding."
     }
   ],
   "servicesHeader": {
     "eyebrow": "Specialized Dental Treatments",
-    "title": "Comprehensive dentistry & specialized orthodontics.",
-    "sideText": "Led by Dr. Rubiya Sayed (BDS, MDS - Orthodontist), Dream Smile Dental provides advanced braces, pain-free root canals, implants, cosmetic smile designing, and gentle pediatric care in Guduvanchery.",
+    "title": "Gentle family dentistry & advanced restorative care.",
+    "sideText": "Shree Raaghav Dental Clinic provides pain-free root canals, fixed bridges, dentures, cosmetic tooth reshaping, laser dentistry, and surgical extractions near Velammal School in Guduvancheri.",
     "workflowLinkText": "How your treatment works"
   },
   "workflow": {
     "eyebrow": "Our Patient Workflow",
-    "title": "From consultation to your confident smile, in three gentle steps.",
+    "title": "Gentle, transparent dental care in three simple steps.",
     "steps": [
       {
         "step": "01",
-        "title": "Comprehensive Dental Evaluation",
-        "desc": "Consult directly with Dr. Rubiya Sayed. We examine your teeth, gums, and bite alignment using digital intraoral radiography to understand your precise oral health needs."
+        "title": "Comprehensive Oral Examination",
+        "desc": "We examine your teeth and gums with digital intraoral X-rays, listening carefully to your concerns and diagnosing underlying issues."
       },
       {
         "step": "02",
-        "title": "Personalized Treatment Plan",
-        "desc": "We explain all treatment options, materials (clear aligners, ceramic braces, crowns), expected timelines, and transparent pricing with no hidden costs."
+        "title": "Neat & Clear Treatment Explanation",
+        "desc": "Praised by patients for neat explanations, our doctors explain all treatment options, timelines, and affordable transparent fees upfront."
       },
       {
         "step": "03",
-        "title": "Gentle Pain-Free Dental Care",
-        "desc": "Experience gentle, precise dental care in our UV-sterilized operatory suite equipped with modern dental chairs, digital X-rays, and calming clinical care."
+        "title": "Painless & Sterile Dental Care",
+        "desc": "Receive gentle treatment in our spotless operatory suite equipped with high-tech CHESA electronic dental chairs and 100% autoclaved instruments."
       }
     ],
-    "ctaPrompt": "Ready to transform your smile or need relief from tooth pain?",
-    "ctaButtonText": "Schedule your consultation now"
+    "ctaPrompt": "Experiencing tooth pain or looking for a natural smile restoration?",
+    "ctaButtonText": "Schedule your appointment today"
   },
   "about": {
-    "badgeText": "DREAM SMILE DENTAL · GUDUVANCHERY · DR. RUBIYA SAYED (MDS) · ",
-    "eyebrow": "About Dream Smile Dental",
-    "headline": "Specialized orthodontic care & multi-specialty family dentistry.",
-    "lead": "Led by Dr. Rubiya Sayed (BDS, MDS - Orthodontics and Dentofacial Orthopaedics) with over 15 years of specialized experience, Dream Smile Dental and Orthodontic Care is a premier dental clinic located above SBI Kayarambedu Branch on Nellikuppam Road, Guduvanchery.",
-    "quote": "“Our mission is to craft confident, radiant smiles through specialized orthodontic expertise, pain-free treatments, and uncompromising sterilization standards.”",
-    "cite": "— Dr. Rubiya Sayed (BDS, MDS), Orthodontist & Dental Surgeon",
+    "badgeText": "SHREE RAAGHAV DENTAL CLINIC · GUDUVANCHERY · RATED 5.0★ · ",
+    "eyebrow": "About Shree Raaghav Dental",
+    "headline": "Gentle dental care, clear explanations & exceptional patient comfort.",
+    "lead": "Located near Velammal School on Nellikuppam Road, Guduvancheri, Shree Raaghav Dental Clinic is a trusted multi-specialty dental practice known for its friendly atmosphere, highly experienced doctors, and pain-free treatments.",
+    "quote": "“Our goal is to ensure every patient receives compassionate, painless dental care with clear explanations, comfortable ambience, and lasting clinical results.”",
+    "cite": "— Shree Raaghav Dental Clinic, Guduvancheri",
     "ctaText": "Book a dental consultation",
     "whyUs": [
-      "Led by Dr. Rubiya Sayed (BDS, MDS), a specialized Orthodontist with 15+ years of clinical experience",
-      "Comprehensive multi-specialty care: Orthodontic Braces, Clear Aligners, Painless RCT, Implants & Kids Dentistry",
-      "Rated 4.9★ by satisfied patients on Google Reviews for gentle, effective dental treatments",
-      "Equipped with modern electronic dental chairs, arm-mounted digital intraoral X-rays, and rotary endodontics",
-      "100% strict infection control with Bio-Warrior UV chamber sterilization and autoclaved instruments",
-      "Convenient clinic location above SBI Kayarambedu Branch on Nellikuppam Road, opposite SP Mahal",
-      "Open 7 days a week with convenient morning and evening appointment timings"
+      "Rated a perfect 5.0★ on Google Maps with 39+ glowing, verified patient reviews",
+      "Patients consistently praise the friendly doctors, patience, neat explanations, and caring staff",
+      "State-of-the-art operatory suite featuring high-tech CHESA electronic dental chairs and digital radiography",
+      "Comprehensive multi-specialty care: Painless RCT, Crowns & Bridges, Dentures, Laser Dentistry, and Extractions",
+      "Strict hospital-grade sterilization protocols with autoclaving and single-use disposables for 100% safety",
+      "Conveniently situated at No. 24 Pragathi Enclave, Nellikuppam Road, right near Velammal School in Guduvancheri",
+      "Open 7 days a week with convenient morning and evening consultation timings"
     ],
     "pageStory": {
-      "chip": "About Dream Smile Dental",
-      "title": "15+ Years of Dental Excellence & Orthodontic Care in Guduvanchery.",
-      "sub": "Led by Dr. Rubiya Sayed (BDS, MDS in Orthodontics & Dentofacial Orthopaedics), Dream Smile Dental and Orthodontic Care brings world-class dental treatments, braces, aligners, and pain-free dentistry to families across Guduvanchery and Chengalpattu.",
-      "sectionEyebrow": "Our Clinical Philosophy",
-      "sectionHeading": "Precision Orthodontics, Patient Comfort & Modern Sterilization",
+      "chip": "About Shree Raaghav Dental",
+      "title": "Trusted 5-Star Rated Dental Care in Guduvancheri.",
+      "sub": "Shree Raaghav Dental Clinic is a premier multi-specialty dental practice located near Velammal School on Nellikuppam Road, Guduvancheri, dedicated to gentle, high-quality family dentistry.",
+      "sectionEyebrow": "Our Patient Promise",
+      "sectionHeading": "Compassionate Care, Clear Explanations & Modern Technology",
       "paragraphs": [
-        "A healthy, beautiful smile has the power to transform self-esteem, improve facial harmony, and support long-term digestive and oral health. At Dream Smile Dental and Orthodontic Care, we combine specialized postgraduate orthodontic training with modern clinical infrastructure to deliver compassionate, gentle dental care.",
-        "Under the leadership of Dr. Rubiya Sayed (BDS, MDS), our clinic specializes in correcting complex misalignments, crowded teeth, and bite discrepancies for children, teenagers, and adults using discreet aesthetic brackets and modern clear aligners.",
-        "Beyond orthodontics, our clinic provides comprehensive dental treatments under one roof — including single-sitting painless root canals, zirconia crowns, titanium dental implants, aesthetic smile designing, and child-friendly pediatric care. With strict Bio-Warrior UV chamber sterilization and autoclaving protocols, every patient is assured the highest standards of safety, hygiene, and clinical comfort."
+        "Visiting the dentist should never be an intimidating experience. At Shree Raaghav Dental Clinic in Guduvancheri, we have built a reputation on clinical gentleness, patient comfort, and thorough, easy-to-understand explanations before any procedure begins.",
+        "Equipped with advanced CHESA dental units, digital intraoral imaging, and modern restorative materials, our clinic provides end-to-end dental solutions under one roof — from single-sitting painless root canals and custom zirconia crowns to complete smile rehabilitations and pediatric dental care.",
+        "With a flawless 5.0★ rating on Google Maps from dozens of satisfied local families across Guduvancheri, Perumattunallur, Kayarambedu, and Nandivaram, our team remains committed to delivering honest, ethical, and pain-free dental healthcare seven days a week."
       ]
     }
   },
   "patientGuide": {
     "eyebrow": "Dental Care Guide",
-    "title": "Important Guidelines for Your Dental Visit",
+    "title": "Helpful Tips Before & After Your Dental Visit",
     "cards": [
       {
-        "title": "First Visit & Consultation",
-        "desc": "Bring any previous dental records, X-rays, or medical prescriptions. Dr. Rubiya Sayed conducts a comprehensive visual exam and digital X-ray to diagnose underlying concerns before starting treatment."
+        "title": "Your First Dental Checkup",
+        "desc": "Arrive 5–10 minutes early. Our doctor conducts a gentle examination, takes digital intraoral X-rays if needed, and discusses your treatment plan with complete transparency."
       },
       {
-        "title": "Braces & Aligners Care",
-        "desc": "Brush gently around brackets after meals with an orthodontic toothbrush. Avoid biting directly into hard, sticky, or chewy foods. Wear clear aligners for 20–22 hours daily as prescribed."
+        "title": "After Root Canal & Crown",
+        "desc": "Avoid chewing hard or sticky foods on the treated tooth until your permanent crown is cemented. Mild tenderness is normal for 24–48 hours and easily managed with prescribed medication."
       },
       {
-        "title": "Pain-Free Root Canal Care",
-        "desc": "Our treatments use modern local anesthetics to ensure complete comfort. Avoid chewing hard foods on the treated side until the permanent crown is placed to safeguard the tooth."
+        "title": "Denture & Bridge Maintenance",
+        "desc": "Clean removable dentures daily with a soft brush and non-abrasive cleanser. For fixed bridges, use superfloss or interdental brushes to keep the gumline healthy and fresh."
       }
     ]
   },
   "qualityStandards": {
     "eyebrow": "Clinical Standards",
-    "title": "Our Commitments to Patient Safety & Care",
-    "headerTitle": "Committed to Clinical Excellence & Patient Comfort.",
-    "headerSub": "Serving patients across Guduvanchery, Kayarambedu, Moolakazhani, and Urapakkam with specialized orthodontic expertise, gentle pain-free dentistry, and hospital-grade sterilization protocols.",
+    "title": "Our Commitments to Every Patient",
+    "headerTitle": "Committed to 5-Star Patient Comfort & Clinical Excellence.",
+    "headerSub": "Serving patients across Guduvancheri, Perumattunallur, Kayarambedu, and Nandivaram with gentle dentistry, 100% sterile instruments, and transparent care.",
     "proofItems": [
-      { "val": "15+", "lbl": "Years Clinical Dental Experience" },
-      { "val": "4.9★", "lbl": "Patient Rating on Google Reviews" },
-      { "val": "100%", "lbl": "UV Chamber & Autoclave Protocol" }
+      { "val": "5.0★", "lbl": "Google Maps Patient Rating (100% 5-Star)" },
+      { "val": "39+", "lbl": "Verified 5-Star Patient Reviews" },
+      { "val": "100%", "lbl": "Sterile Autoclave Instrument Protocol" }
     ],
     "cards": [
       {
         "icon": "shield",
-        "title": "Bio-Warrior UV Sterilization",
-        "desc": "All dental instruments undergo multi-tier ultrasonic cleaning, medical-grade autoclaving, and UV chamber storage to guarantee 100% infection-free dental procedures."
+        "title": "Strict Sterilization Protocol",
+        "desc": "All dental instruments undergo ultrasonic cleaning, medical-grade autoclaving, and sterile pouch packaging, strictly adhering to infection control guidelines."
       },
       {
         "icon": "sparkle",
-        "title": "Specialized MDS Orthodontist",
-        "desc": "Treatments are planned and executed by Dr. Rubiya Sayed, a qualified specialist with Master of Dental Surgery (MDS) in Orthodontics and Dentofacial Orthopaedics."
+        "title": "Neat & Patient Explanations",
+        "desc": "Patients consistently commend our doctors for taking time to explain dental diagnoses, procedure steps, and preventive advice with utmost patience."
       },
       {
         "icon": "check",
-        "title": "Transparent & Gentle Care",
-        "desc": "Detailed explanation of every procedure, gentle pain-free anesthesia techniques, and transparent pricing without unexpected surprises."
+        "title": "Pleasant, Relaxed Ambience",
+        "desc": "Clean, air-conditioned clinic environment with modern CHESA dental chairs, gentle local anesthesia, and friendly support staff."
       }
     ]
   },
   "gallery": {
-    "headerChip": "Clinic Tour & Facilities",
-    "headerTitle": "Dream Smile Dental Photo Gallery.",
-    "headerSub": "Take a visual tour of our modern dental operatory suite, digital intraoral X-ray unit, Dr. Rubiya Sayed's consultation room, and air-conditioned patient waiting lounge above SBI Kayarambedu Branch on Nellikuppam Road, Guduvanchery.",
-    "categories": ["All", "Operatory", "Consultation", "Lounge"],
+    "headerChip": "Clinic Tour & Case Gallery",
+    "headerTitle": "Shree Raaghav Dental Photo Gallery.",
+    "headerSub": "Explore official photographs of our modern dental operatory suite, advanced CHESA electronic dental chair, and verified smile restoration cases at Shree Raaghav Dental Clinic in Guduvancheri.",
+    "categories": ["All", "Operatory", "Restorations", "Prosthetics"],
     "images": [
       {
         "id": "gal-1",
-        "src": "/clinic-assets/dream-smile-operatory-main.jpg",
-        "title": "Advanced Dental Operatory Suite",
+        "src": "/clinic-assets/shree-raaghav-operatory-main.jpg",
+        "title": "Advanced CHESA Dental Operatory Suite",
         "category": "Operatory",
-        "desc": "High-tech electronic dental operatory chair with purple upholstery, delivery unit, and wall-mounted Bio-Warrior UV sterilization chamber."
+        "desc": "High-tech electronic dental chair with delivery console, dental instruments, and consultation desk."
       },
       {
         "id": "gal-2",
-        "src": "/clinic-assets/dream-smile-consultation-room.jpg",
-        "title": "Dr. Rubiya Sayed Consultation Room",
-        "category": "Consultation",
-        "desc": "Air-conditioned doctor consultation office displaying verified BDS and MDS orthodontic degrees and patient discussion desk."
+        "src": "/clinic-assets/shree-raaghav-dental-rehabilitation.jpg",
+        "title": "Fixed Crown & Bridge Rehabilitation",
+        "category": "Restorations",
+        "desc": "Before and after of full dental crown and bridge restoration for missing and damaged teeth."
       },
       {
         "id": "gal-3",
-        "src": "/clinic-assets/dream-smile-xray-chair.jpg",
-        "title": "Digital Intraoral X-Ray & Operatory Unit",
-        "category": "Operatory",
-        "desc": "Close-up of treatment chair equipped with arm-mounted digital intraoral dental X-ray machine and ergonomic operatory lighting."
+        "src": "/clinic-assets/shree-raaghav-rct-crown.jpg",
+        "title": "Root Canal Therapy & Digital X-Ray",
+        "category": "Restorations",
+        "desc": "Single-sitting root canal treatment verified with digital intraoral X-ray and aesthetic crown placement."
       },
       {
         "id": "gal-4",
-        "src": "/clinic-assets/dream-smile-reception-lounge.jpg",
-        "title": "Patient Reception & Waiting Corridor",
-        "category": "Lounge",
-        "desc": "Comfortable black leather sofa seating in the reception lounge with frosted glass partition and clinic branding."
+        "src": "/clinic-assets/shree-raaghav-aesthetic-restoration.jpg",
+        "title": "Tooth Reshaping & Aesthetic Contouring",
+        "category": "Restorations",
+        "desc": "Before and after enamel contouring and aesthetic composite restoration."
       },
       {
         "id": "gal-5",
-        "src": "/clinic-assets/dream-smile-doctor-desk.jpg",
-        "title": "Consultation Desk & Operatory View",
-        "category": "Consultation",
-        "desc": "Doctor consultation desk with patient seating, overlooking the spotless sterile dental operatory room."
+        "src": "/clinic-assets/shree-raaghav-full-mouth-rehab.jpg",
+        "title": "Full Arch Teeth Replacement & Smile Rehab",
+        "category": "Prosthetics",
+        "desc": "Full mouth dental rehabilitation restoring chewing function and natural smile line."
       },
       {
         "id": "gal-6",
-        "src": "/clinic-assets/dream-smile-waiting-area.jpg",
-        "title": "Air-Conditioned Patient Waiting Lounge",
-        "category": "Lounge",
-        "desc": "Spacious and peaceful waiting lounge with leather couches, coffee table, and patient care signage."
+        "src": "/clinic-assets/shree-raaghav-complete-denture.jpg",
+        "title": "Custom Precision Complete Dentures",
+        "category": "Prosthetics",
+        "desc": "High-quality precision-fabricated full dental prosthesis for comfortable, natural tooth replacement."
+      },
+      {
+        "id": "gal-7",
+        "src": "/clinic-assets/shree-raaghav-smile-restoration.jpg",
+        "title": "Enamel Restoration & Dental Filling",
+        "category": "Restorations",
+        "desc": "Tooth-colored composite restoration seamlessly blending with natural tooth structure."
+      },
+      {
+        "id": "gal-8",
+        "src": "/clinic-assets/shree-raaghav-dental-unit.jpg",
+        "title": "Spotless Operatory & Consultation Desk",
+        "category": "Operatory",
+        "desc": "Clean treatment room setup equipped for gentle, pain-free dental procedures."
       }
     ]
   },
   "faqs": [
     {
-      "q": "Who is the lead doctor at Dream Smile Dental and Orthodontic care?",
-      "a": "The clinic is led by Dr. Rubiya Sayed (BDS, MDS), a specialized Orthodontist and Dentofacial Orthopaedist with over 15 years of clinical experience in dental alignment, smile designing, and comprehensive dentistry."
+      "q": "Where is Shree Raaghav Dental Clinic located in Guduvancheri?",
+      "a": "We are located at No. 24, Pragathi Enclave, Nellikuppam Road, Perumattunallur Main Road, right near Velammal School, Guduvancheri, Tamil Nadu 603202. Click our Google Maps directions button for direct GPS navigation."
     },
     {
-      "q": "What types of braces and aligners do you provide?",
-      "a": "We offer conventional metal braces, aesthetic ceramic (tooth-colored) braces, self-ligating brackets, and clear invisible aligners. Dr. Rubiya Sayed evaluates your bite and recommends the most comfortable and discreet option for your lifestyle."
+      "q": "What are the clinic timings of Shree Raaghav Dental Clinic?",
+      "a": "We are open Monday through Saturday with two daily sessions: 10:00 AM to 1:00 PM (Morning) and 5:00 PM to 9:00 PM (Evening). On Sundays, we are open from 10:00 AM to 1:00 PM for weekend appointments."
     },
     {
-      "q": "Is root canal treatment (RCT) painful at Dream Smile Dental?",
-      "a": "Not at all. With modern local anesthesia, digital X-rays, and advanced rotary instruments, root canal treatment is completely comfortable and virtually pain-free. Most patients experience immediate relief from the toothache that brought them in."
-    },
-    {
-      "q": "What are the clinic timings of Dream Smile Dental in Guduvanchery?",
-      "a": "We are open Monday through Saturday with two sessions: 9:30 AM to 2:00 PM (Morning) and 5:00 PM to 9:00 PM (Evening). On Sundays, we are open from 10:00 AM to 2:00 PM for weekend appointments."
-    },
-    {
-      "q": "Where is the clinic located in Guduvanchery?",
-      "a": "Dream Smile Dental and Orthodontic Care is located on Nellikuppam Road, directly above the SBI Kayarambedu Branch and opposite SP Mahal, Guduvanchery, Tamil Nadu 603202. Click our Google Maps directions button for direct GPS navigation."
+      "q": "Is root canal treatment (RCT) painful at Shree Raaghav Dental Clinic?",
+      "a": "No, root canal treatments at our clinic are gentle and virtually pain-free. Using modern local anesthesia, digital X-rays, and rotary endodontic equipment, our doctors ensure complete comfort while quickly relieving severe toothache."
     },
     {
       "q": "How can I book an appointment?",
-      "a": "You can call or WhatsApp us directly at +91 80984 80982, or submit the appointment booking form on this website. Our clinic team confirms appointments promptly."
+      "a": "You can call or WhatsApp our official clinic number directly at +91 84288 77818, or submit the appointment booking form on this website. Our clinic team confirms slots promptly."
     },
     {
-      "q": "Do you treat children (Pediatric Dentistry)?",
-      "a": "Yes! We provide compassionate, gentle dental care for children, including preventive fluoride treatments, pit and fissure sealants, milk tooth fillings, and early orthodontic evaluations to guide proper jaw development."
+      "q": "What dental services and treatments do you provide?",
+      "a": "We provide comprehensive dental treatments including Painless Root Canal Treatments (RCT), Zirconia & Ceramic Crowns, Fixed Bridges, Full & Partial Dentures, Tooth Extractions, Wisdom Tooth Surgery, Laser Dentistry, Tooth Reshaping, Cosmetic Bonding, Teeth Whitening, and Kids Dentistry."
+    },
+    {
+      "q": "Why is Shree Raaghav Dental Clinic rated 5.0 stars on Google Maps?",
+      "a": "Our 100% 5-star rating on Google Maps reflects our commitment to patient comfort, friendly doctors, patience in explaining every step, pleasant clinical ambience, and gentle, pain-free dental care."
     }
   ],
   "booking": {
     "ctaLabel": "Book Appointment",
     "ctaFullLabel": "Book Dental Appointment",
-    "modalEyebrow": "Usually confirmed in 15 min",
+    "modalEyebrow": "Confirmed in 15 min",
     "modalTitle": "Book Dental Appointment",
-    "modalHint": "Morning & evening consultation slots available 7 days a week.",
+    "modalHint": "Morning & evening slots available 7 days a week near Velammal School.",
     "serviceLabel": "Dental Treatment / Consultation",
     "servicePlaceholder": "Select treatment or service",
     "timeLabel": "Preferred time slot",
     "noteLabel": "Reason for visit or symptoms (optional)",
-    "notePlaceholder": "E.g., braces consultation, tooth pain, teeth cleaning, dental crown…",
+    "notePlaceholder": "E.g., toothache, root canal, teeth cleaning, dental crown, checkup…",
     "submitButtonText": "Confirm Dental Appointment",
-    "guaranteeNote": "100% UV Sterilization · Advanced Dental Equipment · Gentle Pain-Free Care",
+    "guaranteeNote": "100% Autoclaved Instruments · Gentle Pain-Free Care · 5.0★ Google Rated",
     "timeSlots": [
-      "9:30 AM", "10:30 AM", "11:30 AM", "12:30 PM", "1:30 PM",
-      "5:00 PM", "6:00 PM", "7:00 PM", "8:00 PM", "8:30 PM"
+      "10:00 AM", "10:30 AM", "11:00 AM", "11:30 AM", "12:00 PM", "12:30 PM",
+      "5:00 PM", "5:30 PM", "6:00 PM", "6:30 PM", "7:00 PM", "7:30 PM", "8:00 PM", "8:30 PM"
     ]
   },
   "ctaBanner": {
-    "eyebrow": "Led by Dr. Rubiya Sayed (MDS - Orthodontist) · Open 7 Days",
-    "title": "Transform your smile with specialized, gentle dental care.",
-    "sub": "Book your consultation for braces, clear aligners, painless root canals, implants, or general dental checkups in Guduvanchery.",
+    "eyebrow": "Rated 5.0★ on Google Maps · Open 7 Days · Near Velammal School",
+    "title": "Gentle, experienced dental care for you and your family.",
+    "sub": "Book your consultation for painless root canals, crowns & bridges, tooth reshaping, laser dentistry, or routine dental checkups in Guduvancheri.",
     "btnPrimary": "Book Dental Appointment"
   },
   "navigation": {
@@ -409,67 +421,67 @@
       { "label": "Contact & Location", "short": "Contact", "path": "/contact" }
     ],
     "ticker": [
-      "Specialized Orthodontics & Clear Aligners",
-      "Dr. Rubiya Sayed (BDS, MDS - Orthodontist)",
-      "15+ Years of Clinical Dental Excellence",
-      "Single-Sitting Painless Root Canal (RCT)",
-      "Ceramic & Zirconia Aesthetic Crowns",
-      "Permanent Dental Implants & Bridges",
-      "Cosmetic Smile Designing & Whitening",
-      "Child-Friendly Pediatric Dental Care",
-      "100% Bio-Warrior UV Chamber Sterilization",
-      "Above SBI · Nellikuppam Rd · Guduvanchery"
+      "SHREE RAAGHAV DENTAL CLINIC",
+      "Rated 5.0★ on Google Maps (39+ Reviews)",
+      "Painless Root Canal Treatments (RCT)",
+      "Fixed Ceramic & Zirconia Dental Crowns",
+      "Precision Complete & Partial Dentures",
+      "Oral & Maxillofacial Surgery / Extractions",
+      "Laser Dentistry & Advanced Gum Therapy",
+      "Cosmetic Tooth Reshaping & Whitening",
+      "Near Velammal School · Nellikuppam Rd · Guduvancheri",
+      "Open 7 Days: 10 AM–1 PM & 5–9 PM"
     ]
   },
   "seo": {
-    "homeTitle": "Dream Smile Dental and Orthodontic care | Guduvanchery | Dr. Rubiya Sayed",
-    "homeDescription": "Dream Smile Dental & Orthodontic Care in Guduvanchery. Led by Dr. Rubiya Sayed (MDS). Specialized braces, invisible aligners, painless RCT, and implants. Call +91 80984 80982.",
+    "homeTitle": "SHREE RAAGHAV DENTAL CLINIC | Guduvanchery | Rated 5.0★",
+    "homeDescription": "Shree Raaghav Dental Clinic in Guduvancheri near Velammal School. Painless root canals, crowns, bridges, dentures, and laser dentistry. Rated 5.0★. Call +91 84288 77818.",
     "ogDefaults": {
-      "title": "Dream Smile Dental and Orthodontic care — Guduvanchery",
-      "description": "Led by Dr. Rubiya Sayed (BDS, MDS). Advanced braces, clear aligners, painless root canals, implants, and pediatric dentistry in Guduvanchery.",
-      "image": "/clinic-assets/dream-smile-operatory-main.jpg",
-      "imageAlt": "Dream Smile Dental and Orthodontic care operatory suite in Guduvanchery"
+      "title": "SHREE RAAGHAV DENTAL CLINIC — Guduvanchery",
+      "description": "Rated 5.0★ on Google Maps. Painless root canals, crowns & bridges, tooth reshaping, dentures, and gentle family dentistry in Guduvanchery.",
+      "image": "/clinic-assets/shree-raaghav-operatory-main.jpg",
+      "imageAlt": "SHREE RAAGHAV DENTAL CLINIC operatory suite in Guduvanchery"
     },
     "pages": {
       "about": {
-        "title": "About Dr. Rubiya Sayed & Clinic | Dream Smile Dental Guduvanchery",
-        "description": "Learn about Dr. Rubiya Sayed (BDS, MDS in Orthodontics) with 15+ years experience. Modern operatory, UV chamber sterilization, and compassionate dental care in Guduvanchery.",
-        "ogTitle": "About Dream Smile Dental — Dr. Rubiya Sayed (MDS)",
-        "ogDescription": "15+ years of specialized orthodontic care and multi-specialty family dentistry in Guduvanchery above SBI Kayarambedu Branch.",
+        "title": "About Our Clinic & Doctors | Shree Raaghav Dental Guduvanchery",
+        "description": "Learn about Shree Raaghav Dental Clinic near Velammal School on Nellikuppam Road, Guduvancheri. Rated 5.0★ for friendly doctors, neat explanations, and gentle dental care.",
+        "ogTitle": "About Shree Raaghav Dental Clinic — Guduvanchery",
+        "ogDescription": "Rated 5.0★ on Google Maps. Compassionate family dental care, modern CHESA dental chairs, and hospital-grade sterilization in Guduvancheri.",
         "ogImage": "about-us",
-        "ogAlt": "Dr. Rubiya Sayed consultation room at Dream Smile Dental"
+        "ogAlt": "CHESA dental operatory suite at Shree Raaghav Dental Clinic"
       },
       "treatments": {
-        "title": "Dental Treatments & Orthodontic Braces | Dream Smile Dental",
-        "description": "Explore specialized dental services: Orthodontic braces, clear aligners, painless root canals, zirconia crowns, dental implants, teeth whitening, and kids dentistry in Guduvanchery.",
-        "ogTitle": "Dental Treatments & Orthodontic Care — Dream Smile Dental",
-        "ogDescription": "Braces, clear aligners, painless RCT, dental implants, and cosmetic smile designing in Guduvanchery by Dr. Rubiya Sayed.",
+        "title": "Dental Treatments & Services | Shree Raaghav Dental Guduvanchery",
+        "description": "Explore dental treatments: Painless root canals, zirconia crowns, fixed bridges, dentures, oral surgery, laser dentistry, and cosmetic tooth reshaping in Guduvancheri.",
+        "ogTitle": "Dental Treatments & Services — Shree Raaghav Dental",
+        "ogDescription": "Painless RCT, dental crowns, tooth replacement bridges, full dentures, and laser dentistry in Guduvanchery near Velammal School.",
         "ogImage": "treatments",
-        "ogAlt": "Digital intraoral X-ray and operatory chair at Dream Smile Dental"
+        "ogAlt": "Dental treatment and digital X-ray at Shree Raaghav Dental Clinic"
       },
       "gallery": {
-        "title": "Clinic Photos & Facilities Tour | Dream Smile Dental Guduvanchery",
-        "description": "View official photos of Dream Smile Dental: High-tech operatory chair, digital X-ray unit, Dr. Rubiya Sayed's consultation room, and patient waiting lounge.",
-        "ogTitle": "Clinic Photos & Facilities — Dream Smile Dental Guduvanchery",
-        "ogDescription": "Explore our modern dental operatory, UV sterilization facility, consultation office, and comfortable waiting lounge.",
+        "title": "Clinic Photos & Smile Gallery | Shree Raaghav Dental Guduvanchery",
+        "description": "View official Google Maps photos of Shree Raaghav Dental Clinic: Modern CHESA operatory suite, treatment cases, crowns, and smile rehabilitations.",
+        "ogTitle": "Clinic Photos & Case Gallery — Shree Raaghav Dental",
+        "ogDescription": "Explore our spotless dental operatory, high-tech dental chair, and verified tooth restoration cases in Guduvanchery.",
         "ogImage": "gallery",
-        "ogAlt": "Dream Smile Dental reception and waiting lounge corridor"
+        "ogAlt": "Shree Raaghav Dental Clinic operatory and treatment cases"
       },
       "testimonials": {
-        "title": "Quality Standards & Patient Care | Dream Smile Dental",
-        "description": "Dream Smile Dental's clinical standards: Bio-Warrior UV sterilization, 15+ years orthodontic expertise, 4.9★ patient rating, and dental treatment FAQs.",
-        "ogTitle": "Clinical Standards & Patient Safety — Dream Smile Dental",
-        "ogDescription": "Committed to gentle, pain-free dental care, specialized orthodontic planning, and 100% sterile instruments in Guduvanchery.",
+        "title": "Patient Reviews & Clinical Standards | Shree Raaghav Dental",
+        "description": "Read why Shree Raaghav Dental Clinic is rated a perfect 5.0★ on Google Maps with 39+ reviews praising friendly doctors, patience, and painless treatment.",
+        "ogTitle": "5.0★ Patient Reviews & Standards — Shree Raaghav Dental",
+        "ogDescription": "Rated 5.0★ on Google Maps. 100% autoclaved instruments, pleasant ambience, and gentle dental treatments in Guduvanchery.",
         "ogImage": "testimonials",
-        "ogAlt": "Doctor consultation desk at Dream Smile Dental Care"
+        "ogAlt": "Verified patient dental restorations at Shree Raaghav Dental Clinic"
       },
       "contact": {
-        "title": "Location, Timings & Contact | Dream Smile Dental Guduvanchery",
-        "description": "Visit Dream Smile Dental on Nellikuppam Road (Above SBI Kayarambedu Branch, Opp. SP Mahal), Guduvanchery 603202. Mon–Sat 9:30 AM–2 PM & 5–9 PM, Sun 10 AM–2 PM. Call +91 80984 80982.",
-        "ogTitle": "Location, Timings & Contact — Dream Smile Dental Guduvanchery",
-        "ogDescription": "Find Dream Smile Dental above SBI on Nellikuppam Road, opposite SP Mahal, Guduvanchery. Call/WhatsApp: +91 80984 80982.",
+        "title": "Location, Timings & Contact | Shree Raaghav Dental Guduvanchery",
+        "description": "Visit Shree Raaghav Dental Clinic at No. 24 Pragathi Enclave, Nellikuppam Road, near Velammal School, Guduvancheri 603202. Mon–Sat 10 AM–1 PM & 5–9 PM, Sun 10 AM–1 PM. Call +91 84288 77818.",
+        "ogTitle": "Location, Timings & Contact — Shree Raaghav Dental Guduvanchery",
+        "ogDescription": "Find Shree Raaghav Dental Clinic near Velammal School on Nellikuppam Road, Guduvancheri. Call/WhatsApp: +91 84288 77818.",
         "ogImage": "contact",
-        "ogAlt": "Dream Smile Dental patient waiting lounge and facility"
+        "ogAlt": "Shree Raaghav Dental Clinic location near Velammal School Guduvancheri"
       }
     }
   }

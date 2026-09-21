@@ -13,7 +13,7 @@ export default function PressFeature() {
         />
         <div style={{ background: 'var(--surface)', padding: '32px', borderRadius: '16px', border: '1px solid var(--border)', marginTop: '24px' }}>
           <p style={{ fontSize: '1rem', lineHeight: '1.7', color: 'var(--ink)' }}>
-            {CLINIC.name} provides specialized orthodontic care, invisible aligners, pain-free root canals, implants, and multi-specialty dental care led by {CLINIC.doctorName} ({CLINIC.doctorQualifications || 'BDS, MDS'}).
+            {CLINIC.name} provides comprehensive dental care, painless root canals, crowns &amp; bridges, dentures, and laser dentistry led by {CLINIC.doctorName} ({CLINIC.doctorQualifications || 'BDS, MDS'}).
           </p>
           <p style={{ fontSize: '0.95rem', lineHeight: '1.7', color: 'var(--ink-2)', marginTop: '12px' }}>
             Location: {CLINIC.address} · Contact: {CLINIC.phoneDisplay} · Timings: {CLINIC.timings}

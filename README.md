@@ -1,6 +1,6 @@
-# Dream Smile Dental and Orthodontic care, Guduvanchery — Next.js Website
+# SHREE RAAGHAV DENTAL CLINIC, Guduvancheri — Next.js Website
 
-Official website for **Dream Smile Dental and Orthodontic care** (Multi-Specialty Dental Clinic & Orthodontic Care Centre), located on Nellikuppam Road, Above SBI - Kayarambedu Branch, Opp. SP Mahal, Guduvanchery, Moolakazhani, Tamil Nadu 603202. Led by **Dr. Rubiya Sayed (BDS, MDS - Orthodontist)** with 15+ years of clinical experience.
+Official website for **SHREE RAAGHAV DENTAL CLINIC** (Multi-Specialty Dental Clinic), located at No. 24, Pragathi Enclave, Nellikuppam Road, Perumattunallur Main Road, near Velammal school, Guduvancheri, Tamil Nadu 603202. Rated a perfect **5.0★ on Google Maps** with 39+ verified patient reviews.
 
 Built with **Next.js (App Router)** with static pre-rendering, responsive WebP image optimization, GSAP animations, and comprehensive SEO (Schema.org `Dentist` / `MedicalBusiness`, Open Graph cards, sitemap, robots, responsive meta).
 
@@ -8,26 +8,26 @@ Built with **Next.js (App Router)** with static pre-rendering, responsive WebP i
 
 ## Clinic Information (Source of Truth: Google Maps)
 
-- **Business Name**: Dream Smile Dental and Orthodontic care
-- **Category**: Dental Clinic / Orthodontist / Dental Care Centre
-- **Doctor**: Dr. Rubiya Sayed (BDS, MDS - Orthodontics and Dentofacial Orthopaedics)
-- **Experience**: 15+ Years Clinical Experience
-- **Address**: Nellikuppam Road, Above SBI - Kayarambedu Branch, Opp. SP Mahal, Guduvanchery, Moolakazhani, Tamil Nadu 603202
-- **Coordinates**: 12.8146924, 80.076715 (Plus Code: `7M42R37G+VM`)
-- **Phone**: [+91 80984 80982](tel:+918098480982) / 080984 80982
-- **WhatsApp**: [+91 80984 80982](https://wa.me/918098480982)
+- **Business Name**: SHREE RAAGHAV DENTAL CLINIC
+- **Category**: Dental Clinic / Dentist / Dental Care Centre
+- **Rating**: 5.0★ (39+ Google Reviews, 100% 5-Star)
+- **Address**: No. 24, Pragathi Enclave, Nellikuppam Road, Perumattunallur Main Road, near Velammal school, Guduvancheri, Tamil Nadu 603202
+- **Landmark**: Near Velammal School, Perumattunallur Main Road, Nellikuppam Road
+- **Coordinates**: 12.8223607, 80.0774814 (Plus Code: `R3CG+WX Guduvancheri, Nandivaram-Guduvancheri, Tamil Nadu`)
+- **Phone**: [+91 84288 77818](tel:+918428877818) / 084288 77818
+- **WhatsApp**: [+91 84288 77818](https://wa.me/918428877818)
 - **Hours**:
-  - Monday – Saturday: 9:30 AM – 2:00 PM & 5:00 PM – 9:00 PM
-  - Sunday: 10:00 AM – 2:00 PM
+  - Monday – Saturday: 10:00 AM – 1:00 PM & 5:00 PM – 9:00 PM
+  - Sunday: 10:00 AM – 1:00 PM
 - **Key Services**:
-  - Specialized Orthodontic Braces (Metal, Ceramic, Self-Ligating)
-  - Clear Invisible Aligners & Smile Alignment
-  - Painless Single-Sitting Root Canal Treatments (RCT)
+  - Painless Root Canal Treatments (RCT) & Digital X-Rays
   - Zirconia & Aesthetic Ceramic Dental Crowns
-  - Permanent Titanium Dental Implants & Bridges
-  - Cosmetic Smile Designing, Teeth Whitening & Veneers
-  - Child-Friendly Pediatric Dental Care & Preventive Therapy
-  - Ultrasonic Teeth Cleaning (Scaling), Polishing & Gum Care
+  - Fixed Tooth Replacement Bridges & Full Dentures
+  - Oral & Maxillofacial Surgery / Wisdom Tooth Extractions
+  - Cosmetic Dentistry & Tooth Reshaping
+  - Laser Dentistry & Gum Care
+  - Child-Friendly Pediatric Dental Care & Preventive Fillings
+  - Ultrasonic Teeth Cleaning (Scaling) & Polishing
 
 ---
 
@@ -59,12 +59,14 @@ npm run preview              # serves ./out on http://localhost:3000
 - Write `src/lib/image-manifest.json` with dimensions and variant mappings.
 
 Genuine photos sourced directly from Google Maps listing:
-- `public/clinic-assets/dream-smile-operatory-main.jpg` (Advanced dental operatory suite & UV chamber)
-- `public/clinic-assets/dream-smile-consultation-room.jpg` (Dr. Rubiya Sayed consultation room & degrees)
-- `public/clinic-assets/dream-smile-xray-chair.jpg` (Digital intraoral X-ray & operatory unit)
-- `public/clinic-assets/dream-smile-reception-lounge.jpg` (Patient reception & waiting corridor)
-- `public/clinic-assets/dream-smile-doctor-desk.jpg` (Consultation desk & operatory view)
-- `public/clinic-assets/dream-smile-waiting-area.jpg` (Air-conditioned patient waiting lounge)
+- `public/clinic-assets/shree-raaghav-operatory-main.jpg` (CHESA electronic dental chair & delivery console)
+- `public/clinic-assets/shree-raaghav-dental-rehabilitation.jpg` (Fixed crown & bridge rehabilitation cases)
+- `public/clinic-assets/shree-raaghav-rct-crown.jpg` (Root canal therapy & digital X-ray verification)
+- `public/clinic-assets/shree-raaghav-aesthetic-restoration.jpg` (Tooth reshaping & aesthetic composite bonding)
+- `public/clinic-assets/shree-raaghav-full-mouth-rehab.jpg` (Full arch tooth replacement & smile makeover)
+- `public/clinic-assets/shree-raaghav-complete-denture.jpg` (Custom precision complete denture prosthetics)
+- `public/clinic-assets/shree-raaghav-smile-restoration.jpg` (Enamel restoration & dental filling)
+- `public/clinic-assets/shree-raaghav-dental-unit.jpg` (Treatment chair & consultation desk)
 
 ---
 

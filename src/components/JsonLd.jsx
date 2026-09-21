@@ -37,8 +37,8 @@ export default function JsonLd() {
       slogan: CLINIC.slogan,
       url: absoluteUrl('/'),
       image: [
-        assetUrl('/clinic-assets/dream-smile-operatory-main.jpg'),
-        assetUrl('/clinic-assets/dream-smile-consultation-room.jpg'),
+        assetUrl('/clinic-assets/shree-raaghav-operatory-main.jpg'),
+        assetUrl('/clinic-assets/shree-raaghav-dental-rehabilitation.jpg'),
       ],
       telephone: CLINIC.telephoneE164,
       email: CLINIC.email,

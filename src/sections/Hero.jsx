@@ -36,15 +36,15 @@ export default function Hero() {
       <div className="hero__inner container">
         <div className="hero__copy">
           <h1 className="hero__title">
-            {HERO_CONTENT.titlePre || 'Accurate Diagnostic'}{' '}
+          {/* {HERO_CONTENT.titlePre || 'Accurate Diagnostic'}{' '} */}
             <span className="hero__condition-highlight">
               <span>{HERO_CONTENT.highlightWord1 || 'Pathology'}</span>
               <i> &amp; </i>
               <span>{HERO_CONTENT.highlightWord2 || 'Blood Testing'}</span>
             </span>{' '}
-            {HERO_CONTENT.titlePost || 'Services.'}{' '}
-            {HERO_CONTENT.titleEm && <em>{HERO_CONTENT.titleEm}</em>}
-          </h1>
+          {/* {HERO_CONTENT.titlePost || 'Services.'}{' '} */}
+            {/* {HERO_CONTENT.titleEm && <em>{HERO_CONTENT.titleEm}</em>} */}
+        </h1>
 
           <p className="hero__sub">
             <strong className="hero__sub-highlight hero__sub-highlight--gold">

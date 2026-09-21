@@ -204,5 +204,185 @@
         "src": "/optimized/clinic-assets/hero-bg-52-1600.webp"
       }
     ]
+  },
+  "/clinic-assets/shree-raaghav-aesthetic-restoration.jpg": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "w": 480,
+        "src": "/optimized/clinic-assets/shree-raaghav-aesthetic-restoration-480.webp"
+      },
+      {
+        "w": 768,
+        "src": "/optimized/clinic-assets/shree-raaghav-aesthetic-restoration-768.webp"
+      },
+      {
+        "w": 1080,
+        "src": "/optimized/clinic-assets/shree-raaghav-aesthetic-restoration-1080.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/optimized/clinic-assets/shree-raaghav-aesthetic-restoration-1200.webp"
+      }
+    ]
+  },
+  "/clinic-assets/shree-raaghav-complete-denture.jpg": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "w": 480,
+        "src": "/optimized/clinic-assets/shree-raaghav-complete-denture-480.webp"
+      },
+      {
+        "w": 768,
+        "src": "/optimized/clinic-assets/shree-raaghav-complete-denture-768.webp"
+      },
+      {
+        "w": 1080,
+        "src": "/optimized/clinic-assets/shree-raaghav-complete-denture-1080.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/optimized/clinic-assets/shree-raaghav-complete-denture-1200.webp"
+      }
+    ]
+  },
+  "/clinic-assets/shree-raaghav-dental-rehabilitation.jpg": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "w": 480,
+        "src": "/optimized/clinic-assets/shree-raaghav-dental-rehabilitation-480.webp"
+      },
+      {
+        "w": 768,
+        "src": "/optimized/clinic-assets/shree-raaghav-dental-rehabilitation-768.webp"
+      },
+      {
+        "w": 1080,
+        "src": "/optimized/clinic-assets/shree-raaghav-dental-rehabilitation-1080.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/optimized/clinic-assets/shree-raaghav-dental-rehabilitation-1200.webp"
+      }
+    ]
+  },
+  "/clinic-assets/shree-raaghav-dental-unit.jpg": {
+    "width": 1600,
+    "height": 739,
+    "variants": [
+      {
+        "w": 480,
+        "src": "/optimized/clinic-assets/shree-raaghav-dental-unit-480.webp"
+      },
+      {
+        "w": 768,
+        "src": "/optimized/clinic-assets/shree-raaghav-dental-unit-768.webp"
+      },
+      {
+        "w": 1080,
+        "src": "/optimized/clinic-assets/shree-raaghav-dental-unit-1080.webp"
+      },
+      {
+        "w": 1440,
+        "src": "/optimized/clinic-assets/shree-raaghav-dental-unit-1440.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/optimized/clinic-assets/shree-raaghav-dental-unit-1600.webp"
+      }
+    ]
+  },
+  "/clinic-assets/shree-raaghav-full-mouth-rehab.jpg": {
+    "width": 1024,
+    "height": 1024,
+    "variants": [
+      {
+        "w": 480,
+        "src": "/optimized/clinic-assets/shree-raaghav-full-mouth-rehab-480.webp"
+      },
+      {
+        "w": 768,
+        "src": "/optimized/clinic-assets/shree-raaghav-full-mouth-rehab-768.webp"
+      },
+      {
+        "w": 1024,
+        "src": "/optimized/clinic-assets/shree-raaghav-full-mouth-rehab-1024.webp"
+      }
+    ]
+  },
+  "/clinic-assets/shree-raaghav-operatory-main.jpg": {
+    "width": 1600,
+    "height": 739,
+    "variants": [
+      {
+        "w": 480,
+        "src": "/optimized/clinic-assets/shree-raaghav-operatory-main-480.webp"
+      },
+      {
+        "w": 768,
+        "src": "/optimized/clinic-assets/shree-raaghav-operatory-main-768.webp"
+      },
+      {
+        "w": 1080,
+        "src": "/optimized/clinic-assets/shree-raaghav-operatory-main-1080.webp"
+      },
+      {
+        "w": 1440,
+        "src": "/optimized/clinic-assets/shree-raaghav-operatory-main-1440.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/optimized/clinic-assets/shree-raaghav-operatory-main-1600.webp"
+      }
+    ]
+  },
+  "/clinic-assets/shree-raaghav-rct-crown.jpg": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "w": 480,
+        "src": "/optimized/clinic-assets/shree-raaghav-rct-crown-480.webp"
+      },
+      {
+        "w": 768,
+        "src": "/optimized/clinic-assets/shree-raaghav-rct-crown-768.webp"
+      },
+      {
+        "w": 1080,
+        "src": "/optimized/clinic-assets/shree-raaghav-rct-crown-1080.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/optimized/clinic-assets/shree-raaghav-rct-crown-1200.webp"
+      }
+    ]
+  },
+  "/clinic-assets/shree-raaghav-smile-restoration.jpg": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "w": 480,
+        "src": "/optimized/clinic-assets/shree-raaghav-smile-restoration-480.webp"
+      },
+      {
+        "w": 768,
+        "src": "/optimized/clinic-assets/shree-raaghav-smile-restoration-768.webp"
+      },
+      {
+        "w": 1080,
+        "src": "/optimized/clinic-assets/shree-raaghav-smile-restoration-1080.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/optimized/clinic-assets/shree-raaghav-smile-restoration-1200.webp"
+      }
+    ]
   }
 }

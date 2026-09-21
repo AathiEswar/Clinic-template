@@ -1,8 +1,8 @@
 {
-  "name": "dream-smile-dental-next",
+  "name": "shree-raaghav-dental-next",
   "private": true,
   "version": "2.0.0",
-  "description": "Dream Smile Dental and Orthodontic care — Multi-Specialty Dental Clinic & Orthodontic Care Centre (Nellikuppam Road, Above SBI, Guduvanchery)",
+  "description": "SHREE RAAGHAV DENTAL CLINIC — Multi-Specialty Dental Clinic (No. 24 Pragathi Enclave, Nellikuppam Road, near Velammal School, Guduvancheri)",
   "scripts": {
     "dev": "next dev",
     "images": "node scripts/optimize-images.mjs",
