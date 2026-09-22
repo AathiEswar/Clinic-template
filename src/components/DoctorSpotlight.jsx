@@ -30,7 +30,7 @@ export default function DoctorSpotlight({ compact = false }) {
         <p className="doctor-spotlight__role">General Dentistry, Endodontics &amp; Oral Surgery</p>
         <p className="doctor-spotlight__creds">Rated 5.0★ on Google Maps · 39+ Verified Patient Reviews</p>
         <p className="doctor-spotlight__bio">
-          Our experienced dental team at Shree Raaghav Dental Clinic is committed to gentle, pain-free treatments, neat treatment explanations, and personalized care for patients across Guduvancheri and Chengalpattu.
+          Our experienced dental team at {CLINIC.name} is committed to gentle, pain-free treatments, neat treatment explanations, and personalized care for patients across Guduvancheri and Chengalpattu.
         </p>
 
         <dl className="doctor-spotlight__facts">

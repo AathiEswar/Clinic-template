@@ -1,8 +1,8 @@
 {
-  "name": "shree-raaghav-dental-next",
+  "name": "gobigo-dental-care-next",
   "private": true,
   "version": "2.0.0",
-  "description": "SHREE RAAGHAV DENTAL CLINIC — Multi-Specialty Dental Clinic (No. 24 Pragathi Enclave, Nellikuppam Road, near Velammal School, Guduvancheri)",
+  "description": "Gobigo Dental Care — Multi-Specialty Dental Clinic (No. 24 Pragathi Enclave, Nellikuppam Road, near Velammal School, Guduvancheri)",
   "scripts": {
     "dev": "next dev",
     "images": "node scripts/optimize-images.mjs",

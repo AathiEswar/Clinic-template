@@ -1,19 +1,19 @@
 {
   "clinic": {
-    "name": "SHREE RAAGHAV DENTAL CLINIC",
-    "shortName": "Shree Raaghav Dental",
-    "altName": "Shree Raaghav Dental Clinic Guduvanchery",
+    "name": "Gobigo Dental Care",
+    "shortName": "Gobigo Dental",
+    "altName": "Gobigo Dental Care Guduvanchery",
     "tagline": "Multi-Specialty Dental Clinic · Nellikuppam Road, Guduvancheri",
     "slogan": "Comprehensive Dental Care, Pain-Free Root Canals, Laser Dentistry & Natural Smile Restorations.",
     "motto": "Rated 5.0★ by Patients on Google Maps · Gentle, Compassionate & Experienced Dental Care.",
     "tamilTagline": "சிறப்பு பல் மருத்துவ சிகிச்சை மற்றும் நவீன புன்னகை மறுசீரமைப்பு மையம்",
     "city": "Guduvancheri, Chengalpattu",
     "locality": "Nandivaram-Guduvancheri, Perumattunallur",
-    "brandWordmark1": "SHREE RAAGHAV",
-    "brandWordmark2": "DENTAL",
-    "brandSub": "Dental Clinic · Guduvanchery",
-    "wordmarkLine1": "SHREE RAAGHAV",
-    "wordmarkLine2": "DENTAL CLINIC · GUDUVANCHERY",
+    "brandWordmark1": "GOBIGO",
+    "brandWordmark2": "DENTAL CARE",
+    "brandSub": "Dental Care · Guduvanchery",
+    "wordmarkLine1": "GOBIGO",
+    "wordmarkLine2": "DENTAL CARE · GUDUVANCHERY",
     "phoneDisplay": "+91 84288 77818",
     "phoneHref": "tel:+918428877818",
     "whatsapp": "918428877818",
@@ -89,7 +89,7 @@
     "highlightWord2": "Smile Health",
     "titlePost": "Excellence.",
     "titleEm": "Painless, specialized & patient-centered.",
-    "subHeadline": "Shree Raaghav Dental Clinic provides comprehensive dental care, painless root canal therapies, laser dentistry, crowns & bridges, and natural smile restorations near Velammal School on Nellikuppam Road, Guduvancheri. Rated 5.0★ with 100% positive reviews on Google Maps.",
+    "subHeadline": "Gobigo Dental Care provides comprehensive dental care, painless root canal therapies, laser dentistry, crowns & bridges, and natural smile restorations near Velammal School on Nellikuppam Road, Guduvancheri. Rated 5.0★ with 100% positive reviews on Google Maps.",
     "ctaBook": "Book Dental Appointment",
     "badgeText": "Rated 5.0★ on Google Maps · 39+ Verified Reviews · Open 7 Days",
     "badgeLink": "#visit",
@@ -119,7 +119,7 @@
       "featured": true,
       "icon": "shield",
       "image": "/clinic-assets/shree-raaghav-rct-crown.jpg",
-      "imageAlt": "Root canal treatment with digital X-ray and crown restoration at Shree Raaghav Dental Clinic, Guduvancheri",
+      "imageAlt": "Root canal treatment with digital X-ray and crown restoration at Gobigo Dental Care, Guduvancheri",
       "title": "Painless Root Canal Treatment (RCT) & Crowns",
       "tamilTitle": "வலி இல்லாத ரூட் கெனால் மற்றும் பற்கள் பொருத்துதல் (Root Canal & Crowns)",
       "desc": "Gentle rotary root canal treatment with digital intraoral X-rays to relieve severe toothache, eradicate infection, save natural teeth, and restore strength with precision aesthetic crowns.",
@@ -132,7 +132,7 @@
       "featured": true,
       "icon": "sparkle",
       "image": "/clinic-assets/shree-raaghav-dental-rehabilitation.jpg",
-      "imageAlt": "Fixed crown and bridge tooth replacement rehabilitation at Shree Raaghav Dental Clinic",
+      "imageAlt": "Fixed crown and bridge tooth replacement rehabilitation at Gobigo Dental Care",
       "title": "Crowns, Fixed Bridges & Full Dentures",
       "tamilTitle": "பற்கள் பொருத்துதல் & செயற்கை பற்கள் (Bridges & Dentures)",
       "desc": "Complete tooth replacement and rehabilitation options including fixed porcelain-fused-to-metal (PFM) and zirconia bridges, single crowns, and precision-fitted complete or partial dentures.",
@@ -145,7 +145,7 @@
       "featured": false,
       "icon": "activity",
       "image": "/clinic-assets/shree-raaghav-operatory-main.jpg",
-      "imageAlt": "CHESA electronic dental operatory suite at Shree Raaghav Dental Clinic, Guduvanchery",
+      "imageAlt": "CHESA electronic dental operatory suite at Gobigo Dental Care, Guduvanchery",
       "title": "Oral & Maxillofacial Surgery / Extractions",
       "tamilTitle": "பல் பிடுங்குதல் மற்றும் வாய் அறுவை சிகிச்சை (Surgical Extractions)",
       "desc": "Gentle tooth extractions, painless wisdom tooth surgical removal (impaction), corrective minor jaw procedures, and surgical care performed under strict sterile precautions.",
@@ -158,7 +158,7 @@
       "featured": true,
       "icon": "heart",
       "image": "/clinic-assets/shree-raaghav-aesthetic-restoration.jpg",
-      "imageAlt": "Tooth reshaping and aesthetic contouring at Shree Raaghav Dental Clinic",
+      "imageAlt": "Tooth reshaping and aesthetic contouring at Gobigo Dental Care",
       "title": "Cosmetic Dentistry & Tooth Reshaping",
       "tamilTitle": "புன்னகை வடிவமைப்பு மற்றும் பற்கள் அழகுபடுத்துதல் (Cosmetic & Reshaping)",
       "desc": "Aesthetic smile enhancements including tooth reshaping, enamel contouring, composite tooth-colored bonding, gap closures, chipped tooth repairs, and professional teeth whitening.",
@@ -171,7 +171,7 @@
       "featured": false,
       "icon": "pulse",
       "image": "/clinic-assets/shree-raaghav-full-mouth-rehab.jpg",
-      "imageAlt": "Full arch teeth replacement and smile rehabilitation at Shree Raaghav Dental Clinic",
+      "imageAlt": "Full arch teeth replacement and smile rehabilitation at Gobigo Dental Care",
       "title": "Full Mouth Smile Rehabilitation",
       "tamilTitle": "முழுமையான பல் மறுசீரமைப்பு சிகிச்சை (Full Mouth Rehabilitation)",
       "desc": "Comprehensive dental restorations for patients with multiple worn, damaged, or missing teeth, combining endodontic care, periodontal stabilization, and full arch prosthetic bridges.",
@@ -184,7 +184,7 @@
       "featured": false,
       "icon": "shield",
       "image": "/clinic-assets/shree-raaghav-smile-restoration.jpg",
-      "imageAlt": "Teeth cleaning, scaling and dental filling at Shree Raaghav Dental Clinic",
+      "imageAlt": "Teeth cleaning, scaling and dental filling at Gobigo Dental Care",
       "title": "Laser Dentistry, Scaling & Gum Therapy",
       "tamilTitle": "லேசர் பல் மருத்துவம் மற்றும் ஈறு சிகிச்சை (Laser & Gum Care)",
       "desc": "Advanced laser therapies for gum contouring and bleeding gums, paired with gentle ultrasonic teeth cleaning (scaling & polishing) to eliminate tartar, stains, and bad breath.",
@@ -196,7 +196,7 @@
   "servicesHeader": {
     "eyebrow": "Specialized Dental Treatments",
     "title": "Gentle family dentistry & advanced restorative care.",
-    "sideText": "Shree Raaghav Dental Clinic provides pain-free root canals, fixed bridges, dentures, cosmetic tooth reshaping, laser dentistry, and surgical extractions near Velammal School in Guduvancheri.",
+    "sideText": "Gobigo Dental Care provides pain-free root canals, fixed bridges, dentures, cosmetic tooth reshaping, laser dentistry, and surgical extractions near Velammal School in Guduvancheri.",
     "workflowLinkText": "How your treatment works"
   },
   "workflow": {
@@ -223,12 +223,12 @@
     "ctaButtonText": "Schedule your appointment today"
   },
   "about": {
-    "badgeText": "SHREE RAAGHAV DENTAL CLINIC · GUDUVANCHERY · RATED 5.0★ · ",
-    "eyebrow": "About Shree Raaghav Dental",
+    "badgeText": "GOBIGO DENTAL CARE · GUDUVANCHERY · RATED 5.0★ · ",
+    "eyebrow": "About Gobigo Dental Care",
     "headline": "Gentle dental care, clear explanations & exceptional patient comfort.",
-    "lead": "Located near Velammal School on Nellikuppam Road, Guduvancheri, Shree Raaghav Dental Clinic is a trusted multi-specialty dental practice known for its friendly atmosphere, highly experienced doctors, and pain-free treatments.",
+    "lead": "Located near Velammal School on Nellikuppam Road, Guduvancheri, Gobigo Dental Care is a trusted multi-specialty dental practice known for its friendly atmosphere, highly experienced doctors, and pain-free treatments.",
     "quote": "“Our goal is to ensure every patient receives compassionate, painless dental care with clear explanations, comfortable ambience, and lasting clinical results.”",
-    "cite": "— Shree Raaghav Dental Clinic, Guduvancheri",
+    "cite": "— Gobigo Dental Care, Guduvancheri",
     "ctaText": "Book a dental consultation",
     "whyUs": [
       "Rated a perfect 5.0★ on Google Maps with 39+ glowing, verified patient reviews",
@@ -240,13 +240,13 @@
       "Open 7 days a week with convenient morning and evening consultation timings"
     ],
     "pageStory": {
-      "chip": "About Shree Raaghav Dental",
+      "chip": "About Gobigo Dental Care",
       "title": "Trusted 5-Star Rated Dental Care in Guduvancheri.",
-      "sub": "Shree Raaghav Dental Clinic is a premier multi-specialty dental practice located near Velammal School on Nellikuppam Road, Guduvancheri, dedicated to gentle, high-quality family dentistry.",
+      "sub": "Gobigo Dental Care is a premier multi-specialty dental practice located near Velammal School on Nellikuppam Road, Guduvancheri, dedicated to gentle, high-quality family dentistry.",
       "sectionEyebrow": "Our Patient Promise",
       "sectionHeading": "Compassionate Care, Clear Explanations & Modern Technology",
       "paragraphs": [
-        "Visiting the dentist should never be an intimidating experience. At Shree Raaghav Dental Clinic in Guduvancheri, we have built a reputation on clinical gentleness, patient comfort, and thorough, easy-to-understand explanations before any procedure begins.",
+        "Visiting the dentist should never be an intimidating experience. At Gobigo Dental Care in Guduvancheri, we have built a reputation on clinical gentleness, patient comfort, and thorough, easy-to-understand explanations before any procedure begins.",
         "Equipped with advanced CHESA dental units, digital intraoral imaging, and modern restorative materials, our clinic provides end-to-end dental solutions under one roof — from single-sitting painless root canals and custom zirconia crowns to complete smile rehabilitations and pediatric dental care.",
         "With a flawless 5.0★ rating on Google Maps from dozens of satisfied local families across Guduvancheri, Perumattunallur, Kayarambedu, and Nandivaram, our team remains committed to delivering honest, ethical, and pain-free dental healthcare seven days a week."
       ]
@@ -300,8 +300,8 @@
   },
   "gallery": {
     "headerChip": "Clinic Tour & Case Gallery",
-    "headerTitle": "Shree Raaghav Dental Photo Gallery.",
-    "headerSub": "Explore official photographs of our modern dental operatory suite, advanced CHESA electronic dental chair, and verified smile restoration cases at Shree Raaghav Dental Clinic in Guduvancheri.",
+    "headerTitle": "Gobigo Dental Care Photo Gallery.",
+    "headerSub": "Explore official photographs of our modern dental operatory suite, advanced CHESA electronic dental chair, and verified smile restoration cases at Gobigo Dental Care in Guduvancheri.",
     "categories": ["All", "Operatory", "Restorations", "Prosthetics"],
     "images": [
       {
@@ -364,15 +364,15 @@
   },
   "faqs": [
     {
-      "q": "Where is Shree Raaghav Dental Clinic located in Guduvancheri?",
+      "q": "Where is Gobigo Dental Care located in Guduvancheri?",
       "a": "We are located at No. 24, Pragathi Enclave, Nellikuppam Road, Perumattunallur Main Road, right near Velammal School, Guduvancheri, Tamil Nadu 603202. Click our Google Maps directions button for direct GPS navigation."
     },
     {
-      "q": "What are the clinic timings of Shree Raaghav Dental Clinic?",
+      "q": "What are the clinic timings of Gobigo Dental Care?",
       "a": "We are open Monday through Saturday with two daily sessions: 10:00 AM to 1:00 PM (Morning) and 5:00 PM to 9:00 PM (Evening). On Sundays, we are open from 10:00 AM to 1:00 PM for weekend appointments."
     },
     {
-      "q": "Is root canal treatment (RCT) painful at Shree Raaghav Dental Clinic?",
+      "q": "Is root canal treatment (RCT) painful at Gobigo Dental Care?",
       "a": "No, root canal treatments at our clinic are gentle and virtually pain-free. Using modern local anesthesia, digital X-rays, and rotary endodontic equipment, our doctors ensure complete comfort while quickly relieving severe toothache."
     },
     {
@@ -384,7 +384,7 @@
       "a": "We provide comprehensive dental treatments including Painless Root Canal Treatments (RCT), Zirconia & Ceramic Crowns, Fixed Bridges, Full & Partial Dentures, Tooth Extractions, Wisdom Tooth Surgery, Laser Dentistry, Tooth Reshaping, Cosmetic Bonding, Teeth Whitening, and Kids Dentistry."
     },
     {
-      "q": "Why is Shree Raaghav Dental Clinic rated 5.0 stars on Google Maps?",
+      "q": "Why is Gobigo Dental Care rated 5.0 stars on Google Maps?",
       "a": "Our 100% 5-star rating on Google Maps reflects our commitment to patient comfort, friendly doctors, patience in explaining every step, pleasant clinical ambience, and gentle, pain-free dental care."
     }
   ],
@@ -421,7 +421,7 @@
       { "label": "Contact & Location", "short": "Contact", "path": "/contact" }
     ],
     "ticker": [
-      "SHREE RAAGHAV DENTAL CLINIC",
+      "GOBIGO DENTAL CARE",
       "Rated 5.0★ on Google Maps (39+ Reviews)",
       "Painless Root Canal Treatments (RCT)",
       "Fixed Ceramic & Zirconia Dental Crowns",
@@ -434,54 +434,54 @@
     ]
   },
   "seo": {
-    "homeTitle": "SHREE RAAGHAV DENTAL CLINIC | Guduvanchery | Rated 5.0★",
-    "homeDescription": "Shree Raaghav Dental Clinic in Guduvancheri near Velammal School. Painless root canals, crowns, bridges, dentures, and laser dentistry. Rated 5.0★. Call +91 84288 77818.",
+    "homeTitle": "GOBIGO DENTAL CARE | Guduvanchery | Rated 5.0★",
+    "homeDescription": "Gobigo Dental Care in Guduvancheri near Velammal School. Painless root canals, crowns, bridges, dentures, and laser dentistry. Rated 5.0★. Call +91 84288 77818.",
     "ogDefaults": {
-      "title": "SHREE RAAGHAV DENTAL CLINIC — Guduvanchery",
+      "title": "GOBIGO DENTAL CARE — Guduvanchery",
       "description": "Rated 5.0★ on Google Maps. Painless root canals, crowns & bridges, tooth reshaping, dentures, and gentle family dentistry in Guduvanchery.",
       "image": "/clinic-assets/shree-raaghav-operatory-main.jpg",
-      "imageAlt": "SHREE RAAGHAV DENTAL CLINIC operatory suite in Guduvanchery"
+      "imageAlt": "GOBIGO DENTAL CARE operatory suite in Guduvanchery"
     },
     "pages": {
       "about": {
-        "title": "About Our Clinic & Doctors | Shree Raaghav Dental Guduvanchery",
-        "description": "Learn about Shree Raaghav Dental Clinic near Velammal School on Nellikuppam Road, Guduvancheri. Rated 5.0★ for friendly doctors, neat explanations, and gentle dental care.",
-        "ogTitle": "About Shree Raaghav Dental Clinic — Guduvanchery",
+        "title": "About Our Clinic & Doctors | Gobigo Dental Care Guduvanchery",
+        "description": "Learn about Gobigo Dental Care near Velammal School on Nellikuppam Road, Guduvancheri. Rated 5.0★ for friendly doctors, neat explanations, and gentle dental care.",
+        "ogTitle": "About Gobigo Dental Care — Guduvanchery",
         "ogDescription": "Rated 5.0★ on Google Maps. Compassionate family dental care, modern CHESA dental chairs, and hospital-grade sterilization in Guduvancheri.",
         "ogImage": "about-us",
-        "ogAlt": "CHESA dental operatory suite at Shree Raaghav Dental Clinic"
+        "ogAlt": "CHESA dental operatory suite at Gobigo Dental Care"
       },
       "treatments": {
-        "title": "Dental Treatments & Services | Shree Raaghav Dental Guduvanchery",
+        "title": "Dental Treatments & Services | Gobigo Dental Care Guduvanchery",
         "description": "Explore dental treatments: Painless root canals, zirconia crowns, fixed bridges, dentures, oral surgery, laser dentistry, and cosmetic tooth reshaping in Guduvancheri.",
-        "ogTitle": "Dental Treatments & Services — Shree Raaghav Dental",
+        "ogTitle": "Dental Treatments & Services — Gobigo Dental Care",
         "ogDescription": "Painless RCT, dental crowns, tooth replacement bridges, full dentures, and laser dentistry in Guduvanchery near Velammal School.",
         "ogImage": "treatments",
-        "ogAlt": "Dental treatment and digital X-ray at Shree Raaghav Dental Clinic"
+        "ogAlt": "Dental treatment and digital X-ray at Gobigo Dental Care"
       },
       "gallery": {
-        "title": "Clinic Photos & Smile Gallery | Shree Raaghav Dental Guduvanchery",
-        "description": "View official Google Maps photos of Shree Raaghav Dental Clinic: Modern CHESA operatory suite, treatment cases, crowns, and smile rehabilitations.",
-        "ogTitle": "Clinic Photos & Case Gallery — Shree Raaghav Dental",
+        "title": "Clinic Photos & Smile Gallery | Gobigo Dental Care Guduvanchery",
+        "description": "View official Google Maps photos of Gobigo Dental Care: Modern CHESA operatory suite, treatment cases, crowns, and smile rehabilitations.",
+        "ogTitle": "Clinic Photos & Case Gallery — Gobigo Dental Care",
         "ogDescription": "Explore our spotless dental operatory, high-tech dental chair, and verified tooth restoration cases in Guduvanchery.",
         "ogImage": "gallery",
-        "ogAlt": "Shree Raaghav Dental Clinic operatory and treatment cases"
+        "ogAlt": "Gobigo Dental Care operatory and treatment cases"
       },
       "testimonials": {
-        "title": "Patient Reviews & Clinical Standards | Shree Raaghav Dental",
-        "description": "Read why Shree Raaghav Dental Clinic is rated a perfect 5.0★ on Google Maps with 39+ reviews praising friendly doctors, patience, and painless treatment.",
-        "ogTitle": "5.0★ Patient Reviews & Standards — Shree Raaghav Dental",
+        "title": "Patient Reviews & Clinical Standards | Gobigo Dental Care",
+        "description": "Read why Gobigo Dental Care is rated a perfect 5.0★ on Google Maps with 39+ reviews praising friendly doctors, patience, and painless treatment.",
+        "ogTitle": "5.0★ Patient Reviews & Standards — Gobigo Dental Care",
         "ogDescription": "Rated 5.0★ on Google Maps. 100% autoclaved instruments, pleasant ambience, and gentle dental treatments in Guduvanchery.",
         "ogImage": "testimonials",
-        "ogAlt": "Verified patient dental restorations at Shree Raaghav Dental Clinic"
+        "ogAlt": "Verified patient dental restorations at Gobigo Dental Care"
       },
       "contact": {
-        "title": "Location, Timings & Contact | Shree Raaghav Dental Guduvanchery",
-        "description": "Visit Shree Raaghav Dental Clinic at No. 24 Pragathi Enclave, Nellikuppam Road, near Velammal School, Guduvancheri 603202. Mon–Sat 10 AM–1 PM & 5–9 PM, Sun 10 AM–1 PM. Call +91 84288 77818.",
-        "ogTitle": "Location, Timings & Contact — Shree Raaghav Dental Guduvanchery",
-        "ogDescription": "Find Shree Raaghav Dental Clinic near Velammal School on Nellikuppam Road, Guduvancheri. Call/WhatsApp: +91 84288 77818.",
+        "title": "Location, Timings & Contact | Gobigo Dental Care Guduvanchery",
+        "description": "Visit Gobigo Dental Care at No. 24 Pragathi Enclave, Nellikuppam Road, near Velammal School, Guduvancheri 603202. Mon–Sat 10 AM–1 PM & 5–9 PM, Sun 10 AM–1 PM. Call +91 84288 77818.",
+        "ogTitle": "Location, Timings & Contact — Gobigo Dental Care Guduvanchery",
+        "ogDescription": "Find Gobigo Dental Care near Velammal School on Nellikuppam Road, Guduvancheri. Call/WhatsApp: +91 84288 77818.",
         "ogImage": "contact",
-        "ogAlt": "Shree Raaghav Dental Clinic location near Velammal School Guduvancheri"
+        "ogAlt": "Gobigo Dental Care location near Velammal School Guduvancheri"
       }
     }
   }

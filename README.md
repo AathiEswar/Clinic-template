@@ -1,6 +1,6 @@
-# SHREE RAAGHAV DENTAL CLINIC, Guduvancheri — Next.js Website
+# Gobigo Dental Care, Guduvancheri — Next.js Website
 
-Official website for **SHREE RAAGHAV DENTAL CLINIC** (Multi-Specialty Dental Clinic), located at No. 24, Pragathi Enclave, Nellikuppam Road, Perumattunallur Main Road, near Velammal school, Guduvancheri, Tamil Nadu 603202. Rated a perfect **5.0★ on Google Maps** with 39+ verified patient reviews.
+Official website for **Gobigo Dental Care** (Multi-Specialty Dental Clinic), located at No. 24, Pragathi Enclave, Nellikuppam Road, Perumattunallur Main Road, near Velammal school, Guduvancheri, Tamil Nadu 603202. Rated a perfect **5.0★ on Google Maps** with 39+ verified patient reviews.
 
 Built with **Next.js (App Router)** with static pre-rendering, responsive WebP image optimization, GSAP animations, and comprehensive SEO (Schema.org `Dentist` / `MedicalBusiness`, Open Graph cards, sitemap, robots, responsive meta).
 
@@ -8,7 +8,7 @@ Built with **Next.js (App Router)** with static pre-rendering, responsive WebP i
 
 ## Clinic Information (Source of Truth: Google Maps)
 
-- **Business Name**: SHREE RAAGHAV DENTAL CLINIC
+- **Business Name**: Gobigo Dental Care
 - **Category**: Dental Clinic / Dentist / Dental Care Centre
 - **Rating**: 5.0★ (39+ Google Reviews, 100% 5-Star)
 - **Address**: No. 24, Pragathi Enclave, Nellikuppam Road, Perumattunallur Main Road, near Velammal school, Guduvancheri, Tamil Nadu 603202
